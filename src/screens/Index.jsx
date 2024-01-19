@@ -1,15 +1,35 @@
 import { useEffect, useRef, useState } from "react";
+import useSWR, { preload } from "swr";
 
-import MenuCard from "../components/MenuCard";
+import { Category } from "../components/Category";
+import { cartAtom } from "../data/cartAtom";
 import categories from "../data/categories.json";
 import logo from "../assets/logo.svg";
-import products from "../data/products.json";
+import { useAtom } from "jotai";
+
+const fetcher = (url) => fetch(url).then((res) => res.json());
+
+const useGetData = () => {
+  const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${categories[0].strCategory}`;
+
+  preload(url, fetcher);
+
+  return categories.map((category) => {
+    const { data } = useSWR(url, fetcher);
+
+    return {
+      ...category,
+      products: data?.meals,
+    };
+  });
+};
 
 export default function Index() {
+  const [cart] = useAtom(cartAtom);
+  const data = useGetData();
+
   const parentScrollContainerRef = useRef(null);
-  const [activeCategory, setActiveCategory] = useState(
-    categories[0].idCategory
-  );
+  const [activeCategory, setActiveCategory] = useState(data[0].idCategory);
 
   const onPress = (e) => {
     e.preventDefault();
@@ -49,7 +69,7 @@ export default function Index() {
           });
         },
         { threshold: 0.5 }
-      ); // Adjust the threshold value as needed
+      );
 
       children.forEach((child) => observer.observe(child));
     };
@@ -64,7 +84,7 @@ export default function Index() {
     <div className="menu__home__content">
       <div className="menu__home__content__left">
         <div className="menu__home__content__left__links">
-          {categories.map((category) => (
+          {data.map((category) => (
             <button
               key={category.idCategory}
               data-to-scrollspy-id={category.idCategory}
@@ -149,7 +169,7 @@ export default function Index() {
                   />
                 </svg>
                 <div className="menu__home__content__right__content__top__cart__count">
-                  0 Items
+                  {cart.length > 99 ? "99+" : cart.length} Items
                 </div>
               </div>
               <div className="menu__home__content__right__content__top__darklightmood">
@@ -174,31 +194,16 @@ export default function Index() {
             ref={parentScrollContainerRef}
             className="menu__home__content__right__content__bottom"
           >
-            {categories.map((category) => (
-              <Category key={category.idCategory} category={category} />
+            {data.map((category) => (
+              <Category
+                key={category.idCategory}
+                category={category}
+                products={category.products}
+              />
             ))}
           </div>
         </div>
       </div>
     </div>
-  );
-}
-
-function Category({ category }) {
-  return (
-    <section
-      key={category.idCategory}
-      id={category.idCategory}
-      className="menu__home__content__right__content__bottom__content"
-    >
-      <div className="menu__home__content__right__content__bottom__content__heading">
-        {category.strCategory}
-      </div>
-      <div className="menu__home__content__right__content__bottom__content__items">
-        {products.map((product) => (
-          <MenuCard key={product.idProduct} product={product} />
-        ))}
-      </div>
-    </section>
   );
 }
