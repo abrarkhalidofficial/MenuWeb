@@ -11,11 +11,9 @@ import { useAtom } from "jotai";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const useGetData = () => {
-  const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${categories[0].strCategory}`;
-
-  preload(url, fetcher);
-
   return categories.map((category) => {
+    const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category.strCategory}`;
+    preload(url, fetcher);
     const { data } = useSWR(url, fetcher);
 
     return {
@@ -26,30 +24,11 @@ const useGetData = () => {
 };
 
 export default function Index() {
-  const dataWithOutFilter = useGetData();
+  const data = useGetData();
 
   const [cart] = useAtom(cartAtom);
   const [theme, setTheme] = useAtom(themeAtom);
   const [query, setQuery] = useState("");
-
-  const [data, setData] = useState(dataWithOutFilter);
-
-  useEffect(() => setData(dataWithOutFilter), [dataWithOutFilter]);
-
-  useEffect(() => {
-    if (!query) return setData(dataWithOutFilter);
-
-    const filteredData = dataWithOutFilter.map((category) => {
-      return {
-        ...category,
-        products: category.products?.filter((product) =>
-          product.strMeal.toLowerCase().includes(query.toLowerCase())
-        ),
-      };
-    });
-
-    setData(filteredData);
-  }, [query]);
 
   const parentScrollContainerRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(data[0].idCategory);
@@ -132,7 +111,7 @@ export default function Index() {
         <div className="menu__home__content__right__content">
           <div className="menu__home__content__right__content__top">
             <div className="menu__home__content__right__content__top__logo">
-              <img src={logo} alt="" />
+              <img loading="lazy" src={logo} alt="" />
             </div>
             <div className="menu__home__content__right__content__top__content">
               <div className="menu__home__content__right__content__top__search">
@@ -172,34 +151,34 @@ export default function Index() {
                   <path
                     d="M1 1H2.65301C3.67901 1 4.4865 1.8835 4.401 2.9L3.6125 12.362C3.4795 13.9105 4.70499 15.2405 6.26299 15.2405H16.3805C17.7485 15.2405 18.9455 14.1195 19.05 12.761L19.563 5.636C19.677 4.059 18.48 2.7765 16.8935 2.7765H4.62901"
                     stroke="#FB7D37"
-                    stroke-width="1.425"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.425"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M14.5374 20C15.1932 20 15.7249 19.4684 15.7249 18.8125C15.7249 18.1566 15.1932 17.625 14.5374 17.625C13.8815 17.625 13.3499 18.1566 13.3499 18.8125C13.3499 19.4684 13.8815 20 14.5374 20Z"
                     stroke="#FB7D37"
-                    stroke-width="1.425"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.425"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M6.9375 20C7.59334 20 8.125 19.4684 8.125 18.8125C8.125 18.1566 7.59334 17.625 6.9375 17.625C6.28166 17.625 5.75 18.1566 5.75 18.8125C5.75 19.4684 6.28166 20 6.9375 20Z"
                     stroke="#FB7D37"
-                    stroke-width="1.425"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.425"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7.6499 6.70001H19.0499"
                     stroke="#FB7D37"
-                    stroke-width="1.425"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.425"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 <div className="menu__home__content__right__content__top__cart__count">
@@ -250,7 +229,9 @@ export default function Index() {
               <Category
                 key={category.idCategory}
                 category={category}
-                products={category.products}
+                products={category.products?.filter((product) =>
+                  product.strMeal.toLowerCase().includes(query.toLowerCase())
+                )}
               />
             ))}
           </div>
