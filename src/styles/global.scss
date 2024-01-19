@@ -23,7 +23,7 @@ body {
 .menu__home__content__left {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
   width: 270px;
   padding: 2em 0;
   border-radius: 29.411px;
@@ -132,9 +132,70 @@ body {
   // flex-direction: column;
   // justify-content: space-between;
   // align-items: center;
+
   width: 100%;
   padding: 0em 2em;
 }
-.menu__home__content__right__content__bottom__content__heading {
-  font-family: "Poppins", sans-serif;
+.menu__home__content__right__content__bottom__content {
+  height: 75vh;
+  overflow: auto;
+}
+.menu__home__content__right__content__bottom__content::-webkit-scrollbar {
+  width: 0.5em;
+}
+.menu__home__content__right__content__bottom__content__items__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 220px;
+  padding: 1em;
+  border-radius: 29.411px;
+  background: #fff;
+  box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
+}
+.menu__home__content__right__content__bottom__content__items__card__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.menu__home__content__right__content__bottom__content__items__card__weight {
+  font-size: 14px;
+  margin: 0.5em 0;
+  color: #68747c;
+}
+.menu__home__content__right__content__bottom__content__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  // margin-bottom: em;
+}
+.menu__home__content__right__content__bottom__content__items__card {
+  margin-bottom: 2em;
+}
+.menu__home__content__right__content__bottom__content__items__card__price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.menu__home__content__right__content__bottom__content__items__card__button {
+  width: 150px;
+  padding: 0.5em;
+  border-radius: 29.411px;
+  background: #fff8f4;
+  margin-bottom: -2em;
+  border: 2px solid #fb7d37;
+  color: #fb7d37;
+  box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
+}
+.menu__home__content__right__content__bottom__content__items__card__button__active {
+  width: 150px;
+  padding: 0.5em;
+  border-radius: 29.411px;
+  background: #fb7d37;
+  margin-bottom: -2em;
+  border: 2px solid #fb7d37;
+  color: #fff;
+  box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
 }
