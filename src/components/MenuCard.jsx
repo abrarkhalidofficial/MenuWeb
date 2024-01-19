@@ -29,10 +29,10 @@ export default function MenuCard({ product }) {
       }
     >
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
-        <img src={product?.strMealThumb} alt="item" />
+        <img loading="lazy" src={product?.strMealThumb} alt="item" />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__ratingimg">
-        <img src={star} alt="star" />
+        <img loading="lazy" src={star} alt="star" />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {product?.strMeal}
