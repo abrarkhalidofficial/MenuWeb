@@ -9,36 +9,29 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-}
-.MenuHome {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  background: radial-gradient(circle at bottom left, #cae5f9 0%, #ffffff 100%);
 }
 .menu__home__content {
   display: flex;
   width: 100%;
+  height: 100vh;
 }
 .menu__home__content__left {
-  display: flex;
-  justify-content: space-between;
-  // align-items: center;
   width: 240px;
   padding: 2em 0;
+  padding-top: 8em;
   border-radius: 29.411px;
   background: #fff;
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
 }
 .menu__home__content__left__links {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   align-items: end;
   text-align: left;
   width: 100%;
-  height: 90vh;
-  padding: 2em;
+  height: 100%;
+  padding: 0em 2em;
 }
 .menu__home__content__left__link {
   text-decoration: none;
@@ -47,9 +40,16 @@ body {
   padding: 0.5em 0;
   font-family: "Poppins", sans-serif;
   height: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 .menu__home__content__left__link:hover {
   color: #000;
+  font-weight: bold;
+}
+.menu__home__content__left__link.active {
+  color: #fb7d37;
   font-weight: bold;
 }
 .menu__home__content__right {
@@ -57,7 +57,6 @@ body {
   flex: 1;
   // justify-content: space-between;
   flex-direction: column;
-  background: linear-gradient(360deg, #68747c 0%, #cae5f9 50.57%);
 }
 .menu__home__content__right__content {
   display: flex;
@@ -127,18 +126,38 @@ body {
   border-radius: 50px;
   box-shadow: 12px 8px 25.7px -14px rgba(0, 0, 0, 0.15);
 }
-.menu__home__content__right__content__bottom {
-  display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
-  // align-items: center;
-
+.menu__home__content__right__content__bottom__wrapper {
   width: 100%;
+  height: calc(100% - 130px);
+  position: relative;
+}
+.menu__home__content__right__content__bottom {
+  width: 100%;
+  height: 100%;
   padding: 0em 2em;
+  overflow-y: auto;
+  gap: 1em;
+}
+.menu__home__content__right__content__bottom__wrapper::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, #ffffffb8, rgba(255, 255, 255, 0));
+  z-index: 1;
 }
 .menu__home__content__right__content__bottom__content {
-  height: 85vh;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.menu__home__content__right__content__bottom__content__items__card__foodimg
+  img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
 }
 .menu__home__content__right__content__bottom__content::-webkit-scrollbar {
   width: 0.5em;
@@ -153,8 +172,9 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 220px;
+  width: calc(25% - 1.5em);
   padding: 1em;
+  margin-bottom: 1em;
   border-radius: 29.411px;
   background: #fff;
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
@@ -162,6 +182,7 @@ body {
 .menu__home__content__right__content__bottom__content__items__card__name {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 .menu__home__content__right__content__bottom__content__items__card__weight {
   font-size: 14px;
@@ -170,14 +191,9 @@ body {
 }
 .menu__home__content__right__content__bottom__content__items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  // margin-bottom: em;
-}
-.menu__home__content__right__content__bottom__content__items__card {
-  margin-bottom: 2em;
+  gap: 2em;
 }
 .menu__home__content__right__content__bottom__content__items__card__price {
   font-size: 14px;
@@ -203,4 +219,24 @@ body {
   border: 2px solid #fb7d37;
   color: #fff;
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 1300px) {
+  .menu__home__content__right__content__bottom__content__items__card {
+    width: calc(33% - 1.5em);
+  }
+}
+@media (max-width: 1200px) {
+  .menu__home__content__left {
+    width: 160px;
+  }
+}
+@media (max-width: 1100px) {
+  .menu__home__content__right__content__bottom__content__items__card {
+    width: calc(50% - 1.5em);
+  }
+}
+@media (max-width: 900px) {
+  .menu__home__content__right__content__bottom__content__items__card {
+    width: 100%;
+  }
 }
