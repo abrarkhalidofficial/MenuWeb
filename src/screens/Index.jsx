@@ -1,10 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import useSWR, { preload } from "swr";
 
 import { Category } from "../components/Category";
 import { cartAtom } from "../data/cartAtom";
 import categories from "../data/categories.json";
 import logo from "../assets/logo.svg";
+import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -25,8 +26,30 @@ const useGetData = () => {
 };
 
 export default function Index() {
+  const dataWithOutFilter = useGetData();
+
   const [cart] = useAtom(cartAtom);
-  const data = useGetData();
+  const [theme, setTheme] = useAtom(themeAtom);
+  const [query, setQuery] = useState("");
+
+  const [data, setData] = useState(dataWithOutFilter);
+
+  useEffect(() => setData(dataWithOutFilter), [dataWithOutFilter]);
+
+  useEffect(() => {
+    if (!query) return setData(dataWithOutFilter);
+
+    const filteredData = dataWithOutFilter.map((category) => {
+      return {
+        ...category,
+        products: category.products?.filter((product) =>
+          product.strMeal.toLowerCase().includes(query.toLowerCase())
+        ),
+      };
+    });
+
+    setData(filteredData);
+  }, [query]);
 
   const parentScrollContainerRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(data[0].idCategory);
@@ -80,6 +103,12 @@ export default function Index() {
       parentScrollContainer.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useLayoutEffect(() => {
+    document?.documentElement?.setAttribute("data-theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
+
   return (
     <div className="menu__home__content">
       <div className="menu__home__content__left">
@@ -124,7 +153,12 @@ export default function Index() {
                       fill="#9BA8B7"
                     />
                   </svg>
-                  <input type="text" placeholder="Search the items here" />
+                  <input
+                    type="text"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder="Search the items here"
+                  />
                 </div>
               </div>
               <div className="menu__home__content__right__content__top__cart">
@@ -172,20 +206,38 @@ export default function Index() {
                   {cart.length > 99 ? "99+" : cart.length} Items
                 </div>
               </div>
-              <div className="menu__home__content__right__content__top__darklightmood">
-                <svg
-                  width="17"
-                  height="19"
-                  viewBox="0 0 17 19"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9.35487 18.7097C12.2403 18.7097 14.8757 17.397 16.6216 15.2458C16.8799 14.9276 16.5983 14.4627 16.1991 14.5387C11.6604 15.4031 7.49241 11.9232 7.49241 7.34153C7.49241 4.70236 8.90522 2.27546 11.2014 0.968741C11.5554 0.767319 11.4663 0.230693 11.0641 0.156402C10.5003 0.0524359 9.9282 8.53756e-05 9.35487 0C4.19109 0 0 4.18452 0 9.35487C0 14.5187 4.18452 18.7097 9.35487 18.7097Z"
-                    fill="#002350"
-                  />
-                </svg>
-              </div>
+              <button
+                className="menu__home__content__right__content__top__darklightmood"
+                onClick={toggleTheme}
+              >
+                {theme === "light" ? (
+                  <svg
+                    width="17"
+                    height="19"
+                    viewBox="0 0 17 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.35487 18.7097C12.2403 18.7097 14.8757 17.397 16.6216 15.2458C16.8799 14.9276 16.5983 14.4627 16.1991 14.5387C11.6604 15.4031 7.49241 11.9232 7.49241 7.34153C7.49241 4.70236 8.90522 2.27546 11.2014 0.968741C11.5554 0.767319 11.4663 0.230693 11.0641 0.156402C10.5003 0.0524359 9.9282 8.53756e-05 9.35487 0C4.19109 0 0 4.18452 0 9.35487C0 14.5187 4.18452 18.7097 9.35487 18.7097Z"
+                      fill="red"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    width="17"
+                    height="19"
+                    viewBox="0 0 17 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.35487 18.7097C12.2403 18.7097 14.8757 17.397 16.6216 15.2458C16.8799 14.9276 16.5983 14.4627 16.1991 14.5387C11.6604 15.4031 7.49241 11.9232 7.49241 7.34153C7.49241 4.70236 8.90522 2.27546 11.2014 0.968741C11.5554 0.767319 11.4663 0.230693 11.0641 0.156402C10.5003 0.0524359 9.9282 8.53756e-05 9.35487 0C4.19109 0 0 4.18452 0 9.35487C0 14.5187 4.18452 18.7097 9.35487 18.7097Z"
+                      fill="#002350"
+                    />
+                  </svg>
+                )}
+              </button>
             </div>
           </div>
         </div>
