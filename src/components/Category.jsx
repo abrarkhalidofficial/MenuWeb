@@ -30,7 +30,7 @@ export function Category({ category, products }) {
           </div>
         ) : (
           products?.map((product) => (
-            <MenuCard key={product.idProduct} product={product} />
+            <MenuCard key={product.strMeal} product={product} />
           ))
         )}
       </div>
