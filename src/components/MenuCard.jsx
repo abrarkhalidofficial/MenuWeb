@@ -1,13 +1,14 @@
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import star from "../assets/star.png";
+import stardark from "../assets/stardark.png";
 import { useAtom } from "jotai";
 import { useMemo } from "react";
-
+import { themeAtom } from "../data/themeAtom";
 export default function MenuCard({ product, delay }) {
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
-
+  const [theme, setTheme] = useAtom(themeAtom);
   const isInCart = cart.find((item) => item?.strMeal === product?.strMeal);
 
   const randomWeight = useMemo(() => Math.floor(Math.random() * 500), []);
@@ -27,6 +28,8 @@ export default function MenuCard({ product, delay }) {
     }
   };
 
+  const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
+
   return (
     <div
       style={{ animationDelay: delay }}
@@ -40,7 +43,11 @@ export default function MenuCard({ product, delay }) {
         <img loading="lazy" src={product?.strMealThumb} alt="item" />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__ratingimg">
-        <img loading="lazy" src={star} alt="star" />
+        {theme === "light" ? (
+          <img loading="lazy" src={star} alt="star" />
+        ) : (
+          <img loading="lazy" src={stardark} alt="star" />
+        )}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {product?.strMeal}
