@@ -1,30 +1,38 @@
 import { cartAtom } from "../data/cartAtom";
+import { productPopupAtom } from "../data/productAtom";
 import star from "../assets/star.png";
 import { useAtom } from "jotai";
 import { useMemo } from "react";
 
-export default function MenuCard({ product }) {
+export default function MenuCard({ product, delay }) {
   const [cart, setCart] = useAtom(cartAtom);
-  const isInCart = cart.includes(product?.strMeal);
+  const [, setDataForProductPopup] = useAtom(productPopupAtom);
 
-  const handleAddToCart = () => {
-    if (isInCart) {
-      const newCart = cart.filter((item) => item !== product?.strMeal);
-      setCart(newCart);
-    } else {
-      setCart([...cart, product?.strMeal]);
-    }
-  };
+  const isInCart = cart.find((item) => item?.strMeal === product?.strMeal);
 
   const randomWeight = useMemo(() => Math.floor(Math.random() * 500), []);
 
   const randomPrice = useMemo(() => Math.floor(Math.random() * 1000), []);
 
+  const handleAddToCart = () => {
+    if (isInCart) {
+      const newCart = cart.filter((item) => item?.strMeal !== product?.strMeal);
+      setCart(newCart);
+    } else {
+      setDataForProductPopup({
+        ...product,
+        weight: randomWeight,
+        price: randomPrice,
+      });
+    }
+  };
+
   return (
     <div
+      style={{ animationDelay: delay }}
       className={
         product
-          ? "menu__home__content__right__content__bottom__content__items__card"
+          ? "menu__home__content__right__content__bottom__content__items__card fadeIn"
           : "menu__home__content__right__content__bottom__content__items__card menu__home__content__right__content__bottom__content__items__card__empty"
       }
     >
