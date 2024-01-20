@@ -10,7 +10,7 @@ import logodark from "../assets/logodark.svg";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import ScrollContainer from "react-indiana-drag-scroll";
-
+import { useLanguage } from "../context/LanguageContext";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const useGetData = () => {
@@ -27,6 +27,7 @@ const useGetData = () => {
 };
 
 export default function Index() {
+  const [language] = useLanguage();
   const data = useGetData();
 
   const [cart] = useAtom(cartAtom);
@@ -145,7 +146,11 @@ export default function Index() {
                       type="text"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      placeholder="Search the items here"
+                      placeholder={
+                        language === "en"
+                          ? "Search the items here"
+                          : "ابحث عن المنتجات هنا"
+                      }
                     />
                   </div>
                 </div>
