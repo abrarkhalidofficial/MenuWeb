@@ -1,9 +1,5 @@
-import React, {
-  createContext,
-  useContext,
-  useLayoutEffect,
-  useState,
-} from "react";
+import { createContext, useContext, useLayoutEffect, useState } from "react";
+
 import ar from "../data/ar.json";
 import en from "../data/en.json";
 
