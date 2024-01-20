@@ -1,13 +1,13 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import useSWR, { preload } from "swr";
 
+import CartPopup from "../components/CartPopup";
 import { Category } from "../components/Category";
 import { cartAtom } from "../data/cartAtom";
 import categories from "../data/categories.json";
 import logo from "../assets/logo.svg";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
-import CartPopup from "../components/CartPopup";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -94,12 +94,13 @@ export default function Index() {
       <div className="menu__home__content">
         <div className="menu__home__content__left">
           <div className="menu__home__content__left__links">
-            {data.map((category) => (
+            {data.map((category, index) => (
               <button
+                style={{ animationDelay: `${index * 0.1}s` }}
                 key={category.idCategory}
                 data-to-scrollspy-id={category.idCategory}
                 className={
-                  "menu__home__content__left__link " +
+                  "menu__home__content__left__link fadeIn " +
                   (activeCategory === category.idCategory ? "active" : "")
                 }
                 onClick={onPress}
@@ -112,11 +113,11 @@ export default function Index() {
         <div className="menu__home__content__right">
           <div className="menu__home__content__right__content">
             <div className="menu__home__content__right__content__top">
-              <div className="menu__home__content__right__content__top__logo">
+              <div className="menu__home__content__right__content__top__logo fadeIn">
                 <img loading="lazy" src={logo} alt="" />
               </div>
               <div className="menu__home__content__right__content__top__content">
-                <div className="menu__home__content__right__content__top__search">
+                <div className="menu__home__content__right__content__top__search fadeIn">
                   <div className="menu__home__content__right__content__top__search__input">
                     <svg
                       width="18"
@@ -142,7 +143,7 @@ export default function Index() {
                     />
                   </div>
                 </div>
-                <div className="menu__home__content__right__content__top__cart">
+                <div className="menu__home__content__right__content__top__cart fadeIn">
                   <svg
                     width="21"
                     height="21"
@@ -188,7 +189,7 @@ export default function Index() {
                   </div>
                 </div>
                 <button
-                  className="menu__home__content__right__content__top__darklightmood"
+                  className="menu__home__content__right__content__top__darklightmood fadeIn"
                   onClick={toggleTheme}
                 >
                   {theme === "light" ? (
@@ -222,7 +223,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="menu__home__content__right__content__bottom__wrapper">
+          <div className="menu__home__content__right__content__bottom__wrapper fadeIn">
             <div
               ref={parentScrollContainerRef}
               className="menu__home__content__right__content__bottom"
