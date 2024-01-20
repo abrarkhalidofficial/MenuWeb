@@ -120,6 +120,10 @@ body {
   box-shadow: 12px 8px 25.7px -15px rgba(0, 0, 0, 0.15);
   border-radius: 29.411px;
   width: 60%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .menu__home__content__right__content__top__search__input {
   display: flex;
@@ -130,9 +134,10 @@ body {
 .menu__home__content__right__content__top__search__input input {
   border: none;
   outline: none;
-  padding: 0.5em;
+  padding: 0 0 0 1em;
   width: 100%;
   border-radius: 29.411px;
+  font-size: 14px;
 }
 .menu__home__content__right__content__top__cart {
   display: flex;
@@ -140,9 +145,15 @@ body {
   padding: 0.3em 1em;
   width: 110px;
   justify-content: space-between;
-  background: #fff;
+  background: #fff3ed;
+  height: 40px;
+  align-items: center;
   margin: 0 0.5em;
   box-shadow: 12px 8px 25.7px -15px rgba(0, 0, 0, 0.15);
+}
+.menu__home__content__right__content__top__cart:hover {
+  background: #fff;
+  cursor: pointer;
 }
 .menu__home__content__right__content__top__cart__count {
   font: 12px;
@@ -155,7 +166,7 @@ body {
   padding: 0.5em;
   border-radius: 50px;
   border: none;
-  box-shadow: -4px 1px 25.7px 13px rgba(0, 0, 0, 0.15);
+  box-shadow: -4px 1px 25.7px 13px rgba(0, 0, 0, 0.06);
 }
 .menu__home__content__right__content__bottom__wrapper {
   width: 100%;
@@ -358,7 +369,7 @@ body {
 }
 .menu__home__content__popup__content.is__open {
   transform: translateX(0) scale(1);
-  animation: slideIn 0.3s ease-in-out;
+  animation: slideIn 0.5s ease-in-out;
   transform-origin: right;
 }
 @keyframes slideIn {
@@ -551,7 +562,7 @@ body {
 .fadeIn {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeIn 0.3s ease-in-out forwards;
+  animation: fadeIn 0.6s ease-in-out forwards;
 }
 @keyframes fadeIn {
   to {
