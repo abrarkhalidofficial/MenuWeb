@@ -2,15 +2,16 @@ import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import star from "../assets/star.png";
 import stardark from "../assets/stardark.png";
-import { useAtom } from "jotai";
-import { useMemo } from "react";
 import { themeAtom } from "../data/themeAtom";
+import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
+import { useMemo } from "react";
+
 export default function MenuCard({ product, delay }) {
   const [language] = useLanguage();
+  const [theme] = useAtom(themeAtom);
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
-  const [theme, setTheme] = useAtom(themeAtom);
   const isInCart = cart.find((item) => item?.strMeal === product?.strMeal);
 
   const randomWeight = useMemo(() => Math.floor(Math.random() * 500), []);
@@ -29,8 +30,6 @@ export default function MenuCard({ product, delay }) {
       });
     }
   };
-
-  const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
 
   return (
     <div
