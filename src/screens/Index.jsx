@@ -9,6 +9,7 @@ import logo from "../assets/logo.svg";
 import logodark from "../assets/logodark.svg";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
+import ScrollContainer from "react-indiana-drag-scroll";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -227,6 +228,24 @@ export default function Index() {
                 </button>
               </div>
             </div>
+          </div>
+          <div className="menu__home__content__right__mobilebar">
+            <ScrollContainer className="menu__home__content__right__mobilebar__links">
+              {data.map((category, index) => (
+                <button
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                  key={category.idCategory}
+                  data-to-scrollspy-id={category.idCategory}
+                  className={
+                    "menu__home__content__right__mobilebar__link fadeIn " +
+                    (activeCategory === category.idCategory ? "active" : "")
+                  }
+                  onClick={onPress}
+                >
+                  {category.strCategory}
+                </button>
+              ))}
+            </ScrollContainer>
           </div>
           <div className="menu__home__content__right__content__bottom__wrapper fadeIn">
             <div
