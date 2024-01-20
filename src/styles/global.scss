@@ -12,6 +12,7 @@ html {
   --buttonback: #fb7d37;
   --cartbackground: #edf8f8;
   --cartbackgroundbutton: #fff5ef;
+  --cardbackgroundcolor: #09101f;
 }
 html[data-theme="dark"] {
   --background: radial-gradient(
@@ -27,6 +28,7 @@ html[data-theme="dark"] {
   --buttonborder: #fb7d37;
   --cartbackground: #0f1621;
   --cartbackgroundbutton: #1b212d;
+  --cardbackgroundcolor: #ffff;
 }
 *,
 *::after,
@@ -253,6 +255,22 @@ body {
 
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
 }
+.menu__home__content__right__content__bottom__content__items__card:hover {
+  box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.2);
+  background-color: var(--cardbackgroundcolor);
+  color: var(--textcolor);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.menu__home__content__right__content__bottom__content__items__card:hover
+  .menu__home__content__right__content__bottom__content__items__card__name {
+  color: var(--backgroundcolor);
+}
+.menu__home__content__right__content__bottom__content__items__card:hover
+  .menu__home__content__right__content__bottom__content__items__card__price {
+  color: var(--backgroundcolor);
+}
+
 .menu__home__content__right__content__bottom__content__items__card__empty
   .menu__home__content__right__content__bottom__content__items__card__name,
 .menu__home__content__right__content__bottom__content__items__card__empty
