@@ -11,6 +11,9 @@ import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { useLanguage } from "../context/LanguageContext";
+import logoar from "../assets/logoar.svg";
+import logoarwhite from "../assets/logoarwhite.svg";
+
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const useGetData = () => {
@@ -117,11 +120,19 @@ export default function Index() {
           <div className="menu__home__content__right__content">
             <div className="menu__home__content__right__content__top">
               <div className="menu__home__content__right__content__top__logo fadeIn">
-                {theme === "light" ? (
-                  <img loading="lazy" src={logo} alt="logo" />
-                ) : (
-                  <img loading="lazy" src={logodark} alt="logo" />
-                )}
+                <img
+                  loading="lazy"
+                  src={
+                    language === "en" && theme === "light"
+                      ? logo
+                      : language === "en" && theme === "dark"
+                      ? logodark
+                      : language === "ar" && theme === "light"
+                      ? logoar
+                      : logoarwhite
+                  }
+                  alt="logo"
+                />
               </div>
               <div className="menu__home__content__right__content__top__content">
                 <div className="menu__home__content__right__content__top__search fadeIn">
@@ -196,7 +207,8 @@ export default function Index() {
                     />
                   </svg>
                   <div className="menu__home__content__right__content__top__cart__count">
-                    {cart.length > 99 ? "99+" : cart.length} Items
+                    {cart.length > 99 ? "99+" : cart.length}{" "}
+                    {language === "en" ? "Items" : "العناصر"}
                   </div>
                 </div>
                 <button
