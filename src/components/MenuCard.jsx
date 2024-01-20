@@ -33,6 +33,7 @@ export default function MenuCard({ product, delay }) {
   return (
     <div
       style={{ animationDelay: delay }}
+      onClick={handleAddToCart}
       className={
         product
           ? "menu__home__content__right__content__bottom__content__items__card fadeIn"
