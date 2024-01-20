@@ -122,7 +122,7 @@ export default function CartPopup({}) {
             </div>
           </div>
           <div className="menu__home__content__popup__content__buttons">
-            <div className="menu__home__content__popup__content__buttons__content">
+            <div className="menu__home__content__popup__content__buttons__content fadeIn">
               <div className="menu__home__content__popup__content__buttons__name">
                 Select Size
               </div>
@@ -143,7 +143,7 @@ export default function CartPopup({}) {
                 ))}
               </div>
             </div>
-            <div className="menu__home__content__popup__content__buttons__content">
+            <div className="menu__home__content__popup__content__buttons__content fadeIn">
               <div className="menu__home__content__popup__content__buttons__name">
                 Select Spices
               </div>
@@ -165,7 +165,7 @@ export default function CartPopup({}) {
               </div>
             </div>
           </div>
-          <div className="menu__home__content__popup__content__qauntity__and__price">
+          <div className="menu__home__content__popup__content__qauntity__and__price fadeIn">
             <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
               <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
                 Quantity
@@ -210,7 +210,7 @@ export default function CartPopup({}) {
             data-aos-duration="1700"
           >
             <a
-              className="menu__home__content__popup__content__buttons__addtocart__button__color"
+              className="menu__home__content__popup__content__buttons__addtocart__button__color fadeIn"
               onClick={handleAddToCart}
             >
               Add to Cart
