@@ -1,8 +1,9 @@
 import "swiper/scss";
-import Rounded from "../common/RoundedButton/index";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
+import Rounded from "./RoundedButton";
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import { useAtom } from "jotai";
