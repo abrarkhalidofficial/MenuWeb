@@ -3,16 +3,16 @@ import useSWR, { preload } from "swr";
 
 import CartPopup from "../components/CartPopup";
 import { Category } from "../components/Category";
+import ScrollContainer from "react-indiana-drag-scroll";
 import { cartAtom } from "../data/cartAtom";
 import categories from "../data/categories.json";
 import logo from "../assets/logo.svg";
+import logoar from "../assets/logoar.svg";
+import logoarwhite from "../assets/logoarwhite.svg";
 import logodark from "../assets/logodark.svg";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
-import ScrollContainer from "react-indiana-drag-scroll";
 import { useLanguage } from "../context/LanguageContext";
-import logoar from "../assets/logoar.svg";
-import logoarwhite from "../assets/logoarwhite.svg";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
