@@ -1,16 +1,14 @@
-import { Head } from '@router';
-import { Outlet } from 'react-router-dom';
-
+import { Head } from "@router";
+import { Outlet } from "react-router-dom";
+import LanguageProvider from "../context/LanguageContext";
+import LanguageButton from "../components/LanguageButton";
 export default () => {
   return (
     <>
-      <Head
-        title="Menu"
-        image="/favicon.ico"
-        url="https://vitefilerouter.com"
-        description="Menu"
-      />
-      <Outlet />
+      <LanguageProvider>
+        <LanguageButton />
+        <Outlet />
+      </LanguageProvider>
     </>
   );
 };
