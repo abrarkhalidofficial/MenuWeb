@@ -5,7 +5,9 @@ import stardark from "../assets/stardark.png";
 import { useAtom } from "jotai";
 import { useMemo } from "react";
 import { themeAtom } from "../data/themeAtom";
+import { useLanguage } from "../context/LanguageContext";
 export default function MenuCard({ product, delay }) {
+  const [language] = useLanguage();
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
   const [theme, setTheme] = useAtom(themeAtom);
@@ -54,10 +56,11 @@ export default function MenuCard({ product, delay }) {
         {product?.strMeal}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
-        {randomWeight}gm
+        {randomWeight}
+        {language === "en " ? "gm" : "غم"}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__price">
-        AED {randomPrice}
+        {language === "en" ? "AED" : "درهم"} {randomPrice}
       </div>
       <button
         onClick={handleAddToCart}
@@ -67,7 +70,13 @@ export default function MenuCard({ product, delay }) {
             : "menu__home__content__right__content__bottom__content__items__card__button"
         }
       >
-        {isInCart ? "Added" : "Add to Cart"}
+        {isInCart
+          ? language === "en"
+            ? "Added "
+            : "تمت الإضافة"
+          : language === "en"
+          ? "Add to cart"
+          : "أضف إلى السلة"}
       </button>
     </div>
   );
