@@ -9,6 +9,9 @@ html {
   --textcolor: #000;
   --buttonbackground: #fff;
   --buttonborder: #fb7d37;
+  --buttonback: #fb7d37;
+  --cartbackground: #edf8f8;
+  --cartbackgroundbutton: #fff5ef;
 }
 html[data-theme="dark"] {
   --background: radial-gradient(
@@ -20,7 +23,10 @@ html[data-theme="dark"] {
   --backgroundcolor: #09101f;
   --textcolor: #fff;
   --buttonbackground: #3a241e;
+  --buttonback: #3a241e;
   --buttonborder: #fb7d37;
+  --cartbackground: #0f1621;
+  --cartbackgroundbutton: #1b212d;
 }
 *,
 *::after,
@@ -324,7 +330,7 @@ body {
 .menu__home__content__popup__content {
   width: 450px;
   height: 100%;
-  background: #fff;
+  background: var(--backgroundcolor);
   border-radius: 29.411px;
   padding: 2em;
   position: absolute;
@@ -393,6 +399,7 @@ body {
 .menu__home__content__popup__content__slider__heading {
   font-size: 20px;
   font-weight: bold;
+  color: var(--textcolor);
 }
 .menu__home__content__popup__content__slider__weight {
   font-size: 15px;
@@ -402,14 +409,16 @@ body {
 .menu__home__content__popup__content__slider__info {
   font-size: 14px;
   text-align: center;
+  color: var(--textcolor);
 }
 .menu__home__content__popup__content__buttons {
   display: flex;
 }
 .menu__home__content__popup__content__buttons__content {
-  background-color: #fff5ef;
+  background-color: var(--cartbackgroundbutton);
   padding: 1em;
   margin: 0.5em;
+  border-radius: 6px;
 }
 .menu__home__content__popup__content__buttons__buttons {
   display: flex;
@@ -418,6 +427,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0.5em;
+  color: var(--textcolor);
 }
 .menu__home__content__popup__content__buttons__buttons__button {
   border: none;
@@ -458,6 +468,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--primary);
   width: 40px;
 }
 .menu__home__content__popup__content__qauntity__and__price {
@@ -466,16 +477,25 @@ body {
   align-items: center;
   width: calc(100% - 1.5em);
   padding: 1em;
-  background: rgba(0, 161, 161, 0.07);
+  background: var(--cartbackground);
+  border-radius: 6px;
   margin: 1em;
 }
 .menu__home__content__popup__content__qauntity__and__price__price__name {
   font-size: 16px;
   font-weight: bold;
+  color: var(--textcolor);
+}
+.menu__home__content__popup__content__qauntity__and__price__price__number {
+  color: var(--textcolor);
+  color: #00a1a1;
+  font-weight: bold;
+  font-size: 20px;
 }
 .menu__home__content__popup__content__buttons__addtocart__button {
-  border: none;
-  background: #fb7d37;
+  border: 1px solid var(--buttonborder);
+  background: var(--buttonback);
+
   cursor: pointer;
   font-size: 11px;
   color: #fff;
@@ -487,6 +507,7 @@ body {
 }
 .menu__home__content__popup__content__buttons__addtocart__button:hover {
   background: #00a1a1;
+  border: 1px solid #00a1a1;
 }
 @media (max-width: 1300px) {
   .menu__home__content__right__content__bottom__content__items__card {
