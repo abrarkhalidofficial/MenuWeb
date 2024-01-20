@@ -6,6 +6,7 @@ import { Category } from "../components/Category";
 import { cartAtom } from "../data/cartAtom";
 import categories from "../data/categories.json";
 import logo from "../assets/logo.svg";
+import logodark from "../assets/logodark.svg";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 
@@ -114,7 +115,11 @@ export default function Index() {
           <div className="menu__home__content__right__content">
             <div className="menu__home__content__right__content__top">
               <div className="menu__home__content__right__content__top__logo fadeIn">
-                <img loading="lazy" src={logo} alt="" />
+                {theme === "light" ? (
+                  <img loading="lazy" src={logo} alt="logo" />
+                ) : (
+                  <img loading="lazy" src={logodark} alt="logo" />
+                )}
               </div>
               <div className="menu__home__content__right__content__top__content">
                 <div className="menu__home__content__right__content__top__search fadeIn">
