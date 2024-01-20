@@ -13,24 +13,23 @@ export function Category({ category, products }) {
       <div className="menu__home__content__right__content__bottom__content__items">
         {!products ? (
           <>
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
-            <MenuCard />
+            {Array(10)
+              ?.fill(0)
+              ?.map((_, index) => (
+                <MenuCard key={index} delay={`${index * 0.1}s`} />
+              ))}
           </>
         ) : products?.length === 0 ? (
           <div className="menu__home__content__right__content__bottom__content__items__empty">
             No items found
           </div>
         ) : (
-          products?.map((product) => (
-            <MenuCard key={product.strMeal} product={product} />
+          products?.map((product, index) => (
+            <MenuCard
+              key={product.strMeal}
+              product={product}
+              delay={`${index * 0.1}s`}
+            />
           ))
         )}
       </div>
