@@ -1,5 +1,5 @@
 import "swiper/scss";
-
+import Rounded from "../common/RoundedButton/index";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
@@ -203,12 +203,19 @@ export default function CartPopup({}) {
               </div>
             </div>
           </div>
-          <button
-            className="menu__home__content__popup__content__buttons__addtocart__button"
-            onClick={handleAddToCart}
+          {/* <button className="menu__home__content__popup__content__buttons__addtocart__button"></button> */}
+          <Rounded
+            data-aos="fade-up"
+            data-aos-delay="60"
+            data-aos-duration="1700"
           >
-            Add to Cart
-          </button>
+            <a
+              className="menu__home__content__popup__content__buttons__addtocart__button__color"
+              onClick={handleAddToCart}
+            >
+              Add to Cart
+            </a>
+          </Rounded>
         </div>
       </div>
     )
