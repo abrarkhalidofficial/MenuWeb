@@ -609,6 +609,49 @@ body {
   background: #00a1a1;
   border: 1px solid #00a1a1;
 }
+.English__to__Arabic__content {
+  position: absolute;
+}
+.English__to__Arabic__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: linear-gradient(207deg, #ff4001 16.9%, #343434 117.14%);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  bottom: 50px;
+  right: 40px;
+  margin-left: 1em;
+  position: fixed;
+  z-index: 99;
+}
+.English__to__Arabic__button::after {
+  content: "AR";
+  font-size: 12px;
+  font-weight: 700;
+}
+.English__to__Arabic__button__active::after {
+  content: "EN";
+  font-size: 12px;
+  font-weight: 700;
+}
+.English__to__Arabic__button__active {
+  background: linear-gradient(207deg, #3a2118 16.9%, #343434 117.14%);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  bottom: 50px;
+  right: 40px;
+  margin-left: 1em;
+  position: fixed;
+  z-index: 99;
+}
 @media (max-width: 1300px) {
   .menu__home__content__right__content__bottom__content__items__card {
     width: calc(33% - 1.5em);
