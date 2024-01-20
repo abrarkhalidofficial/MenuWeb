@@ -9,7 +9,7 @@ import { useAtom } from "jotai";
 
 const sizes = ["Small", "Medium", "Large"];
 
-const spices = ["Medium", "Extra", "Extra Hot Spicy"];
+const spices = ["Medium", "Extra", "Extra Hot "];
 
 export default function CartPopup({}) {
   const [cart, setCart] = useAtom(cartAtom);
