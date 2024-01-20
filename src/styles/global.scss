@@ -521,6 +521,16 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+.menu__home__content__popup__content__buttons__addtocart__button__color {
+  color: var(--textcolor);
+  font-weight: bold;
+  font-size: 18px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
 .menu__home__content__popup__content__buttons__addtocart__button {
   border: 1px solid var(--buttonborder);
   background: var(--buttonback);
