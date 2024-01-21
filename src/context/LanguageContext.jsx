@@ -1,18 +1,10 @@
 import { createContext, useContext, useLayoutEffect, useState } from "react";
 
-import ar from "../data/ar.json";
-import en from "../data/en.json";
-
 const LanguageContext = createContext();
 
 export const useLanguage = () => {
   const { language, setLanguage } = useContext(LanguageContext);
   return [language, setLanguage];
-};
-
-export const useGetLanguage = () => {
-  const [language] = useLanguage();
-  return language === "en" ? en : ar;
 };
 
 const LanguageProvider = ({ children }) => {
