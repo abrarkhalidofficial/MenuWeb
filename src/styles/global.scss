@@ -42,6 +42,11 @@ body {
   padding: 0;
   font-size: 16px;
   background: var(--background);
+  overflow: hidden;
+  top: 0px !important;
+}
+.skiptranslate {
+  display: none;
 }
 .roundedButton {
   border-radius: 3em;
@@ -69,6 +74,9 @@ body {
   border-radius: 50%;
   top: 100%;
 }
+.rtl .menu__home__content {
+  direction: rtl;
+}
 .menu__home__content {
   display: flex;
   width: 100%;
@@ -93,14 +101,7 @@ body {
 }
 .menu__home__content__right__mobilebar__links {
   display: none;
-  // flex-direction: column;\
-  // flex-wrap: wrap;
-  // align-items: end;
-  // text-align: left;
-
   width: calc(100vw - 1em);
-  // border: 1px solid #000 !important;
-  // max-width: 400px;
 }
 .menu__home__content__left__link {
   text-decoration: none;
@@ -116,14 +117,11 @@ body {
 .menu__home__content__right__mobilebar__links {
   text-decoration: none;
   color: var(--textcolor);
-  // font-size: 11px;
   padding: 0.5em 0;
   font-family: "Poppins", sans-serif;
-  // height: 40px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  // display: flex;
   gap: 1em;
 }
 .menu__home__content__right__mobilebar__link:first-child {
@@ -135,25 +133,20 @@ body {
   font-size: 14px;
   padding: 0.5em 0;
   font-family: "Poppins", sans-serif;
-  // height: 40px;
   border: none;
   background-color: transparent;
   cursor: pointer;
   background-color: var(--buttonborder);
   border: 1px solid var(--buttonborder);
   border-radius: 10px;
-  // width: fit-content;
-  // width: 300px;
   max-width: 200px;
   padding: 0.2em 1em;
   color: #fff;
 }
-
 .menu__home__content__right__mobilebar__link:hover {
   color: var(--textcolor);
   background-color: var(--buttonborder);
   background: var(--backgroundcolor);
-  // font-weight: bold;
 }
 .menu__home__content__left__link:hover {
   color: var(--textcolor);
@@ -246,6 +239,7 @@ body {
   border-radius: 50px;
   border: none;
   box-shadow: -4px 1px 25.7px 13px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
 }
 .menu__home__content__right__content__bottom__wrapper {
   width: 100%;
@@ -259,14 +253,12 @@ body {
   overflow-y: auto;
   gap: 1em;
 }
-
 .menu__home__content__right__content__bottom::-webkit-scrollbar {
   width: 6px;
 }
 .menu__home__content__right__content__bottom::-webkit-scrollbar-track {
   background-color: #fb7d37;
 }
-
 .menu__home__content__right__content__bottom::-webkit-scrollbar-thumb {
   background-color: var(--backgroundcolor);
   border-radius: 6px;
@@ -342,7 +334,6 @@ body {
   margin-bottom: 1em;
   border-radius: 29.411px;
   background: var(--backgroundcolor);
-
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
 }
 .menu__home__content__right__content__bottom__content__items__card:hover {
@@ -360,7 +351,6 @@ body {
   .menu__home__content__right__content__bottom__content__items__card__price {
   color: var(--backgroundcolor);
 }
-
 .menu__home__content__right__content__bottom__content__items__card__empty
   .menu__home__content__right__content__bottom__content__items__card__name,
 .menu__home__content__right__content__bottom__content__items__card__empty
@@ -423,6 +413,9 @@ body {
   color: #fff;
   box-shadow: 14.066px 25.575px 67.133px -14.066px rgba(0, 0, 0, 0.08);
 }
+.rtl .menu__home__content__popup {
+  direction: rtl;
+}
 .menu__home__content__popup {
   position: fixed;
   top: 0;
@@ -431,15 +424,17 @@ body {
   height: 100vh;
   background: rgba(0, 35, 80, 0.1);
   z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.rtl .menu__home__content__popup__content {
+  right: auto;
+  left: 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 .menu__home__content__popup__content {
   width: 450px;
   height: 100%;
   background: var(--backgroundcolor);
-  border-radius: 29px 0px 0px 29px;
+  border-radius: 29px 0 0 29px;
   padding: 2em;
   position: absolute;
   top: 0;
@@ -470,6 +465,9 @@ body {
   100% {
     transform: translateX(100%);
   }
+}
+.rtl .menu__home__content__popup__content__slider {
+  direction: ltr;
 }
 .menu__home__content__popup__content__slider {
   width: 100%;
@@ -526,7 +524,6 @@ body {
 .menu__home__content__popup__content__buttons__content {
   background-color: var(--cartbackgroundbutton);
   padding: 1em;
-  // margin: 0.5em;
   border-radius: 6px;
   width: calc(100% - 0.5em);
 }
@@ -544,7 +541,6 @@ body {
 }
 .menu__home__content__popup__content__buttons__buttons__button {
   border: none;
-  // background: #fb7c3769;
   background: transparent;
   cursor: pointer;
   font-size: 11px;
@@ -598,7 +594,6 @@ body {
 }
 .menu__home__content__popup__content__qauntity__and__price__price__name {
   font-size: 16px;
-  // font-weight: bold;
   color: var(--textcolor);
 }
 .menu__home__content__popup__content__qauntity__and__price__price__number {
@@ -609,7 +604,6 @@ body {
 }
 .menu__home__content__popup__content__buttons__addtocart__button__color {
   color: var(--textcolor);
-  // font-weight: bold;
   font-size: 16px;
   height: 40px;
   display: flex;
@@ -621,7 +615,6 @@ body {
 .menu__home__content__popup__content__buttons__addtocart__button {
   border: 1px solid var(--buttonborder);
   background: var(--buttonback);
-
   cursor: pointer;
   font-size: 11px;
   color: #fff;
@@ -711,15 +704,6 @@ body {
   .menu__home__content__right__content__top__content {
     width: 90%;
   }
-  // .menu__home__content__right__content__top__cart__count {
-  //   display: none;
-  // }
-  // .menu__home__content__right__content__top__cart {
-  //   width: auto;
-  // }
-  // .menu__home__content__right__content__top__logo img {
-  //   width: 150px;
-  // }
   .menu__home__content__right__content__top__logo {
     width: 100%;
     justify-content: center;
@@ -728,12 +712,11 @@ body {
     margin-bottom: 1em;
   }
   .menu__home__content__right__content__bottom::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
   }
   .menu__home__content__right__content__bottom::-webkit-scrollbar-track {
     background-color: #fb7d37;
   }
-
   .menu__home__content__right__content__bottom::-webkit-scrollbar-thumb {
     background-color: var(--backgroundcolor);
     border-radius: 6px;
@@ -743,7 +726,6 @@ body {
   }
   .menu__home__content__right__content__top__search__input input {
     width: 100%;
-    // max-width: 110px;
     text-align: start;
     overflow: hidden;
     text-overflow: ellipsis;
