@@ -12,16 +12,14 @@ const sizes = ["Small", "Medium", "Large"];
 
 const spices = ["Medium", "Extra", "Extra Hot "];
 
-export default function CartPopup({}) {
+export default function CartPopup() {
   const [cart, setCart] = useAtom(cartAtom);
+  const [quantity, setQuantity] = useState(1);
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [selectedSize, setSelectedSize] = useState(sizes[0]);
+  const [selectedSpice, setSelectedSpice] = useState(spices[0]);
   const [dataForProductPopup, setDataForProductPopup] =
     useAtom(productPopupAtom);
-
-  const [selectedSize, setSelectedSize] = useState(sizes[0]);
-
-  const [selectedSpice, setSelectedSpice] = useState(spices[0]);
-
-  const [quantity, setQuantity] = useState(1);
 
   const handleDecrement = () => {
     if (quantity > 1) {
@@ -42,10 +40,6 @@ export default function CartPopup({}) {
     setDataForProductPopup({});
   };
 
-  console.log(dataForProductPopup);
-
-  const [popupOpen, setPopupOpen] = useState(false);
-
   useEffect(() => {
     if (Object.keys(dataForProductPopup).length > 0) {
       setPopupOpen(true);
@@ -60,19 +54,16 @@ export default function CartPopup({}) {
     popupOpen && (
       <div
         className="menu__home__content__popup"
-        onClick={() => {
-          setDataForProductPopup({});
-        }}
+        onClick={() => setDataForProductPopup({})}
       >
         <div
+          onClick={(e) => e.stopPropagation()}
           className={
-            "menu__home__content__popup__content" +
-            " " +
+            "menu__home__content__popup__content " +
             (Object.keys(dataForProductPopup).length > 0
               ? "is__open"
               : "is__closed")
           }
-          onClick={(e) => e.stopPropagation()}
         >
           <div className="menu__home__content__popup__content__slide">
             <div className="menu__home__content__popup__content__slider__content">
@@ -91,6 +82,7 @@ export default function CartPopup({}) {
                       key={index}
                     >
                       <img
+                        loading="lazy"
                         style={{ animationDelay: `${index * 0.3}s` }}
                         src={dataForProductPopup?.strMealThumb}
                         alt={dataForProductPopup?.strMeal}
@@ -204,7 +196,6 @@ export default function CartPopup({}) {
               </div>
             </div>
           </div>
-          {/* <button className="menu__home__content__popup__content__buttons__addtocart__button"></button> */}
           <Rounded
             data-aos="fade-up"
             data-aos-delay="60"
