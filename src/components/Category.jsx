@@ -1,8 +1,6 @@
 import MenuCard from "./MenuCard";
-import { useLanguage } from "../context/LanguageContext";
 
 export function Category({ category, products }) {
-  const [language] = useLanguage();
   return (
     <section
       key={category.idCategory}
@@ -23,7 +21,7 @@ export function Category({ category, products }) {
           </>
         ) : products?.length === 0 ? (
           <div className="menu__home__content__right__content__bottom__content__items__empty">
-            {language === "en" ? "No products found" : "لا يوجد منتجات"}
+            No products found
           </div>
         ) : (
           products?.map((product, index) => (
