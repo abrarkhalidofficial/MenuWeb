@@ -13,7 +13,22 @@ export default function LanguageButton() {
         description="Menu"
       />
       <button
-        onClick={() => setLanguage(language === "ar" ? "en" : "ar")}
+        onClick={() => {
+          const googleTranslateSelect =
+            document.querySelector(".goog-te-combo");
+
+          console.log(googleTranslateSelect);
+
+          if (language === "en") {
+            setLanguage("ar");
+            googleTranslateSelect.value = "ar";
+          } else {
+            setLanguage("en");
+            googleTranslateSelect.value = "en";
+          }
+
+          googleTranslateSelect.dispatchEvent(new Event("change"));
+        }}
         title="Change language"
         className={`English__to__Arabic__button 
         ${language === "ar" ? "English__to__Arabic__button__active" : ""}`}
