@@ -1,11 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import useSWR, { preload } from "swr";
 
 import CartPopup from "../components/CartPopup";
 import { Category } from "../components/Category";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { cartAtom } from "../data/cartAtom";
-import categories from "../data/categories.json";
+import data from "../data/data.json";
 import logo from "../assets/logo.svg";
 import logoar from "../assets/logoar.svg";
 import logoarwhite from "../assets/logoarwhite.svg";
@@ -14,24 +13,8 @@ import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
 
-const fetcher = (url) => fetch(url).then((res) => res.json());
-
-const useGetData = () => {
-  return categories.map((category) => {
-    const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category.strCategory}`;
-    preload(url, fetcher);
-    const { data } = useSWR(url, fetcher);
-
-    return {
-      ...category,
-      products: data?.meals,
-    };
-  });
-};
-
 export default function Index() {
   const [language] = useLanguage();
-  const data = useGetData();
 
   const [cart] = useAtom(cartAtom);
   const [theme, setTheme] = useAtom(themeAtom);
@@ -157,11 +140,7 @@ export default function Index() {
                       type="text"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      placeholder={
-                        language === "en"
-                          ? "Search the items here"
-                          : "ابحث عن المنتجات هنا"
-                      }
+                      placeholder={"Search the items here"}
                     />
                   </div>
                 </div>
@@ -207,8 +186,7 @@ export default function Index() {
                     />
                   </svg>
                   <div className="menu__home__content__right__content__top__cart__count">
-                    {cart.length > 99 ? "99+" : cart.length}{" "}
-                    {language === "en" ? "Items" : "العناصر"}
+                    {cart.length > 99 ? "99+" : cart.length} Items
                   </div>
                 </div>
                 <button
@@ -254,7 +232,7 @@ export default function Index() {
                   key={category.idCategory}
                   data-to-scrollspy-id={category.idCategory}
                   className={
-                    "menu__home__content__right__mobilebar__link fadeIn " +
+                    "menu__home__content__right__mobilebar__link " +
                     (activeCategory === category.idCategory ? "active" : "")
                   }
                   onClick={onPress}
