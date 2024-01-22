@@ -6,28 +6,10 @@ export default function LanguageButton() {
 
   return (
     <div className="English__to__Arabic">
-      <Head
-        title="Menu"
-        image="/favicon.ico"
-        url="https://vitefilerouter.com"
-        description="Menu"
-      />
+      <Head title="Menu" />
       <button
-        onClick={() => {
-          const googleTranslateSelect =
-            document.querySelector(".goog-te-combo");
-
-          if (language === "en") {
-            setLanguage("ar");
-            googleTranslateSelect.value = "ar";
-          } else {
-            setLanguage("en");
-            googleTranslateSelect.value = "en";
-          }
-
-          googleTranslateSelect.dispatchEvent(new Event("change"));
-        }}
         title="Change language"
+        onClick={() => setLanguage(language === "ar" ? "en" : "ar")}
         className={`English__to__Arabic__button 
         ${language === "ar" ? "English__to__Arabic__button__active" : ""}`}
       />
