@@ -1,1623 +1,499 @@
 [
   {
-    "idCategory": "1",
-    "strCategory": "Beef",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/beef.png",
-    "strCategoryDescription": "Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]",
+    "name": "المقبلات الباردة",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F38e5643e-9bd6-49da-a016-12b73f282c64.jpg?alt=media&token=c4340b1c-9396-4c3a-8d4f-a082f1644c68",
     "products": [
       {
-        "strMeal": "Beef and Mustard Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sytuqu1511553755.jpg",
-        "idMeal": "52874"
+        "name": "سلطة خضراء",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F92a51fce-4df2-4278-80db-115f8adabc9d.jpeg?alt=media&token=33fc5e3c-569a-4d2b-9fde-04a1002b9b2e",
+        "description": "الخضار الطازج المعد على الطريقة الشامية",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef and Oyster pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wrssvt1511556563.jpg",
-        "idMeal": "52878"
+        "name": "سلطة جرجير",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb2ba5146-457f-4c99-b250-b85d5fb3c595.jpeg?alt=media&token=589af20e-ee12-4e28-a075-e1c9520cff4d",
+        "description": "الجرجير الطازج مع قطع البصل الأبيض ومكسرات عين الجمل",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Asado",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg",
-        "idMeal": "53071"
+        "name": "تبولة",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc117bba6-b1d3-494a-af82-07e25523029d.jpeg?alt=media&token=f2f10238-a213-451e-a7ad-447fdc672b9b",
+        "description": "البقدونس المفروم مع البرغل وحبيبات الطماطم ورشة الحامض والليمون",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg",
-        "idMeal": "52997"
+        "name": "فتوش",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8184b19f-7e2a-4972-8b3b-53bef6ec1b9a.jpeg?alt=media&token=babddfc2-9156-42c4-a037-ba1d9cc498b5",
+        "description": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
+        "price": "17.00 SAR"
       },
       {
-        "strMeal": "Beef Bourguignon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vtqxtu1511784197.jpg",
-        "idMeal": "52904"
+        "name": "حمص",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8ab34e79-ec5b-4d06-a212-908f321ac64d.jpeg?alt=media&token=8d2f2e73-da90-412f-b924-9d5a2244666f",
+        "description": "الحمص والطحينة وزيت الزيتون الفاخر",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Brisket Pot Roast",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
-        "idMeal": "52812"
+        "name": "حمص بيروتي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F49968994-41cf-4c65-8b97-12a6ab886177.jpeg?alt=media&token=0ddc6f05-0825-4497-8c95-54c9146845ac",
+        "description": "الحمص المعد على الطريقة اللبنانية الأصيلة",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Caldereta",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/41cxjh1683207682.jpg",
-        "idMeal": "53070"
+        "name": "حمص سبايسي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd08f7e81-c259-4b70-b52e-a71a43b42b01.jpeg?alt=media&token=543e76f4-cb4f-4b80-86e1-4fb024071e68",
+        "description": "الحمص والطحينة مع الفلفل الحار وزيت الزيتون الفاخر",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Dumpling Stew",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uyqrrv1511553350.jpg",
-        "idMeal": "52873"
+        "name": "متبل",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Face4cb97-8f40-4743-a977-633e436fff60.jpeg?alt=media&token=af07b833-6d70-4272-8791-05a6f36562e9",
+        "description": "الباذنجان المشوي المعد على طريقتنا الخاصة مع حبيبات الرمان",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Beef Lo Mein",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
-        "idMeal": "52952"
+        "name": "متبل بالشمندر",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0a954fcf-ea8b-460c-b13b-ac270f5bf6db.jpeg?alt=media&token=8b9e9926-876f-4af1-be44-b01c9470d1fa",
+        "description": "الباذنجان المشوي بالشمندر على طريقتنا الخاصة",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Mechado",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/cgl60b1683206581.jpg",
-        "idMeal": "53068"
+        "name": "بابا غنوج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4115e2cf-f877-4535-aab7-5eb95f827a51.jpeg?alt=media&token=6c198334-6f09-4f77-afe9-cad8fefe422a",
+        "description": "الخضار الطازج المهروس على طريقتنا الخاصة",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Beef Rendang",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg",
-        "idMeal": "53053"
+        "name": "كريم ثوم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa9716389-757b-4a2c-974e-d63c088df359.jpg?alt=media&token=08f57e65-5d26-4015-9b1d-428a7153758b",
+        "description": "كريم الثوم التقليدي",
+        "price": "11.00 SAR"
       },
       {
-        "strMeal": "Beef stroganoff",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg",
-        "idMeal": "52834"
+        "name": "ورق عنب",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6b2253e4-a179-4c7e-83e7-070385605a46.jpeg?alt=media&token=d7ccefd3-6815-43fb-a387-33a5916181ff",
+        "description": "ست حبات من أصابع ورق العنب المعد على طريقتنا الخاصة",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Beef Sunday Roast",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ssrrrs1503664277.jpg",
-        "idMeal": "52824"
-      },
-      {
-        "strMeal": "Beef Wellington",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg",
-        "idMeal": "52803"
-      },
-      {
-        "strMeal": "Big Mac",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg",
-        "idMeal": "53013"
-      },
-      {
-        "strMeal": "Bistek",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/4pqimk1683207418.jpg",
-        "idMeal": "53069"
-      },
-      {
-        "strMeal": "Bitterballen (Dutch meatballs)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/lhqev81565090111.jpg",
-        "idMeal": "52979"
-      },
-      {
-        "strMeal": "Braised Beef Chilli",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuqvwu1504629254.jpg",
-        "idMeal": "52826"
-      },
-      {
-        "strMeal": "Cevapi Sausages",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vc08jn1628769553.jpg",
-        "idMeal": "53055"
-      },
-      {
-        "strMeal": "Chivito uruguayo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/n7qnkb1630444129.jpg",
-        "idMeal": "53063"
-      },
-      {
-        "strMeal": "Corned Beef and Cabbage",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xb97a81583266727.jpg",
-        "idMeal": "52998"
-      },
-      {
-        "strMeal": "Croatian Bean Stew",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tnwy8m1628770384.jpg",
-        "idMeal": "53058"
-      },
-      {
-        "strMeal": "Croatian lamb peka",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg",
-        "idMeal": "53056"
-      },
-      {
-        "strMeal": "Egyptian Fatteh",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg",
-        "idMeal": "53031"
-      },
-      {
-        "strMeal": "Gołąbki (cabbage roll)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/q8sp3j1593349686.jpg",
-        "idMeal": "53021"
-      },
-      {
-        "strMeal": "Irish stew",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sxxpst1468569714.jpg",
-        "idMeal": "52781"
-      },
-      {
-        "strMeal": "Jamaican Beef Patties",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wsqqsw1515364068.jpg",
-        "idMeal": "52938"
-      },
-      {
-        "strMeal": "Ma Po Tofu",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1525874812.jpg",
-        "idMeal": "52947"
-      },
-      {
-        "strMeal": "Massaman Beef curry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tvttqv1504640475.jpg",
-        "idMeal": "52827"
-      },
-      {
-        "strMeal": "Minced Beef Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xwutvy1511555540.jpg",
-        "idMeal": "52876"
-      },
-      {
-        "strMeal": "Montreal Smoked Meat",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uttupv1511815050.jpg",
-        "idMeal": "52927"
-      },
-      {
-        "strMeal": "Moussaka",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
-        "idMeal": "53006"
-      },
-      {
-        "strMeal": "Mulukhiyah",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/x372ug1598733932.jpg",
-        "idMeal": "53029"
-      },
-      {
-        "strMeal": "Oxtail with broad beans",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1520083578.jpg",
-        "idMeal": "52943"
-      },
-      {
-        "strMeal": "Paszteciki (Polish Pasties)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/c9a3l31593261890.jpg",
-        "idMeal": "53017"
-      },
-      {
-        "strMeal": "Pate Chinois",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yyrrxr1511816289.jpg",
-        "idMeal": "52930"
-      },
-      {
-        "strMeal": "Portuguese prego with green piri-piri",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg",
-        "idMeal": "53042"
-      },
-      {
-        "strMeal": "Red Peas Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sqpqtp1515365614.jpg",
-        "idMeal": "52941"
-      },
-      {
-        "strMeal": "Roti john",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/hx335q1619789561.jpg",
-        "idMeal": "53052"
-      },
-      {
-        "strMeal": "Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/o2wb6p1581005243.jpg",
-        "idMeal": "52992"
-      },
-      {
-        "strMeal": "Spaghetti Bolognese",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
-        "idMeal": "52770"
-      },
-      {
-        "strMeal": "Steak and Kidney Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qysyss1511558054.jpg",
-        "idMeal": "52881"
-      },
-      {
-        "strMeal": "Steak Diane",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vussxq1511882648.jpg",
-        "idMeal": "52935"
-      },
-      {
-        "strMeal": "Szechuan Beef",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
-        "idMeal": "52950"
-      },
-      {
-        "strMeal": "Traditional Croatian Goulash",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/n1hcou1628770088.jpg",
-        "idMeal": "53057"
-      },
-      {
-        "strMeal": "Vegetable Shepherd's Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/w8umt11583268117.jpg",
-        "idMeal": "53000"
+        "name": "مشكل مقبلات",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbca234eb-cb59-41ac-9da8-57a58a2695d0.jpg?alt=media&token=965cb161-bef9-4a0a-992b-5502efc4c748",
+        "description": "تشكيلة من الحمص والمتبل والتبولة والسلطة الخضراء",
+        "price": "26.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "2",
-    "strCategory": "Chicken",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/chicken.png",
-    "strCategoryDescription": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011.[1] Humans commonly keep chickens as a source of food (consuming both their meat and eggs) and, more rarely, as pets.",
+    "name": "المقبلات الساخنة",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F48d468ae-fca2-413e-aad2-a066d4fa9a33.jpeg?alt=media&token=ad181384-49c0-4564-8237-4bc33fc0bb0b",
     "products": [
       {
-        "strMeal": "Ayam Percik",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
-        "idMeal": "53050"
+        "name": "شوربة الفطر البري",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F90f73b4d-ef44-47f3-a6c6-c190dc65fa99.jpeg?alt=media&token=380bcea8-2446-4fd5-9e6e-5b0feffce1b2",
+        "description": "حساء الفطر البري الشهي واللذيذ",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Brown Stew Chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
-        "idMeal": "52940"
+        "name": "شوربة عدس",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fad1c8d12-5fb8-447e-bfce-3f6550f53830.jpeg?alt=media&token=816c656d-33b1-4a49-8872-31e071eae365",
+        "description": "حساء العدس الشهي والدافئ",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Chick-Fil-A Sandwich",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
-        "idMeal": "53016"
+        "name": "بطاطس مقلي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd53d815d-7c04-4cc9-a407-ab61d2c0f92a.jpg?alt=media&token=e5d9d83e-3d44-4e30-a987-513f332274bc",
+        "description": "أصابع البطاطا الذهبية مع رشة من الفليفلة و الملح",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Chicken & mushroom Hotpot",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
-        "idMeal": "52846"
+        "name": "بطاطا حرة",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe8bcd248-bad8-458e-afa2-10e04927e1d9.jpeg?alt=media&token=6dc54c9d-f65d-453a-bd9b-d66ba2c7299a",
+        "description": "قطع البطاطا الطازجة المدهونة بتتبيلتنا الزاكية مع القليل من الثوم والبقدونس",
+        "price": "19.00 SAR"
       },
       {
-        "strMeal": "Chicken Alfredo Primavera",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
-        "idMeal": "52796"
+        "name": "كبة مشوية",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fca853bc7-034c-442a-b24a-becd2ac402e1.jpeg?alt=media&token=d7ffb5f6-3fe2-47a7-aebb-7bb569438c31",
+        "description": "محشوة باللحم مع حبيبات الرمان",
+        "price": "8.00 SAR"
       },
       {
-        "strMeal": "Chicken Basquaise",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wruvqv1511880994.jpg",
-        "idMeal": "52934"
+        "name": "كبة مقلية",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F291bced7-ec6d-44c1-bc6f-d078c7c81633.jpeg?alt=media&token=f2f3c9a8-4fac-4799-9a2b-dbb41c4071d6",
+        "description": "معدة على طريقتنا الخاصة (٤ حبات)",
+        "price": "22.00 SAR"
       },
       {
-        "strMeal": "Chicken Congee",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
-        "idMeal": "52956"
+        "name": "حمص باللحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd6aa084b-c9c1-4174-969c-4344b0271899.jpg?alt=media&token=6632e4e9-f2d8-462c-a0db-8dbc7a123b3e",
+        "description": "حمصنا الخاص تتوسطه قطع اللحم الساخنة",
+        "price": "26.00 SAR"
       },
       {
-        "strMeal": "Chicken Couscous",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
-        "idMeal": "52850"
-      },
-      {
-        "strMeal": "Chicken Enchilada Casserole",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
-        "idMeal": "52765"
-      },
-      {
-        "strMeal": "Chicken Fajita Mac and Cheese",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
-        "idMeal": "52818"
-      },
-      {
-        "strMeal": "Chicken Ham and Leek Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg",
-        "idMeal": "52875"
-      },
-      {
-        "strMeal": "Chicken Handi",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
-        "idMeal": "52795"
-      },
-      {
-        "strMeal": "Chicken Karaage",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tyywsw1505930373.jpg",
-        "idMeal": "52831"
-      },
-      {
-        "strMeal": "Chicken Marengo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qpxvuq1511798906.jpg",
-        "idMeal": "52920"
-      },
-      {
-        "strMeal": "Chicken Parmentier",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uwvxpv1511557015.jpg",
-        "idMeal": "52879"
-      },
-      {
-        "strMeal": "Chicken Quinoa Greek Salad",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
-        "idMeal": "53011"
-      },
-      {
-        "strMeal": "Coq au vin",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qstyvs1505931190.jpg",
-        "idMeal": "52832"
-      },
-      {
-        "strMeal": "Crock Pot Chicken Baked Tacos",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ypxvwv1505333929.jpg",
-        "idMeal": "52830"
-      },
-      {
-        "strMeal": "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/b5ft861583188991.jpg",
-        "idMeal": "52996"
-      },
-      {
-        "strMeal": "General Tso's Chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529444113.jpg",
-        "idMeal": "52951"
-      },
-      {
-        "strMeal": "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg",
-        "idMeal": "52993"
-      },
-      {
-        "strMeal": "Jerk chicken with rice & peas",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tytyxu1515363282.jpg",
-        "idMeal": "52937"
-      },
-      {
-        "strMeal": "Katsu Chicken curry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg",
-        "idMeal": "52820"
-      },
-      {
-        "strMeal": "Kentucky Fried Chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg",
-        "idMeal": "52813"
-      },
-      {
-        "strMeal": "Kung Pao Chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1525872624.jpg",
-        "idMeal": "52945"
-      },
-      {
-        "strMeal": "Nutty Chicken Curry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg",
-        "idMeal": "52851"
-      },
-      {
-        "strMeal": "Pad See Ew",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
-        "idMeal": "52774"
-      },
-      {
-        "strMeal": "Piri-piri chicken and slaw",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/hglsbl1614346998.jpg",
-        "idMeal": "53039"
-      },
-      {
-        "strMeal": "Potato Gratin with Chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qwrtut1468418027.jpg",
-        "idMeal": "52780"
-      },
-      {
-        "strMeal": "Rappie Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ruwpww1511817242.jpg",
-        "idMeal": "52933"
-      },
-      {
-        "strMeal": "Rosół (Polish Chicken Soup)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/lx1kkj1593349302.jpg",
-        "idMeal": "53020"
-      },
-      {
-        "strMeal": "Shawarma",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
-        "idMeal": "53028"
-      },
-      {
-        "strMeal": "Tandoori chicken",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
-        "idMeal": "52806"
-      },
-      {
-        "strMeal": "Teriyaki Chicken Casserole",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
-        "idMeal": "52772"
-      },
-      {
-        "strMeal": "Thai Green Curry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
-        "idMeal": "52814"
+        "name": "متبل باللحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F69b5d664-5e5a-49a1-9fa4-e858e686f155.jpeg?alt=media&token=a5b4c6e6-5222-4d5b-b3b7-893e35bbcf2e",
+        "description": "متبلنا الخاص تتوسطه قطع اللحم الساخنة",
+        "price": "26.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "3",
-    "strCategory": "Dessert",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/dessert.png",
-    "strCategoryDescription": "Dessert is a course that concludes a meal. The course usually consists of sweet foods, such as confections dishes or fruit, and possibly a beverage such as dessert wine or liqueur, however in the United States it may include coffee, cheeses, nuts, or other savory items regarded as a separate course elsewhere. In some parts of the world, such as much of central and western Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.\r\n\r\nThe term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, and sweet soups, and tarts. Fruit is also commonly found in dessert courses because of its naturally occurring sweetness. Some cultures sweeten foods that are more commonly savory to create desserts.",
+    "name": "أطباق الفرن",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Ff02435b4-6257-4946-b0ed-9081a655c28f.jpeg?alt=media&token=69c615e8-29dd-49c2-8f51-4d4252191c8a",
     "products": [
       {
-        "strMeal": "Apam balik",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
-        "idMeal": "53049"
+        "name": "صفيحة شامية",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F548998f7-4145-47a5-9992-dd93ac46af13.jpg?alt=media&token=59aa5690-b69f-4275-be9c-4a0a9f3003dc",
+        "description": "اللحم المفروم المتبل بطريقتنا الخاصة على رقائق العجين المقمرة بالفرن",
+        "price": "Starts From 27.00 SAR"
       },
       {
-        "strMeal": "Apple & Blackberry Crumble",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
-        "idMeal": "52893"
+        "name": "صفيحة شامية بدبس الرمان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6a9c5615-7785-4e70-b5c2-25db2003c271.jpg?alt=media&token=2eab7255-ade7-40f6-b384-feda76532ac0",
+        "description": "اللحم المفروم المتبل بطريقتنا الخاصة مع دبس الرمان على رقائق العجين المقمرة بالفرن",
+        "price": "Starts From 27.00 SAR"
       },
       {
-        "strMeal": "Apple Frangipan Tart",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
-        "idMeal": "52768"
+        "name": "لحم بعجين حلبي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F01decda6-bb88-4829-b842-8f93fbd943ec.jpg?alt=media&token=26d636eb-44c9-4602-b33f-df6ef2a24e63",
+        "description": "لحم مفروم متبل بطريقتنا الخاصة على رقائق العجين المدورة والمقمرة بالفرن",
+        "price": "Starts From 27.00 SAR"
       },
       {
-        "strMeal": "Bakewell tart",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
-        "idMeal": "52767"
+        "name": "لحم بعجين بدبس الرمان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F89bb3905-06f1-4d06-9e50-98543ba03045.jpg?alt=media&token=f76c1e45-f508-4c10-a0d8-67b1c198799e",
+        "description": "لحم مفروم متبل بطريقتنا الخاصة  مع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
+        "price": "Starts From 27.00 SAR"
       },
       {
-        "strMeal": "Banana Pancakes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
-        "idMeal": "52855"
+        "name": "كفتة لحم بالطحينة",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F5a17b27f-3776-4faa-9d02-f52c9671f70c.jpeg?alt=media&token=885c46e4-7bfa-48d8-9f83-9225580ffc2d",
+        "description": "قطعة الكفتة الطرية يعلوها صوص الطحينة الخاص مع نفحة البصل الأخضر وحبات السمسم",
+        "price": "32.00 SAR"
       },
       {
-        "strMeal": "Battenberg Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg",
-        "idMeal": "52894"
+        "name": "فخارة دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F73161701-2c98-4388-a3a8-765a6c6de0d7.jpeg?alt=media&token=af6c84db-5a07-4642-8117-a70ddca64252",
+        "description": "شرائح من الدجاج الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
+        "price": "33.00 SAR"
       },
       {
-        "strMeal": "BeaverTails",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ryppsv1511815505.jpg",
-        "idMeal": "52928"
-      },
-      {
-        "strMeal": "Blackberry Fool",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rpvptu1511641092.jpg",
-        "idMeal": "52891"
-      },
-      {
-        "strMeal": "Bread and Butter Pudding",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg",
-        "idMeal": "52792"
-      },
-      {
-        "strMeal": "Budino Di Ricotta",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1549542877.jpg",
-        "idMeal": "52961"
-      },
-      {
-        "strMeal": "Canadian Butter Tarts",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wpputp1511812960.jpg",
-        "idMeal": "52923"
-      },
-      {
-        "strMeal": "Carrot Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg",
-        "idMeal": "52897"
-      },
-      {
-        "strMeal": "Cashew Ghoriba Biscuits",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/t3r3ka1560461972.jpg",
-        "idMeal": "52976"
-      },
-      {
-        "strMeal": "Chelsea Buns",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vqpwrv1511723001.jpg",
-        "idMeal": "52898"
-      },
-      {
-        "strMeal": "Chinon Apple Tarts",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg",
-        "idMeal": "52910"
-      },
-      {
-        "strMeal": "Choc Chip Pecan Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rqvwxt1511384809.jpg",
-        "idMeal": "52856"
-      },
-      {
-        "strMeal": "Chocolate Avocado Mousse",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uttuxy1511382180.jpg",
-        "idMeal": "52853"
-      },
-      {
-        "strMeal": "Chocolate Caramel Crispy",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1550442508.jpg",
-        "idMeal": "52966"
-      },
-      {
-        "strMeal": "Chocolate Gateau",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
-        "idMeal": "52776"
-      },
-      {
-        "strMeal": "Chocolate Raspberry Brownies",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg",
-        "idMeal": "52860"
-      },
-      {
-        "strMeal": "Chocolate Souffle",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/twspvx1511784937.jpg",
-        "idMeal": "52905"
-      },
-      {
-        "strMeal": "Christmas cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ldnrm91576791881.jpg",
-        "idMeal": "52990"
-      },
-      {
-        "strMeal": "Christmas Pudding Flapjack",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vvusxs1483907034.jpg",
-        "idMeal": "52788"
-      },
-      {
-        "strMeal": "Christmas Pudding Trifle",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/r33cud1576791081.jpg",
-        "idMeal": "52989"
-      },
-      {
-        "strMeal": "Classic Christmas pudding",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1d85821576790598.jpg",
-        "idMeal": "52988"
-      },
-      {
-        "strMeal": "Dundee cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wxyvqq1511723401.jpg",
-        "idMeal": "52899"
-      },
-      {
-        "strMeal": "Eccles Cakes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wtqrqw1511639627.jpg",
-        "idMeal": "52888"
-      },
-      {
-        "strMeal": "Eton Mess",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuxwvq1483907861.jpg",
-        "idMeal": "52791"
-      },
-      {
-        "strMeal": "Honey Yogurt Cheesecake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/y2irzl1585563479.jpg",
-        "idMeal": "53007"
-      },
-      {
-        "strMeal": "Hot Chocolate Fudge",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xrysxr1483568462.jpg",
-        "idMeal": "52787"
-      },
-      {
-        "strMeal": "Jam Roly-Poly",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ysqupp1511640538.jpg",
-        "idMeal": "52890"
-      },
-      {
-        "strMeal": "Key Lime Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg",
-        "idMeal": "52859"
-      },
-      {
-        "strMeal": "Krispy Kreme Donut",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg",
-        "idMeal": "53015"
-      },
-      {
-        "strMeal": "Madeira Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/urtqut1511723591.jpg",
-        "idMeal": "52900"
-      },
-      {
-        "strMeal": "Mince Pies",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qe8pf51576795532.jpg",
-        "idMeal": "52991"
-      },
-      {
-        "strMeal": "Nanaimo Bars",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vwuprt1511813703.jpg",
-        "idMeal": "52924"
-      },
-      {
-        "strMeal": "New York cheesecake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg",
-        "idMeal": "52858"
-      },
-      {
-        "strMeal": "Pancakes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
-        "idMeal": "52854"
-      },
-      {
-        "strMeal": "Parkin Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qxuqtt1511724269.jpg",
-        "idMeal": "52902"
-      },
-      {
-        "strMeal": "Peach & Blueberry Grunt",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ssxvup1511387476.jpg",
-        "idMeal": "52862"
-      },
-      {
-        "strMeal": "Peanut Butter Cheesecake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtuuys1511387068.jpg",
-        "idMeal": "52861"
-      },
-      {
-        "strMeal": "Peanut Butter Cookies",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1544384070.jpg",
-        "idMeal": "52958"
-      },
-      {
-        "strMeal": "Pear Tarte Tatin",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rxvxrr1511797671.jpg",
-        "idMeal": "52916"
-      },
-      {
-        "strMeal": "Polskie Naleśniki (Polish Pancakes)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/58bkyo1593350017.jpg",
-        "idMeal": "53022"
-      },
-      {
-        "strMeal": "Portuguese custard tarts",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vmz7gl1614350221.jpg",
-        "idMeal": "53046"
-      },
-      {
-        "strMeal": "Pouding chomeur",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yqqqwu1511816912.jpg",
-        "idMeal": "52932"
-      },
-      {
-        "strMeal": "Pumpkin Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/usuqtp1511385394.jpg",
-        "idMeal": "52857"
-      },
-      {
-        "strMeal": "Rock Cakes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tqrrsq1511723764.jpg",
-        "idMeal": "52901"
-      },
-      {
-        "strMeal": "Rocky Road Fudge",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vtxyxv1483567157.jpg",
-        "idMeal": "52786"
-      },
-      {
-        "strMeal": "Rogaliki (Polish Croissant Cookies)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/7mxnzz1593350801.jpg",
-        "idMeal": "53024"
-      },
-      {
-        "strMeal": "Salted Caramel Cheescake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg",
-        "idMeal": "52833"
-      },
-      {
-        "strMeal": "Seri muka kuih",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/6ut2og1619790195.jpg",
-        "idMeal": "53054"
-      },
-      {
-        "strMeal": "Spotted Dick",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqvyqr1511638875.jpg",
-        "idMeal": "52886"
-      },
-      {
-        "strMeal": "Sticky Toffee Pudding",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqqqtu1511637379.jpg",
-        "idMeal": "52883"
-      },
-      {
-        "strMeal": "Sticky Toffee Pudding Ultimate",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xrptpq1483909204.jpg",
-        "idMeal": "52793"
-      },
-      {
-        "strMeal": "Strawberries Romanoff",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/oe8rg51699014028.jpg",
-        "idMeal": "53082"
-      },
-      {
-        "strMeal": "Strawberry Rhubarb Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg",
-        "idMeal": "53005"
-      },
-      {
-        "strMeal": "Sugar Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yrstur1511816601.jpg",
-        "idMeal": "52931"
-      },
-      {
-        "strMeal": "Summer Pudding",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rsqwus1511640214.jpg",
-        "idMeal": "52889"
-      },
-      {
-        "strMeal": "Tarte Tatin",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ryspuw1511786688.jpg",
-        "idMeal": "52909"
-      },
-      {
-        "strMeal": "Timbits",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/txsupu1511815755.jpg",
-        "idMeal": "52929"
-      },
-      {
-        "strMeal": "Treacle Tart",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wprvrw1511641295.jpg",
-        "idMeal": "52892"
-      },
-      {
-        "strMeal": "Tunisian Orange Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/y4jpgq1560459207.jpg",
-        "idMeal": "52970"
-      },
-      {
-        "strMeal": "Walnut Roll Gužvara",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/u9l7k81628771647.jpg",
-        "idMeal": "53062"
-      },
-      {
-        "strMeal": "White chocolate creme brulee",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uryqru1511798039.jpg",
-        "idMeal": "52917"
+        "name": "فخارة لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4e468629-010a-4aef-879d-32a19b6ea374.jpeg?alt=media&token=c82f5374-fb3c-4699-a2cd-9f5d7fc4156e",
+        "description": "شرائح من اللحم الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
+        "price": "38.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "4",
-    "strCategory": "Lamb",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/lamb.png",
-    "strCategoryDescription": "Lamb, hogget, and mutton are the meat of domestic sheep (species Ovis aries) at different ages.\r\n\r\nA sheep in its first year is called a lamb, and its meat is also called lamb. The meat of a juvenile sheep older than one year is hogget; outside the USA this is also a term for the living animal. The meat of an adult sheep is mutton, a term only used for the meat, not the living animals. The term mutton is almost always used to refer to goat meat in the Indian subcontinent.\r\n\r\n",
+    "name": "مشويات اللحوم",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fe566138f-595d-4dc5-a508-7a9947a54684.jpeg?alt=media&token=9e6c58f1-702c-49de-b632-57a0d797e0e0",
     "products": [
       {
-        "strMeal": "Kapsalon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg",
-        "idMeal": "52769"
+        "name": "كباب لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb76e9091-196c-4d2d-95a6-7c33f9380957.jpeg?alt=media&token=b650a27c-e9d2-4933-ae5d-886dc8e890a4",
+        "description": "كباب اللحم الطازج الطري المتبل بطريقتنا",
+        "price": "Starts From 34.00 SAR"
       },
       {
-        "strMeal": "Keleya Zaara",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/8x09hy1560460923.jpg",
-        "idMeal": "52974"
+        "name": "أوصال لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F115bbe0f-6773-4850-8744-a62b262c32b0.jpg?alt=media&token=eaec6933-76cf-4b77-9b86-34a36d9b4d79",
+        "description": "قطع من اللحم الطري والطازج المتبلة على طريقتنا",
+        "price": "Starts From 61.00 SAR"
       },
       {
-        "strMeal": "Lamb and Lemon Souvlaki",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rjhf741585564676.jpg",
-        "idMeal": "53009"
+        "name": "مشكل لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2abc05ad-3b40-44d8-95ef-92a85b12b989.jpeg?alt=media&token=6f734894-312d-49c3-962c-5219b6924844",
+        "description": "تشكيلة من أوصال اللحم الطري وكباب اللحم الطازج (4 أسياخ)",
+        "price": "57.00 SAR"
       },
       {
-        "strMeal": "Lamb and Potato pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sxrpws1511555907.jpg",
-        "idMeal": "52877"
+        "name": "مشوي مشكل صغير",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F9201ee23-d69f-415b-85ed-47719b2650d6.jpeg?alt=media&token=f36a4ea1-0eca-4e84-a115-2cf88aba7391",
+        "description": "تشكيلة من أوصال اللحم  وأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
+        "price": "Starts From 37.00 SAR"
       },
       {
-        "strMeal": "Lamb Biryani",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
-        "idMeal": "52805"
+        "name": "كباب اسطنبولي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd0162773-05e1-48b8-ae9f-f9fc71e8ba23.jpeg?alt=media&token=78e92cd9-ab97-497c-abcc-d0f5d510847d",
+        "description": "كباب اللحم الطري والطازج بتتبيلتنا الخاصة مع نفحة من الثوم والفلفل البارد (2 سيخ)",
+        "price": "36.00 SAR"
       },
       {
-        "strMeal": "Lamb Pilaf (Plov)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/kos9av1699014767.jpg",
-        "idMeal": "53083"
+        "name": "كباب باذنجان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa02bb6f5-fa89-4f5d-9364-576e6c90fef6.jpeg?alt=media&token=86a1ebd5-2b0d-4554-b348-6cc92175f727",
+        "description": "قطع كباب اللحم الطري المشوي مع الباذنجان وشرائح الطماطم يأتيك مع الصوص الخاص المطبوخ على الفحم",
+        "price": "Starts From 36.00 SAR"
       },
       {
-        "strMeal": "Lamb Rogan josh",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vvstvq1487342592.jpg",
-        "idMeal": "52808"
+        "name": "كباب مع الصوص",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F09b7f40f-be1e-4227-9e6c-b0ade13623e8.jpeg?alt=media&token=4ab2c80b-fb62-4d2c-b760-a1e5108d4326",
+        "description": "كباب اللحم الطري يقدم مع الطماطم المهروسة المعدة على الفحم (4 أسياخ)",
+        "price": "36.00 SAR"
       },
       {
-        "strMeal": "Lamb Tagine",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yuwtuu1511295751.jpg",
-        "idMeal": "52843"
+        "name": "كباب خشخاش",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F63df290f-3afb-4b24-a952-8ca4018a7808.jpg?alt=media&token=3a83294e-ccb7-44ed-96ae-2068bffa90f8",
+        "description": "كباب اللحم الطازج المتبل على طريقتنا الخاصة يقدم مع الصوص الخاص المعد على الفحم (4 أسياخ)",
+        "price": "36.00 SAR"
       },
       {
-        "strMeal": "Lamb tomato and sweet spices",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtwtss1468572261.jpg",
-        "idMeal": "52782"
+        "name": "عرايس لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F897b94b9-d23b-45d7-b6be-adedb9c5736c.jpeg?alt=media&token=92164ffd-7af1-46e5-8757-09063e4e55d7",
+        "description": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان (8 قطع)",
+        "price": "29.00 SAR"
       },
       {
-        "strMeal": "Lamb Tzatziki Burgers",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/k420tj1585565244.jpg",
-        "idMeal": "53010"
+        "name": "طوشكا مع الجبن والمكسرات",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbf74f82f-e349-4bcf-bda2-5466155cb808.jpeg?alt=media&token=4fe2e72f-5984-46b9-8b9b-fc4e76743627",
+        "description": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك (8 قطع)",
+        "price": "36.00 SAR"
       },
       {
-        "strMeal": "Lancashire hotpot",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uttrxw1511637813.jpg",
-        "idMeal": "52884"
+        "name": "كبدة غنم مشوية",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F33260d8f-6ff1-426c-83b6-7a1106cc731d.jpeg?alt=media&token=cca5fefd-8146-420b-acf7-9b70759092b8",
+        "description": "كبدة غنم مشوية مع رشة من الملح والفلفل الأسود (2 سيخ)",
+        "price": "29.00 SAR"
       },
       {
-        "strMeal": "McSinghs Scotch pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vssrtx1511557680.jpg",
-        "idMeal": "52880"
-      },
-      {
-        "strMeal": "Rigatoni with fennel sausage sauce",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtqvys1468573168.jpg",
-        "idMeal": "52783"
-      },
-      {
-        "strMeal": "Stuffed Lamb Tomatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/u55lbp1585564013.jpg",
-        "idMeal": "53008"
-      },
-      {
-        "strMeal": "Tunisian Lamb Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/t8mn9g1560460231.jpg",
-        "idMeal": "52972"
+        "name": "كبة لحم قصابية",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6616c6a5-24a1-44d8-a453-a1d38154d66a.jpg?alt=media&token=ae8d5b06-c545-413d-8ac2-b8974740302f",
+        "description": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية (2 سيخ)",
+        "price": "29.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "5",
-    "strCategory": "Miscellaneous",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/miscellaneous.png",
-    "strCategoryDescription": "General foods that don't fit into another category",
+    "name": "مشويات الدجاج",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fcbbcc30f-0e93-454a-85eb-1acc37a1503c.jpeg?alt=media&token=978a6817-f4c3-45a2-8323-3e9008fc6370",
     "products": [
       {
-        "strMeal": "Bean & Sausage Hotpot",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vxuyrx1511302687.jpg",
-        "idMeal": "52848"
+        "name": "كباب دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2d481472-9adf-492a-900a-a271d01ecab5.jpeg?alt=media&token=f72b124e-49e7-4801-a977-4f785a0c77f3",
+        "description": "كباب الدجاج الطري والطازج المتبل على طريقتنا الخاصة",
+        "price": "Starts From 29.00 SAR"
       },
       {
-        "strMeal": "Callaloo Jamaican Style",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ussyxw1515364536.jpg",
-        "idMeal": "52939"
+        "name": "شيش طاووق",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0734ff45-c0e8-4815-bade-647a3a1ff693.jpeg?alt=media&token=b313e65c-8a68-4cd5-8329-20efae8ad4b3",
+        "description": "قطع من صدر الدجاج الفاخر المتبلة بتوابلنا الخاصة",
+        "price": "Starts From 33.00 SAR"
       },
       {
-        "strMeal": "Chakchouka ",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/gpz67p1560458984.jpg",
-        "idMeal": "52969"
+        "name": "مشكل دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb5ce47fe-06af-4a21-8c5e-004393b93cb2.jpeg?alt=media&token=081ee30d-e539-4d03-a6e5-4eb42a0ea9ac",
+        "description": "تشكيلة من أوصال الدجاج الطري وكباب الدجاج",
+        "price": "Starts From 34.00 SAR"
       },
       {
-        "strMeal": "Duck Confit",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wvpvsu1511786158.jpg",
-        "idMeal": "52907"
-      },
-      {
-        "strMeal": "French Lentils With Garlic and Thyme",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vwwspt1487394060.jpg",
-        "idMeal": "52815"
-      },
-      {
-        "strMeal": "French Omelette",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yvpuuy1511797244.jpg",
-        "idMeal": "52915"
-      },
-      {
-        "strMeal": "Osso Buco alla Milanese",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wwuqvt1487345467.jpg",
-        "idMeal": "52810"
-      },
-      {
-        "strMeal": "Pizza Express Margherita",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
-        "idMeal": "53014"
-      },
-      {
-        "strMeal": "Poutine",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg",
-        "idMeal": "52804"
-      },
-      {
-        "strMeal": "Three-cheese souffles",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sxwquu1511793428.jpg",
-        "idMeal": "52912"
-      },
-      {
-        "strMeal": "Turkey Meatloaf",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ypuxtw1511297463.jpg",
-        "idMeal": "52845"
+        "name": "أجنحة دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F28e45e1b-2c6f-4058-89b9-1cf9ae8d405a.jpeg?alt=media&token=a5d60931-5e4e-4bb2-bad7-4c37187b4e6b",
+        "description": "اثنتا عشرة قطعة من أجنحة الدجاج بالعظم تقدم مع الصوص الخاص",
+        "price": "18.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "6",
-    "strCategory": "Pasta",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/pasta.png",
-    "strCategoryDescription": "Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.\r\n\r\nAlso commonly used to refer to the variety of pasta dishes, pasta is typically a noodle made from an unleavened dough of a durum wheat flour mixed with water or eggs and formed into sheets or various shapes, then cooked by boiling or baking. As an alternative for those wanting a different taste, or who need to avoid products containing gluten, some pastas can be made using rice flour in place of wheat.[3][4] Pastas may be divided into two broad categories, dried (pasta secca) and fresh (pasta fresca).",
+    "name": "كيوانيات",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F77f4cec4-1913-4b01-90cd-ad5bdfcc6707.jpeg?alt=media&token=c51b4a51-33c4-4fc9-877e-5ef5c466487d",
     "products": [
       {
-        "strMeal": "Chilli prawn linguine",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
-        "idMeal": "52839"
+        "name": "كباب كيوان لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc001a7f5-1bff-4e62-a922-4a03986a024a.jpeg?alt=media&token=ae819a56-933d-426e-b25e-61ce149ea0fe",
+        "description": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
+        "price": "54.00 SAR"
       },
       {
-        "strMeal": "Fettuccine Alfredo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/0jv5gx1661040802.jpg",
-        "idMeal": "53064"
+        "name": "كباب كيوان دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F038ea8d0-de27-48b6-89af-4077d56e074d.jpeg?alt=media&token=a9d1c257-ea13-4f0b-be20-3a91cf255a4b",
+        "description": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
+        "price": "44.00 SAR"
       },
       {
-        "strMeal": "Fettucine alfredo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uquqtu1511178042.jpg",
-        "idMeal": "52835"
+        "name": "كباب رول مع المكسرات لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2018ae78-6924-4a15-b888-9c389ac5f275.jpg?alt=media&token=acd23946-f077-439b-aa3b-b3e47cc99b28",
+        "description": "ثمان قطع من كباب اللحم الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
+        "price": "39.00 SAR"
       },
       {
-        "strMeal": "Grilled Mac and Cheese Sandwich",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
-        "idMeal": "52829"
+        "name": "كباب رول مع المكسرات دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb514a7bd-d8f7-45b4-9dc4-9104a5083aa7.jpg?alt=media&token=ce68cbd2-2a2f-4773-9c1f-bd181ad6c5e2",
+        "description": "ثمان قطع من كباب الدجاج الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
+        "price": "34.00 SAR"
       },
       {
-        "strMeal": "Lasagna Sandwiches",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
-        "idMeal": "52987"
+        "name": "كفتة كيوان لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Feaccdb84-15de-4025-a07f-06889b2eeb61.jpg?alt=media&token=35a76290-fdf7-4e86-8aa3-8630824a27dc",
+        "description": "كفتة من اللحم الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
+        "price": "39.00 SAR"
       },
       {
-        "strMeal": "Lasagne",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
-        "idMeal": "52844"
+        "name": "كفتة كيوان دجاج",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3522abe6-db12-42b7-ad95-230012a0ad12.jpeg?alt=media&token=b2a24e4b-3577-4bd6-a8d8-086755450c5a",
+        "description": "كفتة من الدجاج الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
+        "price": "36.00 SAR"
       },
       {
-        "strMeal": "Pilchard puttanesca",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vvtvtr1511180578.jpg",
-        "idMeal": "52837"
+        "name": "كباب بالكرز",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F81d8656f-171d-4c21-b050-b80a30254119.jpeg?alt=media&token=8c483dfd-7444-4749-822b-eb13c7da6daf",
+        "description": "قطع مكورة من كباب اللحم الطازج المغمورة بالكرز المعصور خصيصا لهذا الطبق الفاخر",
+        "price": "56.00 SAR"
       },
       {
-        "strMeal": "Spaghetti alla Carbonara",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
-        "idMeal": "52982"
+        "name": "كباب موزريلا مع المكسرات",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F1df55a29-ae08-458c-b4a7-82df8bbd82b1.jpeg?alt=media&token=15104153-b8aa-4330-bc87-6e436524022e",
+        "description": "كباب اللحم الطري المتبل بطريقتنا الخاصة مع جبنة الموزريلا والمكسرات (4 أسياخ)",
+        "price": "43.00 SAR"
       },
       {
-        "strMeal": "Venetian Duck Ragu",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qvrwpt1511181864.jpg",
-        "idMeal": "52838"
+        "name": "رول ريتال",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb915b3c3-c774-4578-9fb9-423b0da8511c.jpeg?alt=media&token=4a060503-c6ff-4d7a-9caf-f8c915ad6ac7",
+        "description": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم (5 قطع)",
+        "price": "64.00 SAR"
+      },
+      {
+        "name": "ريش لحم",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff11a7a04-2b8a-4db6-b6ad-ccc36687473b.jpeg?alt=media&token=1f2ab6ff-81a8-459c-a217-97c8c9b18d16",
+        "description": "أربع قطع من ريش الغنم الشهية والطرية",
+        "price": "64.00 SAR"
+      },
+      {
+        "name": "طبق الشيف",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F84ca4cef-d2f8-4fdc-8e00-1c69db93d8ec.jpeg?alt=media&token=65644cb5-22aa-4640-8dff-657ef9416b48",
+        "description": "قطع من اللحم الطازج مع إضافتنا الخاصة الملفوفة بالعجين والمقمرة بالفرن",
+        "price": "48.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "7",
-    "strCategory": "Pork",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/pork.png",
-    "strCategoryDescription": "Pork is the culinary name for meat from a domestic pig (Sus scrofa domesticus). It is the most commonly consumed meat worldwide,[1] with evidence of pig husbandry dating back to 5000 BC. Pork is eaten both freshly cooked and preserved. Curing extends the shelf life of the pork products. Ham, smoked pork, gammon, bacon and sausage are examples of preserved pork. Charcuterie is the branch of cooking devoted to prepared meat products, many from pork.\r\n\r\nPork is the most popular meat in Eastern and Southeastern Asia, and is also very common in the Western world, especially in Central Europe. It is highly prized in Asian cuisines for its fat content and pleasant texture. Consumption of pork is forbidden by Jewish and Muslim dietary law, a taboo that is deeply rooted in tradition, with several suggested possible causes. The sale of pork is limited in Israel and illegal in certain Muslim countries.",
+    "name": "الحلى",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F12940de0-3442-4a5b-85c5-219542c44611.jpeg?alt=media&token=adfb1c2f-d6d9-4223-88b0-1241a1e2d40d",
     "products": [
       {
-        "strMeal": " Bubble & Squeak",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xusqvw1511638311.jpg",
-        "idMeal": "52885"
-      },
-      {
-        "strMeal": "BBQ Pork Sloppy Joes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg",
-        "idMeal": "52995"
-      },
-      {
-        "strMeal": "Bigos (Hunters Stew)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/md8w601593348504.jpg",
-        "idMeal": "53018"
-      },
-      {
-        "strMeal": "Boxty Breakfast",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/naqyel1608588563.jpg",
-        "idMeal": "53036"
-      },
-      {
-        "strMeal": "Coddled pork with cider",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/7vpsfp1608588991.jpg",
-        "idMeal": "53037"
-      },
-      {
-        "strMeal": "Crispy Sausages and Greens",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/st1ifa1583267248.jpg",
-        "idMeal": "52999"
-      },
-      {
-        "strMeal": "Ham hock colcannon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/n41ny81608588066.jpg",
-        "idMeal": "53035"
-      },
-      {
-        "strMeal": "Hot and Sour Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529445893.jpg",
-        "idMeal": "52954"
-      },
-      {
-        "strMeal": "Japanese Katsudon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/d8f6qx1604182128.jpg",
-        "idMeal": "53034"
-      },
-      {
-        "strMeal": "Pork Cassoulet",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wxuvuv1511299147.jpg",
-        "idMeal": "52847"
-      },
-      {
-        "strMeal": "Portuguese barbecued pork (Febras assadas)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/cybyue1614349443.jpg",
-        "idMeal": "53044"
-      },
-      {
-        "strMeal": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/h3ijwo1581013377.jpg",
-        "idMeal": "52994"
-      },
-      {
-        "strMeal": "Stamppot",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/hyarod1565090529.jpg",
-        "idMeal": "52980"
-      },
-      {
-        "strMeal": "Sweet and Sour Pork",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529442316.jpg",
-        "idMeal": "52949"
-      },
-      {
-        "strMeal": "Toad In The Hole",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ytuvwr1503070420.jpg",
-        "idMeal": "52822"
-      },
-      {
-        "strMeal": "Tonkatsu pork",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/lwsnkl1604181187.jpg",
-        "idMeal": "53032"
-      },
-      {
-        "strMeal": "Tourtiere",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ytpstt1511814614.jpg",
-        "idMeal": "52926"
-      },
-      {
-        "strMeal": "Vietnamese Grilled Pork (bun-thit-nuong)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qqwypw1504642429.jpg",
-        "idMeal": "52828"
-      },
-      {
-        "strMeal": "Wontons",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1525876468.jpg",
-        "idMeal": "52948"
+        "name": "أم علي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F1dedd2ee-e8ea-4573-aaa0-04920160b771.jpeg?alt=media&token=4a266d25-f4c8-4c29-bd1b-aee7cd6850d6",
+        "description": "تمتع بطبق رائع ومذاق ساخن مع هذا الطبق الفاخر المقدم مع الفستق وجوز الهند",
+        "price": "16.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "8",
-    "strCategory": "Seafood",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/seafood.png",
-    "strCategoryDescription": "Seafood is any form of sea life regarded as food by humans. Seafood prominently includes fish and shellfish. Shellfish include various species of molluscs, crustaceans, and echinoderms. Historically, sea mammals such as whales and dolphins have been consumed as food, though that happens to a lesser extent in modern times. Edible sea plants, such as some seaweeds and microalgae, are widely eaten as seafood around the world, especially in Asia (see the category of sea vegetables). In North America, although not generally in the United Kingdom, the term \"seafood\" is extended to fresh water organisms eaten by humans, so all edible aquatic life may be referred to as seafood. For the sake of completeness, this article includes all edible aquatic life.",
+    "name": "المشروبات الغازية ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F712d452b-e5ed-4217-8243-5c6e71a5330f.jpg?alt=media&token=a3b31aa0-ea88-45bd-ac7a-0f5c32a3e8b1",
     "products": [
       {
-        "strMeal": "Baked salmon with fennel & tomatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
-        "idMeal": "52959"
+        "name": "ببسي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F229a974b-3d6f-490f-8ced-f706f9d6425c.jpg?alt=media&token=cf2bbb52-d95d-4b9c-a0bf-98cd0cdb2d36",
+        "description": "",
+        "price": "3.00 SAR"
       },
       {
-        "strMeal": "Cajun spiced fish tacos",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
-        "idMeal": "52819"
+        "name": "سفن",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb1eeb4d3-bc52-4041-85ea-4dbb79280806.jpg?alt=media&token=eb2bba69-d410-430e-b5cb-72a488312d00",
+        "description": "",
+        "price": "3.00 SAR"
       },
       {
-        "strMeal": "Escovitch Fish",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg",
-        "idMeal": "52944"
+        "name": "ديو",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F7e740af6-90f7-494f-a166-b433fa9df3c8.png?alt=media&token=b20dfbb1-0eb1-4a3e-9852-f58206818d27",
+        "description": "",
+        "price": "3.00 SAR"
       },
       {
-        "strMeal": "Fish fofos",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg",
-        "idMeal": "53043"
+        "name": "حمضيات",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe165c59e-0931-4862-9259-99a42d98d70f.jpg?alt=media&token=eeaeb772-a044-45a0-9bba-5cf855f745a7",
+        "description": "",
+        "price": "3.00 SAR"
       },
       {
-        "strMeal": "Fish pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
-        "idMeal": "52802"
-      },
-      {
-        "strMeal": "Fish Soup (Ukha)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/7n8su21699013057.jpg",
-        "idMeal": "53079"
-      },
-      {
-        "strMeal": "Fish Stew with Rouille",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vptqpw1511798500.jpg",
-        "idMeal": "52918"
-      },
-      {
-        "strMeal": "Garides Saganaki",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg",
-        "idMeal": "52764"
-      },
-      {
-        "strMeal": "Grilled Portuguese sardines",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/lpd4wy1614347943.jpg",
-        "idMeal": "53041"
-      },
-      {
-        "strMeal": "Honey Teriyaki Salmon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
-        "idMeal": "52773"
-      },
-      {
-        "strMeal": "Kedgeree",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/utxqpt1511639216.jpg",
-        "idMeal": "52887"
-      },
-      {
-        "strMeal": "Kung Po Prawns",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1525873040.jpg",
-        "idMeal": "52946"
-      },
-      {
-        "strMeal": "Laksa King Prawn Noodles",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg",
-        "idMeal": "52821"
-      },
-      {
-        "strMeal": "Mediterranean Pasta Salad",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-        "idMeal": "52777"
-      },
-      {
-        "strMeal": "Mee goreng mamak",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
-        "idMeal": "53048"
-      },
-      {
-        "strMeal": "Nasi lemak",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wai9bw1619788844.jpg",
-        "idMeal": "53051"
-      },
-      {
-        "strMeal": "Portuguese fish stew (Caldeirada de peixe)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/do7zps1614349775.jpg",
-        "idMeal": "53045"
-      },
-      {
-        "strMeal": "Recheado Masala Fish",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg",
-        "idMeal": "52809"
-      },
-      {
-        "strMeal": "Salmon Avocado Salad",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
-        "idMeal": "52960"
-      },
-      {
-        "strMeal": "Salmon Prawn Risotto",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
-        "idMeal": "52823"
-      },
-      {
-        "strMeal": "Saltfish and Ackee",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vytypy1511883765.jpg",
-        "idMeal": "52936"
-      },
-      {
-        "strMeal": "Seafood fideuà",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wqqvyq1511179730.jpg",
-        "idMeal": "52836"
-      },
-      {
-        "strMeal": "Shrimp Chow Fun",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529445434.jpg",
-        "idMeal": "52953"
-      },
-      {
-        "strMeal": "Sledz w Oleju (Polish Herrings)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/7ttta31593350374.jpg",
-        "idMeal": "53023"
-      },
-      {
-        "strMeal": "Spring onion and prawn empanadas",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1c5oso1614347493.jpg",
-        "idMeal": "53040"
-      },
-      {
-        "strMeal": "Sushi",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
-        "idMeal": "53065"
-      },
-      {
-        "strMeal": "Three Fish Pie",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/spswqs1511558697.jpg",
-        "idMeal": "52882"
-      },
-      {
-        "strMeal": "Tuna and Egg Briks",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg",
-        "idMeal": "52975"
-      },
-      {
-        "strMeal": "Tuna Nicoise",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg",
-        "idMeal": "52852"
+        "name": "ماء",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc89a6730-ebef-41d6-91ff-16d1534c0f16.jpeg?alt=media&token=f7aed96f-8a4f-4346-a13a-958d1d0617b6",
+        "description": "",
+        "price": "1.00 SAR"
       }
     ]
   },
   {
-    "idCategory": "9",
-    "strCategory": "Side",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/side.png",
-    "strCategoryDescription": "A side dish, sometimes referred to as a side order, side item, or simply a side, is a food item that accompanies the entrée or main course at a meal. Side dishes such as salad, potatoes and bread are commonly used with main courses throughout many countries of the western world. New side orders introduced within the past decade[citation needed], such as rice and couscous, have grown to be quite popular throughout Europe, especially at formal occasions (with couscous appearing more commonly at dinner parties with Middle Eastern dishes).",
+    "name": "العصائر الطازجة",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F18ece9b6-d388-45a2-81e4-81147998e2ad.jpeg?alt=media&token=652e928c-84f9-49c8-afeb-9c5562e9b775",
     "products": [
       {
-        "strMeal": "Blini Pancakes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/0206h11699013358.jpg",
-        "idMeal": "53080"
+        "name": "طبقات كيوان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3d98fa8f-2c31-4fc2-8f24-e44b119d0bc4.jpeg?alt=media&token=51448ec4-0cb4-4387-8e44-c1ed27653909",
+        "description": "مشروبنا المميز مع حبيبات الرمان الطازج والمانجو الفاخرة وطبقة فراولة والآيس كريم ومشروب التوت الخاص",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Boulangère Potatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qywups1511796761.jpg",
-        "idMeal": "52914"
+        "name": "كوكتيل لايت",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fdbddb307-6e16-4b4a-9f24-2850f6d6670c.jpeg?alt=media&token=c3bb5b46-4d86-4652-b964-eaf83623b991",
+        "description": "خليط من الفواكه الطبيعية اللذيذة",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Brie wrapped in prosciutto & brioche",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg",
-        "idMeal": "52913"
+        "name": "برتقال",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F54e7938c-d0f2-4499-9d1a-a6973def6baf.jpeg?alt=media&token=2ff9db5c-4f96-458a-9a66-50af78a6d4c3",
+        "description": "عصير البرتقال الطازج",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Burek",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
-        "idMeal": "53060"
+        "name": "تفاح",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fef1c03d0-867d-44ca-8ac5-fd487336aeb1.jpg?alt=media&token=be431fac-4f9c-4535-b47e-de6341651989",
+        "description": "عصير التفاح الطازج",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Corba",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/58oia61564916529.jpg",
-        "idMeal": "52977"
+        "name": "رمان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fde9cddd0-df58-4759-958b-513b20b449a5.jpeg?alt=media&token=572a154c-4b76-42eb-b34c-f8d9c952a784",
+        "description": "تمتع بمذاق الرمان الطازج والشهي",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Fennel Dauphinoise",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ytttsv1511798734.jpg",
-        "idMeal": "52919"
+        "name": "منجا",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fcad48fad-5e29-448c-92af-34895ba9db57.jpg?alt=media&token=240335e2-fb54-47a5-bc73-ee46aee91a6d",
+        "description": "عصير المنجا الطازج",
+        "price": "14.00 SAR"
       },
       {
-        "strMeal": "Feteer Meshaltet",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/9f4z6v1598734293.jpg",
-        "idMeal": "53030"
+        "name": "ليمون نعناع",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff3b20c62-f068-4168-8cf9-71254d2e99d7.jpeg?alt=media&token=e27a815e-bf19-48fa-aa79-52a75ad45c92",
+        "description": "استمتع بمشروب الليمون والنعناع المنعش",
+        "price": "13.00 SAR"
       },
       {
-        "strMeal": "French Onion Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xvrrux1511783685.jpg",
-        "idMeal": "52903"
+        "name": "فراولة",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
+        "description": "عصير الفراولة الطازجة",
+        "price": "13.00 SAR"
       },
       {
-        "strMeal": "Fresh sardines",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/nv5lf31628771380.jpg",
-        "idMeal": "53061"
+        "name": "كوكتيل سعودي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe735be6d-f113-481d-8b8c-f722db3df929.jpg?alt=media&token=4823f14f-8ee4-4013-a88e-5b4c878a245f",
+        "description": "قطع الفواكة الطازجة المغمورة بالمشروب الخاص",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Japanese gohan rice",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/kw92t41604181871.jpg",
-        "idMeal": "53033"
+        "name": "موهيتو باشن فروت",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
+        "description": "موهيتو بنكهة الباشن فروت المنعش",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Kumpir",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg",
-        "idMeal": "52978"
+        "name": "موهيتو توت أزرق",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0484cf74-15c3-42ed-b111-23f1ffbbc525.jpeg?alt=media&token=25f38efe-6971-4bf8-a7ea-f2494040eb3d",
+        "description": "مذاق الموهيتو الخاص بنكهة التوت الأزرق",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Mushroom soup with buckwheat",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1ngcbf1628770793.jpg",
-        "idMeal": "53059"
+        "name": "موهيتو رمان",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd25640ff-cc81-423e-a0b8-0248e1c7a477.jpeg?alt=media&token=e2ac7531-760e-4c96-b134-5343b41e1251",
+        "description": "مذاق الموهيتو الخاص بنكهة الرمان",
+        "price": "16.00 SAR"
       },
       {
-        "strMeal": "Mustard champ",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/o7p9581608589317.jpg",
-        "idMeal": "53038"
-      },
-      {
-        "strMeal": "Pierogi (Polish Dumplings)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/45xxr21593348847.jpg",
-        "idMeal": "53019"
-      },
-      {
-        "strMeal": "Prawn & Fennel Bisque",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rtwwvv1511799504.jpg",
-        "idMeal": "52922"
-      },
-      {
-        "strMeal": "Snert (Dutch Split Pea Soup)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/9ptx0a1565090843.jpg",
-        "idMeal": "52981"
-      },
-      {
-        "strMeal": "Split Pea Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xxtsvx1511814083.jpg",
-        "idMeal": "52925"
-      }
-    ]
-  },
-  {
-    "idCategory": "10",
-    "strCategory": "Starter",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/starter.png",
-    "strCategoryDescription": "An entrée in modern French table service and that of much of the English-speaking world (apart from the United States and parts of Canada) is a dish served before the main course of a meal; it may be the first dish served, or it may follow a soup or other small dish or dishes. In the United States and parts of Canada, an entrée is the main dish or the only dish of a meal.\r\n\r\nHistorically, the entrée was one of the stages of the “Classical Order” of formal French table service of the 18th and 19th centuries. It formed a part of the “first service” of the meal, which consisted of potage, hors d’œuvre, and entrée (including the bouilli and relevé). The “second service” consisted of roast (rôti), salad, and entremets (the entremets sometimes being separated into a “third service” of their own). The final service consisted only of dessert.[3]:3–11 :13–25",
-    "products": [
-      {
-        "strMeal": "Broccoli & Stilton soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tvvxpv1511191952.jpg",
-        "idMeal": "52842"
-      },
-      {
-        "strMeal": "Clam chowder",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
-        "idMeal": "52840"
-      },
-      {
-        "strMeal": "Cream Cheese Tart",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg",
-        "idMeal": "52779"
-      },
-      {
-        "strMeal": "Creamy Tomato Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
-        "idMeal": "52841"
-      }
-    ]
-  },
-  {
-    "idCategory": "11",
-    "strCategory": "Vegan",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/vegan.png",
-    "strCategoryDescription": "Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.[b] A follower of either the diet or the philosophy is known as a vegan (pronounced /ˈviːɡən/ VEE-gən). Distinctions are sometimes made between several categories of veganism. Dietary vegans (or strict vegetarians) refrain from consuming animal products, not only meat but also eggs, dairy products and other animal-derived substances.[c] The term ethical vegan is often applied to those who not only follow a vegan diet but extend the philosophy into other areas of their lives, and oppose the use of animals for any purpose.[d] Another term is environmental veganism, which refers to the avoidance of animal products on the premise that the harvesting or industrial farming of animals is environmentally damaging and unsustainable.",
-    "products": [
-      {
-        "strMeal": "Roast fennel and aubergine paella",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1520081754.jpg",
-        "idMeal": "52942"
-      },
-      {
-        "strMeal": "Vegan Chocolate Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
-        "idMeal": "52794"
-      },
-      {
-        "strMeal": "Vegan Lasagna",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg",
-        "idMeal": "52775"
-      }
-    ]
-  },
-  {
-    "idCategory": "12",
-    "strCategory": "Vegetarian",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/vegetarian.png",
-    "strCategoryDescription": "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.\r\n\r\nVegetarianism may be adopted for various reasons. Many people object to eating meat out of respect for sentient life. Such ethical motivations have been codified under various religious beliefs, as well as animal rights advocacy. Other motivations for vegetarianism are health-related, political, environmental, cultural, aesthetic, economic, or personal preference. There are variations of the diet as well: an ovo-lacto vegetarian diet includes both eggs and dairy products, an ovo-vegetarian diet includes eggs but not dairy products, and a lacto-vegetarian diet includes dairy products but not eggs. A vegan diet excludes all animal products, including eggs and dairy. Some vegans also avoid other animal products such as beeswax, leather or silk clothing, and goose-fat shoe polish.",
-    "products": [
-      {
-        "strMeal": "Baingan Bharta",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg",
-        "idMeal": "52807"
-      },
-      {
-        "strMeal": "Beetroot Soup (Borscht)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/zadvgb1699012544.jpg",
-        "idMeal": "53078"
-      },
-      {
-        "strMeal": "Cabbage Soup (Shchi)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/60oc3k1699009846.jpg",
-        "idMeal": "53077"
-      },
-      {
-        "strMeal": "Chickpea Fajitas",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tvtxpq1511464705.jpg",
-        "idMeal": "52870"
-      },
-      {
-        "strMeal": "Crispy Eggplant",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/c7lzrl1683208757.jpg",
-        "idMeal": "53072"
-      },
-      {
-        "strMeal": "Dal fry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
-        "idMeal": "52785"
-      },
-      {
-        "strMeal": "Egg Drop Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529446137.jpg",
-        "idMeal": "52955"
-      },
-      {
-        "strMeal": "Eggplant Adobo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/y7h0lq1683208991.jpg",
-        "idMeal": "53073"
-      },
-      {
-        "strMeal": "Flamiche",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wssvvs1511785879.jpg",
-        "idMeal": "52906"
-      },
-      {
-        "strMeal": "Ful Medames",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/lvn2d51598732465.jpg",
-        "idMeal": "53025"
-      },
-      {
-        "strMeal": "Gigantes Plaki",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/b79r6f1585566277.jpg",
-        "idMeal": "53012"
-      },
-      {
-        "strMeal": "Grilled eggplant with coconut milk",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/bopa2i1683209167.jpg",
-        "idMeal": "53074"
-      },
-      {
-        "strMeal": "Kafteji",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1bsv1q1560459826.jpg",
-        "idMeal": "52971"
-      },
-      {
-        "strMeal": "Kidney Bean Curry",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sywrsu1511463066.jpg",
-        "idMeal": "52868"
-      },
-      {
-        "strMeal": "Koshari",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg",
-        "idMeal": "53027"
-      },
-      {
-        "strMeal": "Leblebi Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg",
-        "idMeal": "52973"
-      },
-      {
-        "strMeal": "Matar Paneer",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg",
-        "idMeal": "52865"
-      },
-      {
-        "strMeal": "Moroccan Carrot Soup",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/jcr46d1614763831.jpg",
-        "idMeal": "53047"
-      },
-      {
-        "strMeal": "Mushroom & Chestnut Rotolo",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ssyqwr1511451678.jpg",
-        "idMeal": "52864"
-      },
-      {
-        "strMeal": "Potato Salad (Olivier Salad)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ebvuir1699013665.jpg",
-        "idMeal": "53081"
-      },
-      {
-        "strMeal": "Provençal Omelette Cake",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qwtrtp1511799242.jpg",
-        "idMeal": "52921"
-      },
-      {
-        "strMeal": "Ratatouille",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg",
-        "idMeal": "52908"
-      },
-      {
-        "strMeal": "Ribollita",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xrrwpx1487347049.jpg",
-        "idMeal": "52811"
-      },
-      {
-        "strMeal": "Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ysqrus1487425681.jpg",
-        "idMeal": "52816"
-      },
-      {
-        "strMeal": "Shakshuka",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
-        "idMeal": "52963"
-      },
-      {
-        "strMeal": "Smoky Lentil Chili with Squash",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uwxqwy1483389553.jpg",
-        "idMeal": "52784"
-      },
-      {
-        "strMeal": "Spanish Tortilla",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/quuxsx1511476154.jpg",
-        "idMeal": "52872"
-      },
-      {
-        "strMeal": "Spicy Arrabiata Penne",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
-        "idMeal": "52771"
-      },
-      {
-        "strMeal": "Spicy North African Potato Salad",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/urtwux1486983078.jpg",
-        "idMeal": "52797"
-      },
-      {
-        "strMeal": "Spinach & Ricotta Cannelloni",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wspuvp1511303478.jpg",
-        "idMeal": "52849"
-      },
-      {
-        "strMeal": "Squash linguine",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wxswxy1511452625.jpg",
-        "idMeal": "52866"
-      },
-      {
-        "strMeal": "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/yqwtvu1487426027.jpg",
-        "idMeal": "52817"
-      },
-      {
-        "strMeal": "Stuffed Bell Peppers with Quinoa and Black Beans",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/b66myb1683207208.jpg",
-        "idMeal": "53067"
-      },
-      {
-        "strMeal": "Summer Pistou",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/rqtxvr1511792990.jpg",
-        "idMeal": "52911"
-      },
-      {
-        "strMeal": "Tahini Lentils",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vpxyqt1511464175.jpg",
-        "idMeal": "52869"
-      },
-      {
-        "strMeal": "Tamiya",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg",
-        "idMeal": "53026"
-      },
-      {
-        "strMeal": "Tortang Talong",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/va668f1683209318.jpg",
-        "idMeal": "53075"
-      },
-      {
-        "strMeal": "Vegetarian Casserole",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/vptwyt1511450962.jpg",
-        "idMeal": "52863"
-      },
-      {
-        "strMeal": "Vegetarian Chilli",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wqurxy1511453156.jpg",
-        "idMeal": "52867"
-      },
-      {
-        "strMeal": "Yaki Udon",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wrustq1511475474.jpg",
-        "idMeal": "52871"
-      }
-    ]
-  },
-  {
-    "idCategory": "13",
-    "strCategory": "Breakfast",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/breakfast.png",
-    "strCategoryDescription": "Breakfast is the first meal of a day. The word in English refers to breaking the fasting period of the previous night. There is a strong likelihood for one or more \"typical\", or \"traditional\", breakfast menus to exist in most places, but their composition varies widely from place to place, and has varied over time, so that globally a very wide range of preparations and ingredients are now associated with breakfast.",
-    "products": [
-      {
-        "strMeal": "Bread omelette",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg",
-        "idMeal": "53076"
-      },
-      {
-        "strMeal": "Breakfast Potatoes",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
-        "idMeal": "52965"
-      },
-      {
-        "strMeal": "English Breakfast",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg",
-        "idMeal": "52895"
-      },
-      {
-        "strMeal": "Fruit and Cream Cheese Breakfast Pastries",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1543774956.jpg",
-        "idMeal": "52957"
-      },
-      {
-        "strMeal": "Full English Breakfast",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
-        "idMeal": "52896"
-      },
-      {
-        "strMeal": "Home-made Mandazi",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/thazgm1555350962.jpg",
-        "idMeal": "52967"
-      },
-      {
-        "strMeal": "Salmon Eggs Eggs Benedict",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1550440197.jpg",
-        "idMeal": "52962"
-      },
-      {
-        "strMeal": "Smoked Haddock Kedgeree",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/1550441275.jpg",
-        "idMeal": "52964"
-      }
-    ]
-  },
-  {
-    "idCategory": "14",
-    "strCategory": "Goat",
-    "strCategoryThumb": "https://www.themealdb.com/images/category/goat.png",
-    "strCategoryDescription": "The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat. Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world. Milk from goats is often turned into goat cheese.",
-    "products": [
-      {
-        "strMeal": "Mbuzi Choma (Roasted Goat)",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/cuio7s1555492979.jpg",
-        "idMeal": "52968"
+        "name": "شاي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F62a5156b-fc48-48fe-b5c6-52b56a136d0a.jpeg?alt=media&token=c5407a38-7b5c-4036-b337-d5ac58731932",
+        "description": "على الطريقة الاسطنبولية",
+        "price": "3.00 SAR"
       }
     ]
   }
