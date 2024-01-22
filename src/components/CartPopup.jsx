@@ -1,5 +1,6 @@
 import "swiper/scss";
 
+import { Minus, Plus } from "react-feather";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
@@ -7,7 +8,6 @@ import Rounded from "./RoundedButton";
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import { useAtom } from "jotai";
-import { Minus, Plus } from "react-feather";
 
 const sizes = ["Small", "Medium", "Large"];
 
@@ -85,8 +85,8 @@ export default function CartPopup() {
                       <img
                         loading="lazy"
                         style={{ animationDelay: `${index * 0.3}s` }}
-                        src={dataForProductPopup?.strMealThumb}
-                        alt={dataForProductPopup?.strMeal}
+                        src={dataForProductPopup?.nameThumb}
+                        alt={dataForProductPopup?.name}
                         className="fadeIn"
                       />
                     </SwiperSlide>
@@ -96,7 +96,7 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__slider__heading fadeIn"
                 style={{ animationDelay: `0.3s` }}
               >
-                {dataForProductPopup?.strMeal}
+                {dataForProductPopup?.name}
               </div>
               <div
                 className="menu__home__content__popup__content__slider__weight fadeIn"
