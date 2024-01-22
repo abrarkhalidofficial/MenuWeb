@@ -7,6 +7,7 @@ import Rounded from "./RoundedButton";
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import { useAtom } from "jotai";
+import { Minus, Plus } from "react-feather";
 
 const sizes = ["Small", "Medium", "Large"];
 
@@ -168,7 +169,7 @@ export default function CartPopup() {
                   className="menu__home__content__popup__content__qauntity__button"
                   onClick={handleDecrement}
                 >
-                  -
+                  <Minus />
                 </button>
                 <div
                   className="menu__home__content__popup__content__qauntity__number fadeIn"
@@ -180,7 +181,7 @@ export default function CartPopup() {
                   className="menu__home__content__popup__content__qauntity__button"
                   onClick={handleIncrement}
                 >
-                  +
+                  <Plus />
                 </button>
               </div>
             </div>
