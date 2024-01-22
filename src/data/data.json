@@ -186,7 +186,7 @@
       {
         "name": "لحم بعجين بدبس الرمان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F89bb3905-06f1-4d06-9e50-98543ba03045.jpg?alt=media&token=f76c1e45-f508-4c10-a0d8-67b1c198799e",
-        "description": "لحم مفروم متبل بطريقتنا الخاصة  مع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
+        "description": "لحم مفروم متبل بطريقتنا الخاصةمع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "Starts From 27.00",
         "calories": "296"
       },
@@ -241,7 +241,7 @@
       {
         "name": "مشوي مشكل صغير",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F9201ee23-d69f-415b-85ed-47719b2650d6.jpeg?alt=media&token=f36a4ea1-0eca-4e84-a115-2cf88aba7391",
-        "description": "تشكيلة من أوصال اللحم  وأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
+        "description": "تشكيلة من أوصال اللحموأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
         "price": "Starts From 37.00",
         "calories": "260"
       },
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "name": "المشروبات الغازية ",
+    "name": "المشروبات الغازية",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F712d452b-e5ed-4217-8243-5c6e71a5330f.jpg?alt=media&token=a3b31aa0-ea88-45bd-ac7a-0f5c32a3e8b1",
     "products": [
       {
