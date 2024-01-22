@@ -1,14 +1,14 @@
 import MenuCard from "./MenuCard";
 
-export function Category({ category, products }) {
+export function Category({ category, products, index }) {
   return (
     <section
-      key={category.idCategory}
-      id={category.idCategory}
+      key={index}
+      id={index}
       className="menu__home__content__right__content__bottom__content"
     >
       <div className="menu__home__content__right__content__bottom__content__heading">
-        {category.strCategory}
+        {category.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items">
         {!products ? (
@@ -26,7 +26,7 @@ export function Category({ category, products }) {
         ) : (
           products?.map((product, index) => (
             <MenuCard
-              key={product.strMeal}
+              key={product.name}
               product={product}
               delay={`${index * 0.1}s`}
             />
