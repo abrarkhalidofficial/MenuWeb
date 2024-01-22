@@ -17,8 +17,6 @@ export default function LanguageButton() {
           const googleTranslateSelect =
             document.querySelector(".goog-te-combo");
 
-          console.log(googleTranslateSelect);
-
           if (language === "en") {
             setLanguage("ar");
             googleTranslateSelect.value = "ar";
