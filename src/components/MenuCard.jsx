@@ -53,10 +53,10 @@ export default function MenuCard({ product, delay }) {
         {product?.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
-        {randomWeight} gm
+        {product?.calories} CAL
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__price">
-        {product?.price}
+        {product?.price} SAR
       </div>
       <button
         onClick={handleAddToCart}
