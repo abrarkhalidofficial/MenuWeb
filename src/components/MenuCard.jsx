@@ -4,17 +4,14 @@ import star from "../assets/star.png";
 import stardark from "../assets/stardark.png";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
-import { useMemo } from "react";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function MenuCard({ product, delay }) {
+  const [selectedLanguage] = useLanguage();
   const [theme] = useAtom(themeAtom);
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
   const isInCart = cart.find((item) => item?.name === product?.name);
-
-  const randomWeight = useMemo(() => Math.floor(Math.random() * 500), []);
-
-  const randomPrice = useMemo(() => Math.floor(Math.random() * 1000), []);
 
   const handleAddToCart = () => {
     if (isInCart) {
@@ -23,8 +20,6 @@ export default function MenuCard({ product, delay }) {
     } else {
       setDataForProductPopup({
         ...product,
-        weight: randomWeight,
-        price: randomPrice,
       });
     }
   };
@@ -50,13 +45,17 @@ export default function MenuCard({ product, delay }) {
         )}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
-        {product?.name}
+        {selectedLanguage === "ar" ? product?.nameAr : product?.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
-        {product?.calories} CAL
+        {selectedLanguage === "ar" && " "}
+        {product?.calories}
+        {selectedLanguage === "en" && " CAL"}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__price">
-        {product?.price} SAR
+        {selectedLanguage === "ar" && "السعر "}
+        {product?.price}
+        {selectedLanguage === "en" && " SAR"}
       </div>
       <button
         onClick={handleAddToCart}
@@ -66,7 +65,13 @@ export default function MenuCard({ product, delay }) {
             : "menu__home__content__right__content__bottom__content__items__card__button"
         }
       >
-        {isInCart ? "Added" : "Add to cart"}
+        {isInCart
+          ? selectedLanguage === "ar"
+            ? ""
+            : "Added"
+          : selectedLanguage === "ar"
+          ? ""
+          : "Add to cart"}
       </button>
     </div>
   );
