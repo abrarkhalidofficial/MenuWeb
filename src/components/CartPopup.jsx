@@ -105,16 +105,13 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__slider__weight fadeIn"
                 style={{ animationDelay: `0.4s` }}
               >
-                {dataForProductPopup?.weight}gm
+                {dataForProductPopup?.calories} CAL
               </div>
               <div
                 className="menu__home__content__popup__content__slider__info fadeIn"
                 style={{ animationDelay: `0.5s` }}
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                {dataForProductPopup?.description}
               </div>
             </div>
           </div>
@@ -196,7 +193,7 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__qauntity__and__price__price__number"
                 style={{ animationDelay: `0.5s` }}
               >
-                AED {dataForProductPopup?.price * quantity}
+                {dataForProductPopup?.price * quantity} SAR
               </div>
             </div>
           </div>
