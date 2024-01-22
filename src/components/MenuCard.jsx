@@ -10,7 +10,7 @@ export default function MenuCard({ product, delay }) {
   const [theme] = useAtom(themeAtom);
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
-  const isInCart = cart.find((item) => item?.strMeal === product?.strMeal);
+  const isInCart = cart.find((item) => item?.name === product?.name);
 
   const randomWeight = useMemo(() => Math.floor(Math.random() * 500), []);
 
@@ -18,7 +18,7 @@ export default function MenuCard({ product, delay }) {
 
   const handleAddToCart = () => {
     if (isInCart) {
-      const newCart = cart.filter((item) => item?.strMeal !== product?.strMeal);
+      const newCart = cart.filter((item) => item?.name !== product?.name);
       setCart(newCart);
     } else {
       setDataForProductPopup({
@@ -40,7 +40,7 @@ export default function MenuCard({ product, delay }) {
       }
     >
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
-        <img loading="lazy" src={product?.strMealThumb} alt="item" />
+        <img loading="lazy" src={product?.image} alt="item" />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__ratingimg">
         {theme === "light" ? (
@@ -50,13 +50,13 @@ export default function MenuCard({ product, delay }) {
         )}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
-        {product?.strMeal}
+        {product?.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
         {randomWeight} gm
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__price">
-        AED {randomPrice}
+        {product?.price}
       </div>
       <button
         onClick={handleAddToCart}
