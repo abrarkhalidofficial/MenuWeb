@@ -18,7 +18,7 @@ export function Category({ category, products, index }) {
       className="menu__home__content__right__content__bottom__content"
     >
       <div className="menu__home__content__right__content__bottom__content__heading">
-        {category.name}
+        {selectedLanguage === "ar" ? category.nameAr : category.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items">
         {loading ? (
