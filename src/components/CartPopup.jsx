@@ -108,7 +108,9 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__slider__heading fadeIn"
                 style={{ animationDelay: `0.3s` }}
               >
-                {dataForProductPopup?.name}
+                {selectedLanguage === "ar"
+                  ? dataForProductPopup?.nameAr
+                  : dataForProductPopup?.name}
               </div>
               <div
                 className="menu__home__content__popup__content__slider__weight fadeIn"
@@ -122,7 +124,9 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__slider__info fadeIn"
                 style={{ animationDelay: `0.5s` }}
               >
-                {dataForProductPopup?.description}
+                {selectedLanguage === "ar"
+                  ? dataForProductPopup?.descriptionAr
+                  : dataForProductPopup?.description}
               </div>
             </div>
           </div>
