@@ -29,11 +29,11 @@ export default function Index() {
   const parentScrollContainerRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(0);
 
-  const deferedActiveCategory = useDeferredValue(activeCategory);
+  const deferredActiveCategory = useDeferredValue(activeCategory);
 
   const onPress = (e) => {
     e.preventDefault();
-    const id = e.target.getAttribute("data-to-scrollspy-id");
+    const id = e.target.getAttribute("data-to-scrollSpy-id");
     const element = document.getElementById(id);
     const parentScrollContainer = parentScrollContainerRef.current;
 
@@ -103,11 +103,11 @@ export default function Index() {
               <button
                 key={index}
                 onClick={onPress}
-                data-to-scrollspy-id={index}
+                data-to-scrollSpy-id={index}
                 style={{ animationDelay: `${index * 0.1}s` }}
                 className={
                   "menu__home__content__left__link fadeIn " +
-                  (parseInt(deferedActiveCategory) === index ? "active" : "")
+                  (parseInt(deferredActiveCategory) === index ? "active" : "")
                 }
               >
                 {category.name}
@@ -253,7 +253,7 @@ export default function Index() {
                   key={index}
                   onClick={onPress}
                   style={{ animationDelay: `${index * 0.1}s` }}
-                  data-to-scrollspy-id={index}
+                  data-to-scrollSpy-id={index}
                   className={
                     "menu__home__content__right__mobilebar__link " +
                     (activeCategory === index ? "active" : "")
