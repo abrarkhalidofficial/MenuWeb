@@ -8,7 +8,7 @@ export const useLanguage = () => {
 };
 
 const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("ar");
 
   useLayoutEffect(() => {
     const storedLanguage = localStorage.getItem("language");
