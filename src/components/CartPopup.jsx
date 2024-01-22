@@ -8,17 +8,26 @@ import Rounded from "./RoundedButton";
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
 import { useAtom } from "jotai";
+import { useLanguage } from "../context/LanguageContext";
 
-const sizes = ["Small", "Medium", "Large"];
-
-const spices = ["Medium", "Extra", "Extra Hot "];
+const sizes = [
+  { en: "Small", ar: "صغير" },
+  { en: "Medium", ar: "متوسط" },
+  { en: "Large", ar: "كبير" },
+];
+const spices = [
+  { en: "Medium", ar: "متوسط" },
+  { en: "Extra", ar: "إضافي" },
+  { en: "Extra Hot", ar: "حار إضافي" },
+];
 
 export default function CartPopup() {
+  const [selectedLanguage] = useLanguage();
   const [cart, setCart] = useAtom(cartAtom);
   const [quantity, setQuantity] = useState(1);
   const [popupOpen, setPopupOpen] = useState(false);
-  const [selectedSize, setSelectedSize] = useState(sizes[0]);
-  const [selectedSpice, setSelectedSpice] = useState(spices[0]);
+  const [selectedSize, setSelectedSize] = useState(sizes[0].en);
+  const [selectedSpice, setSelectedSpice] = useState(spices[0].en);
   const [dataForProductPopup, setDataForProductPopup] =
     useAtom(productPopupAtom);
 
@@ -105,7 +114,9 @@ export default function CartPopup() {
                 className="menu__home__content__popup__content__slider__weight fadeIn"
                 style={{ animationDelay: `0.4s` }}
               >
-                {dataForProductPopup?.calories} CAL
+                {selectedLanguage === "ar" && "الوزن "}
+                {dataForProductPopup?.calories}
+                {selectedLanguage === "en" && " CAL"}
               </div>
               <div
                 className="menu__home__content__popup__content__slider__info fadeIn"
@@ -118,42 +129,42 @@ export default function CartPopup() {
           <div className="menu__home__content__popup__content__buttons">
             <div className="menu__home__content__popup__content__buttons__content fadeIn">
               <div className="menu__home__content__popup__content__buttons__name">
-                Select Size
+                {selectedLanguage === "ar" ? "حدد الحجم" : "Select Size"}
               </div>
               <div className="menu__home__content__popup__content__buttons__buttons">
                 {sizes.map((size, index) => (
                   <button
                     key={index}
-                    onClick={() => setSelectedSize(size)}
+                    onClick={() => setSelectedSize(size.en)}
                     className={
-                      selectedSize === size
+                      selectedSize === size.en
                         ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
                         : `menu__home__content__popup__content__buttons__buttons__button fadeIn`
                     }
                     style={{ animationDelay: `${index * 0.5}s` }}
                   >
-                    {size}
+                    {size[selectedLanguage === "ar" ? "ar" : "en"]}
                   </button>
                 ))}
               </div>
             </div>
             <div className="menu__home__content__popup__content__buttons__content fadeIn">
               <div className="menu__home__content__popup__content__buttons__name">
-                Select Spices
+                {selectedLanguage === "ar" ? "حدد الحرارة" : "Select Spice"}
               </div>
               <div className="menu__home__content__popup__content__buttons__buttons">
                 {spices.map((spice, index) => (
                   <button
                     key={index}
-                    onClick={() => setSelectedSpice(spice)}
+                    onClick={() => setSelectedSpice(spice.en)}
                     className={
-                      selectedSpice === spice
+                      selectedSpice === spice.en
                         ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
                         : `menu__home__content__popup__content__buttons__buttons__button fadeIn`
                     }
                     style={{ animationDelay: `${index * 0.5}s` }}
                   >
-                    {spice}
+                    {spice[selectedLanguage === "ar" ? "ar" : "en"]}
                   </button>
                 ))}
               </div>
@@ -162,7 +173,7 @@ export default function CartPopup() {
           <div className="menu__home__content__popup__content__qauntity__and__price fadeIn">
             <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
               <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                Quantity
+                {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
               </div>
               <div className="menu__home__content__popup__content__qauntity">
                 <button
@@ -187,13 +198,15 @@ export default function CartPopup() {
             </div>
             <div className="menu__home__content__popup__content__qauntity__and__price__price fadeIn">
               <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                Price
+                {selectedLanguage === "ar" ? "السعر" : "Price"}
               </div>
               <div
                 className="menu__home__content__popup__content__qauntity__and__price__price__number"
                 style={{ animationDelay: `0.5s` }}
               >
-                {dataForProductPopup?.price * quantity} SAR
+                {selectedLanguage === "ar" && "السعر "}
+                {dataForProductPopup?.price * quantity}
+                {selectedLanguage === "en" && " SAR"}
               </div>
             </div>
           </div>
@@ -206,7 +219,7 @@ export default function CartPopup() {
               className="menu__home__content__popup__content__buttons__addtocart__button__color fadeIn"
               onClick={handleAddToCart}
             >
-              Add to Cart
+              {selectedLanguage === "ar" ? "أضف إلى السلة" : "Add to cart"}
             </a>
           </Rounded>
         </div>
