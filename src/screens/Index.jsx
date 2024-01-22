@@ -1,4 +1,10 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import {
+  useDeferredValue,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 
 import CartPopup from "../components/CartPopup";
 import { Category } from "../components/Category";
@@ -23,10 +29,11 @@ export default function Index() {
   const parentScrollContainerRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(0);
 
+  const deferedActiveCategory = useDeferredValue(activeCategory);
+
   const onPress = (e) => {
     e.preventDefault();
     const id = e.target.getAttribute("data-to-scrollspy-id");
-    console.log(id);
     const element = document.getElementById(id);
     const parentScrollContainer = parentScrollContainerRef.current;
 
@@ -45,25 +52,32 @@ export default function Index() {
     const handleScroll = () => {
       const children = Array.from(parentScrollContainer.children);
 
+      const itemsInView = [];
+
       for (const child of children) {
         const { top, bottom } = child.getBoundingClientRect();
         if (top <= 140 && bottom >= 140) {
-          setActiveCategory(child.id);
-          break;
+          itemsInView.push(child.id);
         }
       }
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
+      if (itemsInView.length > 0) {
+        setActiveCategory(itemsInView[0]);
+      }
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(
+          (entry) => {
             if (entry.isIntersecting) {
               setActiveCategory(entry.target.id);
-              console.log(entry.target.id);
             }
-          });
-        },
-        { threshold: 0.5 }
-      );
+          },
+          {
+            root: parentScrollContainer,
+            threshold: 0.5,
+          }
+        );
+      });
 
       children.forEach((child) => observer.observe(child));
     };
@@ -93,7 +107,7 @@ export default function Index() {
                 style={{ animationDelay: `${index * 0.1}s` }}
                 className={
                   "menu__home__content__left__link fadeIn " +
-                  (activeCategory === index ? "active" : "")
+                  (parseInt(deferedActiveCategory) === index ? "active" : "")
                 }
               >
                 {category.name}
@@ -142,7 +156,11 @@ export default function Index() {
                       type="text"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      placeholder={"Search the items here"}
+                      placeholder={
+                        language === "ar"
+                          ? "بحث عن منتج"
+                          : "Search for a product"
+                      }
                     />
                   </div>
                 </div>
@@ -188,7 +206,9 @@ export default function Index() {
                     />
                   </svg>
                   <div className="menu__home__content__right__content__top__cart__count">
-                    {cart.length > 99 ? "99+" : cart.length} Items
+                    {language === "ar" && "عربة التسوق "}
+                    {cart.length > 99 ? "99+" : cart.length}
+                    {language === "en" && " items"}
                   </div>
                 </div>
                 <button
