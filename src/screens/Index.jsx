@@ -110,7 +110,7 @@ export default function Index() {
                   (parseInt(deferredActiveCategory) === index ? "active" : "")
                 }
               >
-                {category.name}
+                {language === "ar" ? category.nameAr : category.name}
               </button>
             ))}
           </div>
@@ -259,7 +259,7 @@ export default function Index() {
                     (activeCategory === index ? "active" : "")
                   }
                 >
-                  {category.name}
+                  {language === "ar" ? category.nameAr : category.name}
                 </button>
               ))}
             </ScrollContainer>
