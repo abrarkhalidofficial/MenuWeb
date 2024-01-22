@@ -1,6 +1,16 @@
+import { useEffect, useState } from "react";
+
 import MenuCard from "./MenuCard";
+import { useLanguage } from "../context/LanguageContext";
 
 export function Category({ category, products, index }) {
+  const [selectedLanguage] = useLanguage();
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }, []);
   return (
     <section
       key={index}
@@ -11,7 +21,7 @@ export function Category({ category, products, index }) {
         {category.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items">
-        {!products ? (
+        {loading ? (
           <>
             {Array(10)
               ?.fill(0)
@@ -21,7 +31,7 @@ export function Category({ category, products, index }) {
           </>
         ) : products?.length === 0 ? (
           <div className="menu__home__content__right__content__bottom__content__items__empty">
-            No products found
+            {selectedLanguage === "ar" ? "لا يوجد منتجات" : "No Products"}
           </div>
         ) : (
           products?.map((product, index) => (
