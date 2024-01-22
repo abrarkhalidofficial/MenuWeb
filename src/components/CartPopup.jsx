@@ -84,8 +84,11 @@ export default function CartPopup() {
                     >
                       <img
                         loading="lazy"
-                        style={{ animationDelay: `${index * 0.3}s` }}
-                        src={dataForProductPopup?.nameThumb}
+                        style={{
+                          animationDelay: `${index * 0.3}s`,
+                          aspectRatio: "1/1",
+                        }}
+                        src={dataForProductPopup?.image}
                         alt={dataForProductPopup?.name}
                         className="fadeIn"
                       />
