@@ -21,11 +21,12 @@ export default function Index() {
   const [query, setQuery] = useState("");
 
   const parentScrollContainerRef = useRef(null);
-  const [activeCategory, setActiveCategory] = useState(data[0].idCategory);
+  const [activeCategory, setActiveCategory] = useState(0);
 
   const onPress = (e) => {
     e.preventDefault();
     const id = e.target.getAttribute("data-to-scrollspy-id");
+    console.log(id);
     const element = document.getElementById(id);
     const parentScrollContainer = parentScrollContainerRef.current;
 
@@ -57,6 +58,7 @@ export default function Index() {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               setActiveCategory(entry.target.id);
+              console.log(entry.target.id);
             }
           });
         },
@@ -85,16 +87,16 @@ export default function Index() {
           <div className="menu__home__content__left__links">
             {data.map((category, index) => (
               <button
+                key={index}
+                onClick={onPress}
+                data-to-scrollspy-id={index}
                 style={{ animationDelay: `${index * 0.1}s` }}
-                key={category.idCategory}
-                data-to-scrollspy-id={category.idCategory}
                 className={
                   "menu__home__content__left__link fadeIn " +
-                  (activeCategory === category.idCategory ? "active" : "")
+                  (activeCategory === index ? "active" : "")
                 }
-                onClick={onPress}
               >
-                {category.strCategory}
+                {category.name}
               </button>
             ))}
           </div>
@@ -228,16 +230,16 @@ export default function Index() {
             <ScrollContainer className="menu__home__content__right__mobilebar__links">
               {data.map((category, index) => (
                 <button
+                  key={index}
+                  onClick={onPress}
                   style={{ animationDelay: `${index * 0.1}s` }}
-                  key={category.idCategory}
-                  data-to-scrollspy-id={category.idCategory}
+                  data-to-scrollspy-id={index}
                   className={
                     "menu__home__content__right__mobilebar__link " +
-                    (activeCategory === category.idCategory ? "active" : "")
+                    (activeCategory === index ? "active" : "")
                   }
-                  onClick={onPress}
                 >
-                  {category.strCategory}
+                  {category.name}
                 </button>
               ))}
             </ScrollContainer>
@@ -247,12 +249,13 @@ export default function Index() {
               ref={parentScrollContainerRef}
               className="menu__home__content__right__content__bottom"
             >
-              {data.map((category) => (
+              {data.map((category, index) => (
                 <Category
-                  key={category.idCategory}
+                  key={index}
+                  index={index}
                   category={category}
                   products={category.products?.filter((product) =>
-                    product.strMeal.toLowerCase().includes(query.toLowerCase())
+                    product.name.toLowerCase().includes(query.toLowerCase())
                   )}
                 />
               ))}
