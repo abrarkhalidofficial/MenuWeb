@@ -218,6 +218,10 @@ body {
   padding: 0 0.5em;
   background-color: var(--backgroundcolor);
 }
+.rtl .menu__home__content__right__content__top__search__input input {
+  margin-left: 0em;
+  margin-right: 1em;
+}
 .menu__home__content__right__content__top__search__input input {
   border: none;
   outline: none;
@@ -225,6 +229,7 @@ body {
   width: 100%;
   border-radius: 29.411px;
   font-size: 14px;
+  flex: 1;
   background-color: var(--backgroundcolor);
 }
 .menu__home__content__right__content__top__cart {
