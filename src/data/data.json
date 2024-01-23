@@ -5,118 +5,118 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F38e5643e-9bd6-49da-a016-12b73f282c64.jpg?alt=media&token=c4340b1c-9396-4c3a-8d4f-a082f1644c68",
     "products": [
       {
-        "name": "",
+        "name": "Green Salad",
         "nameAr": "سلطة خضراء",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F92a51fce-4df2-4278-80db-115f8adabc9d.jpeg?alt=media&token=33fc5e3c-569a-4d2b-9fde-04a1002b9b2e",
-        "description": "",
+        "description": "Fresh vegetables prepared in the Levantine style",
         "descriptionAr": "الخضار الطازج المعد على الطريقة الشامية",
         "price": "16.00",
         "calories": "60"
       },
       {
-        "name": "",
+        "name": "Arugula Salad",
         "nameAr": "سلطة جرجير",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb2ba5146-457f-4c99-b250-b85d5fb3c595.jpeg?alt=media&token=589af20e-ee12-4e28-a075-e1c9520cff4d",
-        "description": "",
+        "description": "Fresh arugula with white onion pieces and walnuts",
         "descriptionAr": "الجرجير الطازج مع قطع البصل الأبيض ومكسرات عين الجمل",
         "price": "16.00",
         "calories": "100"
       },
       {
-        "name": "",
+        "name": "Tabbouleh",
         "nameAr": "تبولة",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc117bba6-b1d3-494a-af82-07e25523029d.jpeg?alt=media&token=f2f10238-a213-451e-a7ad-447fdc672b9b",
-        "description": "",
+        "description": "Chopped parsley with bulgur, tomato granules, and a sprinkle of lemon and lime",
         "descriptionAr": "البقدونس المفروم مع البرغل وحبيبات الطماطم ورشة الحامض والليمون",
         "price": "16.00",
         "calories": "80"
       },
       {
-        "name": "",
+        "name": "Fattoush",
         "nameAr": "فتوش",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8184b19f-7e2a-4972-8b3b-53bef6ec1b9a.jpeg?alt=media&token=babddfc2-9156-42c4-a037-ba1d9cc498b5",
-        "description": "",
+        "description": "Fresh vegetables with crispy bread pieces and drops of pomegranate molasses",
         "descriptionAr": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
         "price": "17.00",
         "calories": "70"
       },
       {
-        "name": "",
+        "name": "Hummus",
         "nameAr": "حمص",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8ab34e79-ec5b-4d06-a212-908f321ac64d.jpeg?alt=media&token=8d2f2e73-da90-412f-b924-9d5a2244666f",
-        "description": "",
+        "description": "Hummus, tahini and premium olive oil",
         "descriptionAr": "الحمص والطحينة وزيت الزيتون الفاخر",
         "price": "16.00",
         "calories": "270"
       },
       {
-        "name": "",
+        "name": "Beirut Hummus",
         "nameAr": "حمص بيروتي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F49968994-41cf-4c65-8b97-12a6ab886177.jpeg?alt=media&token=0ddc6f05-0825-4497-8c95-54c9146845ac",
-        "description": "",
+        "description": "Hummus prepared in the authentic Lebanese style",
         "descriptionAr": "الحمص المعد على الطريقة اللبنانية الأصيلة",
         "price": "16.00",
         "calories": "320"
       },
       {
-        "name": "",
+        "name": "Spicy Hummus",
         "nameAr": "حمص سبايسي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd08f7e81-c259-4b70-b52e-a71a43b42b01.jpeg?alt=media&token=543e76f4-cb4f-4b80-86e1-4fb024071e68",
-        "description": "",
+        "description": "Hummus and tahini with chili pepper and premium olive oil",
         "descriptionAr": "الحمص والطحينة مع الفلفل الحار وزيت الزيتون الفاخر",
         "price": "16.00",
         "calories": "290"
       },
       {
-        "name": "",
+        "name": "Spiced",
         "nameAr": "متبل",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Face4cb97-8f40-4743-a977-633e436fff60.jpeg?alt=media&token=af07b833-6d70-4272-8791-05a6f36562e9",
-        "description": "",
+        "description": "Grilled eggplant prepared in our special way with pomegranate seeds",
         "descriptionAr": "الباذنجان المشوي المعد على طريقتنا الخاصة مع حبيبات الرمان",
         "price": "14.00",
         "calories": "110"
       },
       {
-        "name": "",
+        "name": "Seasoned with Beetroot",
         "nameAr": "متبل بالشمندر",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0a954fcf-ea8b-460c-b13b-ac270f5bf6db.jpeg?alt=media&token=8b9e9926-876f-4af1-be44-b01c9470d1fa",
-        "description": "",
+        "description": "Grilled eggplant with beetroot in our special way",
         "descriptionAr": "الباذنجان المشوي بالشمندر على طريقتنا الخاصة",
         "price": "16.00",
         "calories": "130"
       },
       {
-        "name": "",
+        "name": "Baba Ghanoush",
         "nameAr": "بابا غنوج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4115e2cf-f877-4535-aab7-5eb95f827a51.jpeg?alt=media&token=6c198334-6f09-4f77-afe9-cad8fefe422a",
-        "description": "",
+        "description": "Fresh vegetables mashed in our special way",
         "descriptionAr": "الخضار الطازج المهروس على طريقتنا الخاصة",
         "price": "14.00",
         "calories": "100"
       },
       {
-        "name": "",
+        "name": "Garlic Cream",
         "nameAr": "كريم ثوم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa9716389-757b-4a2c-974e-d63c088df359.jpg?alt=media&token=08f57e65-5d26-4015-9b1d-428a7153758b",
-        "description": "",
+        "description": "Traditional garlic cream",
         "descriptionAr": "كريم الثوم التقليدي",
         "price": "11.00",
         "calories": "170"
       },
       {
-        "name": "",
+        "name": "Grape Leaves",
         "nameAr": "ورق عنب",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6b2253e4-a179-4c7e-83e7-070385605a46.jpeg?alt=media&token=d7ccefd3-6815-43fb-a387-33a5916181ff",
-        "description": "",
+        "description": "Six pieces of grape leaves prepared in our special way",
         "descriptionAr": "ست حبات من أصابع ورق العنب المعد على طريقتنا الخاصة",
         "price": "16.00",
         "calories": "120"
       },
       {
-        "name": "",
+        "name": "Mixed Appetizers",
         "nameAr": "مشكل مقبلات",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbca234eb-cb59-41ac-9da8-57a58a2695d0.jpg?alt=media&token=965cb161-bef9-4a0a-992b-5502efc4c748",
-        "description": "",
+        "description": "A selection of hummus, mutabal, tabbouleh and green salad",
         "descriptionAr": "تشكيلة من الحمص والمتبل والتبولة والسلطة الخضراء",
         "price": "26.00",
         "calories": "340"
@@ -129,73 +129,73 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F48d468ae-fca2-413e-aad2-a066d4fa9a33.jpeg?alt=media&token=ad181384-49c0-4564-8237-4bc33fc0bb0b",
     "products": [
       {
-        "name": "",
+        "name": "Wild Mushroom Soup",
         "nameAr": "شوربة الفطر البري",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F90f73b4d-ef44-47f3-a6c6-c190dc65fa99.jpeg?alt=media&token=380bcea8-2446-4fd5-9e6e-5b0feffce1b2",
-        "description": "",
+        "description": "Hearty and delicious wild mushroom soup",
         "descriptionAr": "حساء الفطر البري الشهي واللذيذ",
         "price": "16.00",
         "calories": "110"
       },
       {
-        "name": "",
+        "name": "Lentil Soup",
         "nameAr": "شوربة عدس",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fad1c8d12-5fb8-447e-bfce-3f6550f53830.jpeg?alt=media&token=816c656d-33b1-4a49-8872-31e071eae365",
-        "description": "",
+        "description": "Delicious and warm lentil soup",
         "descriptionAr": "حساء العدس الشهي والدافئ",
         "price": "14.00",
         "calories": "90"
       },
       {
-        "name": "",
+        "name": "Fried Potatoes",
         "nameAr": "بطاطس مقلي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd53d815d-7c04-4cc9-a407-ab61d2c0f92a.jpg?alt=media&token=e5d9d83e-3d44-4e30-a987-513f332274bc",
-        "description": "",
+        "description": "Golden potato fingers with a sprinkle of pepper and salt",
         "descriptionAr": "أصابع البطاطا الذهبية مع رشة من الفليفلة و الملح",
         "price": "14.00",
         "calories": "312"
       },
       {
-        "name": "",
+        "name": "Fries",
         "nameAr": "بطاطا حرة",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe8bcd248-bad8-458e-afa2-10e04927e1d9.jpeg?alt=media&token=6dc54c9d-f65d-453a-bd9b-d66ba2c7299a",
-        "description": "",
+        "description": "Fresh potato pieces smeared with our delicious seasoning with a little garlic and parsley",
         "descriptionAr": "قطع البطاطا الطازجة المدهونة بتتبيلتنا الزاكية مع القليل من الثوم والبقدونس",
         "price": "19.00",
         "calories": "560"
       },
       {
-        "name": "",
+        "name": "Grilled Kibbeh",
         "nameAr": "كبة مشوية",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fca853bc7-034c-442a-b24a-becd2ac402e1.jpeg?alt=media&token=d7ffb5f6-3fe2-47a7-aebb-7bb569438c31",
-        "description": "",
+        "description": "Stuffed with meat with pomegranate seeds",
         "descriptionAr": "محشوة باللحم مع حبيبات الرمان",
         "price": "8.00",
         "calories": "152"
       },
       {
-        "name": "",
+        "name": "Fried Kibbeh",
         "nameAr": "كبة مقلية",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F291bced7-ec6d-44c1-bc6f-d078c7c81633.jpeg?alt=media&token=f2f3c9a8-4fac-4799-9a2b-dbb41c4071d6",
-        "description": "",
+        "description": "Prepared in our special way (4 pieces)",
         "descriptionAr": "معدة على طريقتنا الخاصة (٤ حبات)",
         "price": "22.00",
         "calories": "170"
       },
       {
-        "name": "",
+        "name": "Hummus with Meat",
         "nameAr": "حمص باللحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd6aa084b-c9c1-4174-969c-4344b0271899.jpg?alt=media&token=6632e4e9-f2d8-462c-a0db-8dbc7a123b3e",
-        "description": "",
+        "description": "Our special hummus with hot pieces of meat in the middle",
         "descriptionAr": "حمصنا الخاص تتوسطه قطع اللحم الساخنة",
         "price": "26.00",
         "calories": "260"
       },
       {
-        "name": "",
+        "name": "Marinated with Meat",
         "nameAr": "متبل باللحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F69b5d664-5e5a-49a1-9fa4-e858e686f155.jpeg?alt=media&token=a5b4c6e6-5222-4d5b-b3b7-893e35bbcf2e",
-        "description": "",
+        "description": "Our special marinade with hot pieces of meat in the middle",
         "descriptionAr": "متبلنا الخاص تتوسطه قطع اللحم الساخنة",
         "price": "26.00",
         "calories": "240"
@@ -208,16 +208,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Ff02435b4-6257-4946-b0ed-9081a655c28f.jpeg?alt=media&token=69c615e8-29dd-49c2-8f51-4d4252191c8a",
     "products": [
       {
-        "name": "",
+        "name": "Levantine Plate",
         "nameAr": "صفيحة شامية",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F548998f7-4145-47a5-9992-dd93ac46af13.jpg?alt=media&token=59aa5690-b69f-4275-be9c-4a0a9f3003dc",
-        "description": "",
+        "description": "Minced meat marinated in our special way on oven-baked dough sheets",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
         "calories": "368"
       },
       {
-        "name": "",
+        "name": "Levantine safiha with pomegranate molasses",
         "nameAr": "صفيحة شامية بدبس الرمان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6a9c5615-7785-4e70-b5c2-25db2003c271.jpg?alt=media&token=2eab7255-ade7-40f6-b384-feda76532ac0",
         "description": "",
@@ -226,46 +226,46 @@
         "calories": "368"
       },
       {
-        "name": "",
+        "name": "Meat with Aleppo dough",
         "nameAr": "لحم بعجين حلبي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F01decda6-bb88-4829-b842-8f93fbd943ec.jpg?alt=media&token=26d636eb-44c9-4602-b33f-df6ef2a24e63",
-        "description": "",
+        "description": "Minced meat marinated in our special way on round dough sheets and baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصة على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
         "calories": "256"
       },
       {
-        "name": "",
+        "name": "Meat bajin with pomegranate molasses",
         "nameAr": "لحم بعجين بدبس الرمان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F89bb3905-06f1-4d06-9e50-98543ba03045.jpg?alt=media&token=f76c1e45-f508-4c10-a0d8-67b1c198799e",
-        "description": "",
+        "description": "Minced meat marinated in our special way with pomegranate molasses on round dough sheets baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصةمع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
         "calories": "296"
       },
       {
-        "name": "",
+        "name": "Meat kofta with tahini",
         "nameAr": "كفتة لحم بالطحينة",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F5a17b27f-3776-4faa-9d02-f52c9671f70c.jpeg?alt=media&token=885c46e4-7bfa-48d8-9f83-9225580ffc2d",
-        "description": "",
+        "description": "A tender piece of kofta topped with special tahini sauce with the notes of green onions and sesame seeds",
         "descriptionAr": "قطعة الكفتة الطرية يعلوها صوص الطحينة الخاص مع نفحة البصل الأخضر وحبات السمسم",
         "price": "32.00",
         "calories": "260"
       },
       {
-        "name": "",
+        "name": "Chicken Pottery",
         "nameAr": "فخارة دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F73161701-2c98-4388-a3a8-765a6c6de0d7.jpeg?alt=media&token=af6c84db-5a07-4642-8117-a70ddca64252",
-        "description": "",
+        "description": "Slices of fresh chicken with onions, mushrooms and red bell pepper served on a clay plate",
         "descriptionAr": "شرائح من الدجاج الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "33.00",
         "calories": "230"
       },
       {
-        "name": "",
+        "name": "Meat Pottery",
         "nameAr": "فخارة لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4e468629-010a-4aef-879d-32a19b6ea374.jpeg?alt=media&token=c82f5374-fb3c-4699-a2cd-9f5d7fc4156e",
-        "description": "",
+        "description": "Slices of fresh meat with onions, mushrooms and red pepper served on a clay plate",
         "descriptionAr": "شرائح من اللحم الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "38.00",
         "calories": "280"
@@ -278,109 +278,109 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fe566138f-595d-4dc5-a508-7a9947a54684.jpeg?alt=media&token=9e6c58f1-702c-49de-b632-57a0d797e0e0",
     "products": [
       {
-        "name": "",
+        "name": "Meat Kebab",
         "nameAr": "كباب لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb76e9091-196c-4d2d-95a6-7c33f9380957.jpeg?alt=media&token=b650a27c-e9d2-4933-ae5d-886dc8e890a4",
-        "description": "",
+        "description": "Fresh, tender meat kebab marinated in our way",
         "descriptionAr": "كباب اللحم الطازج الطري المتبل بطريقتنا",
         "price": "34.00",
         "calories": "310"
       },
       {
-        "name": "",
+        "name": "Meat awsal",
         "nameAr": "أوصال لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F115bbe0f-6773-4850-8744-a62b262c32b0.jpg?alt=media&token=eaec6933-76cf-4b77-9b86-34a36d9b4d79",
-        "description": "",
+        "description": "Pieces of tender and fresh meat marinated in our way",
         "descriptionAr": "قطع من اللحم الطري والطازج المتبلة على طريقتنا",
         "price": "61.00",
         "calories": "390"
       },
       {
-        "name": "",
+        "name": "Meat Problem",
         "nameAr": "مشكل لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2abc05ad-3b40-44d8-95ef-92a85b12b989.jpeg?alt=media&token=6f734894-312d-49c3-962c-5219b6924844",
-        "description": "",
+        "description": "A selection of tender meat awwal and fresh meat kebab (4 skewers)",
         "descriptionAr": "تشكيلة من أوصال اللحم الطري وكباب اللحم الطازج (4 أسياخ)",
         "price": "57.00",
         "calories": "350"
       },
       {
-        "name": "",
+        "name": "Small mixed grill",
         "nameAr": "مشوي مشكل صغير",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F9201ee23-d69f-415b-85ed-47719b2650d6.jpeg?alt=media&token=f36a4ea1-0eca-4e84-a115-2cf88aba7391",
-        "description": "",
+        "description": "A selection of meat awwal, chicken awwal, meat kebab, and chicken kebab, grilled and served with eggplant, tomato, and fresh bell pepper.",
         "descriptionAr": "تشكيلة من أوصال اللحموأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
         "price": "37.00",
         "calories": "260"
       },
       {
-        "name": "",
+        "name": "Istanbul Kebab",
         "nameAr": "كباب اسطنبولي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd0162773-05e1-48b8-ae9f-f9fc71e8ba23.jpeg?alt=media&token=78e92cd9-ab97-497c-abcc-d0f5d510847d",
-        "description": "",
+        "description": "Tender and fresh meat kebab with our special seasoning with a hint of garlic and cold pepper (2 skewers)",
         "descriptionAr": "كباب اللحم الطري والطازج بتتبيلتنا الخاصة مع نفحة من الثوم والفلفل البارد (2 سيخ)",
         "price": "36.00",
         "calories": "310"
       },
       {
-        "name": "",
+        "name": "Eggplant Kebab",
         "nameAr": "كباب باذنجان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa02bb6f5-fa89-4f5d-9364-576e6c90fef6.jpeg?alt=media&token=86a1ebd5-2b0d-4554-b348-6cc92175f727",
-        "description": "",
+        "description": "Grilled tender meat kebab pieces with eggplant and tomato slices, served with special sauce cooked over charcoal",
         "descriptionAr": "قطع كباب اللحم الطري المشوي مع الباذنجان وشرائح الطماطم يأتيك مع الصوص الخاص المطبوخ على الفحم",
         "price": "36.00",
         "calories": "360"
       },
       {
-        "name": "",
+        "name": "Kebab with Sauce",
         "nameAr": "كباب مع الصوص",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F09b7f40f-be1e-4227-9e6c-b0ade13623e8.jpeg?alt=media&token=4ab2c80b-fb62-4d2c-b760-a1e5108d4326",
-        "description": "",
+        "description": "Tender meat kebab served with mashed tomatoes prepared on charcoal (4 skewers)",
         "descriptionAr": "كباب اللحم الطري يقدم مع الطماطم المهروسة المعدة على الفحم (4 أسياخ)",
         "price": "36.00",
         "calories": "280"
       },
       {
-        "name": "",
+        "name": "Khashkhash Kebab",
         "nameAr": "كباب خشخاش",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F63df290f-3afb-4b24-a952-8ca4018a7808.jpg?alt=media&token=3a83294e-ccb7-44ed-96ae-2068bffa90f8",
-        "description": "",
+        "description": "Fresh meat kebab marinated in our special way, served with special sauce prepared on charcoal (4 skewers)",
         "descriptionAr": "كباب اللحم الطازج المتبل على طريقتنا الخاصة يقدم مع الصوص الخاص المعد على الفحم (4 أسياخ)",
         "price": "36.00",
         "calories": "210"
       },
       {
-        "name": "",
+        "name": "Arayes Meat",
         "nameAr": "عرايس لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F897b94b9-d23b-45d7-b6be-adedb9c5736c.jpeg?alt=media&token=92164ffd-7af1-46e5-8757-09063e4e55d7",
-        "description": "",
+        "description": "A special filling of meat between two thin layers of bread topped with drops of pomegranate molasses (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان (8 قطع)",
         "price": "29.00",
         "calories": "320"
       },
       {
-        "name": "",
+        "name": "Toshka with Cheese and Nuts",
         "nameAr": "طوشكا مع الجبن والمكسرات",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbf74f82f-e349-4bcf-bda2-5466155cb808.jpeg?alt=media&token=4fe2e72f-5984-46b9-8b9b-fc4e76743627",
-        "description": "",
+        "description": "A special filling of meat, cheese and nuts between two thin layers of bread, grilled and served to you (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك (8 قطع)",
         "price": "36.00",
         "calories": "370"
       },
       {
-        "name": "",
+        "name": "Grilled Sheep Liver",
         "nameAr": "كبدة غنم مشوية",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F33260d8f-6ff1-426c-83b6-7a1106cc731d.jpeg?alt=media&token=cca5fefd-8146-420b-acf7-9b70759092b8",
-        "description": "",
+        "description": "Grilled lamb liver with a pinch of salt and black pepper (2 skewers)",
         "descriptionAr": "كبدة غنم مشوية مع رشة من الملح والفلفل الأسود (2 سيخ)",
         "price": "29.00",
         "calories": "160"
       },
       {
-        "name": "",
+        "name": "Kasabiya Meat Kibbeh",
         "nameAr": "كبة لحم قصابية",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6616c6a5-24a1-44d8-a453-a1d38154d66a.jpg?alt=media&token=ae8d5b06-c545-413d-8ac2-b8974740302f",
-        "description": "",
+        "description": "Pieces of fresh meat kebab prepared in Aleppo style (2 skewers)",
         "descriptionAr": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية (2 سيخ)",
         "price": "29.00",
         "calories": "250"
@@ -393,37 +393,37 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fcbbcc30f-0e93-454a-85eb-1acc37a1503c.jpeg?alt=media&token=978a6817-f4c3-45a2-8323-3e9008fc6370",
     "products": [
       {
-        "name": "",
+        "name": "Chicken kebab",
         "nameAr": "كباب دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2d481472-9adf-492a-900a-a271d01ecab5.jpeg?alt=media&token=f72b124e-49e7-4801-a977-4f785a0c77f3",
-        "description": "",
+        "description": "Tender and fresh chicken kebab marinated in our special way",
         "descriptionAr": "كباب الدجاج الطري والطازج المتبل على طريقتنا الخاصة",
         "price": "29.00",
         "calories": "170"
       },
       {
-        "name": "",
+        "name": "Chicken Grill",
         "nameAr": "شيش طاووق",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0734ff45-c0e8-4815-bade-647a3a1ff693.jpeg?alt=media&token=b313e65c-8a68-4cd5-8329-20efae8ad4b3",
-        "description": "",
+        "description": "Pieces of premium chicken breast marinated with our special spices",
         "descriptionAr": "قطع من صدر الدجاج الفاخر المتبلة بتوابلنا الخاصة",
         "price": "33.00",
         "calories": "280"
       },
       {
-        "name": "",
+        "name": "Chicken Problem",
         "nameAr": "مشكل دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb5ce47fe-06af-4a21-8c5e-004393b93cb2.jpeg?alt=media&token=081ee30d-e539-4d03-a6e5-4eb42a0ea9ac",
-        "description": "",
+        "description": "A selection of tender chicken tenders and chicken kebab",
         "descriptionAr": "تشكيلة من أوصال الدجاج الطري وكباب الدجاج",
         "price": "34.00",
         "calories": "240"
       },
       {
-        "name": "",
+        "name": "Chicken Wings",
         "nameAr": "أجنحة دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F28e45e1b-2c6f-4058-89b9-1cf9ae8d405a.jpeg?alt=media&token=a5d60931-5e4e-4bb2-bad7-4c37187b4e6b",
-        "description": "",
+        "description": "Twelve pieces of bone-in chicken wings served with special sauce",
         "descriptionAr": "اثنتا عشرة قطعة من أجنحة الدجاج بالعظم تقدم مع الصوص الخاص",
         "price": "18.00",
         "calories": "230"
@@ -436,100 +436,100 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F77f4cec4-1913-4b01-90cd-ad5bdfcc6707.jpeg?alt=media&token=c51b4a51-33c4-4fc9-877e-5ef5c466487d",
     "products": [
       {
-        "name": "",
+        "name": "Kiwan Meat Kebab",
         "nameAr": "كباب كيوان لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc001a7f5-1bff-4e62-a922-4a03986a024a.jpeg?alt=media&token=ae819a56-933d-426e-b25e-61ce149ea0fe",
-        "description": "",
+        "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "54.00",
         "calories": "280"
       },
       {
-        "name": "",
+        "name": "Chicken Kebab",
         "nameAr": "كباب كيوان دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F038ea8d0-de27-48b6-89af-4077d56e074d.jpeg?alt=media&token=a9d1c257-ea13-4f0b-be20-3a91cf255a4b",
-        "description": "",
+        "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "44.00",
         "calories": "260"
       },
       {
-        "name": "",
+        "name": "Kebab roll with nuts and meat",
         "nameAr": "كباب رول مع المكسرات لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2018ae78-6924-4a15-b888-9c389ac5f275.jpg?alt=media&token=acd23946-f077-439b-aa3b-b3e47cc99b28",
-        "description": "",
+        "description": "Eight pieces of fresh meat kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب اللحم الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "39.00",
         "calories": "370"
       },
       {
-        "name": "",
+        "name": "Kebab roll with nuts chicken",
         "nameAr": "كباب رول مع المكسرات دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb514a7bd-d8f7-45b4-9dc4-9104a5083aa7.jpg?alt=media&token=ce68cbd2-2a2f-4773-9c1f-bd181ad6c5e2",
-        "description": "",
+        "description": "Eight pieces of fresh chicken kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب الدجاج الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "34.00",
         "calories": "350"
       },
       {
-        "name": "",
+        "name": "Kiwan Meat Kofta",
         "nameAr": "كفتة كيوان لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Feaccdb84-15de-4025-a07f-06889b2eeb61.jpg?alt=media&token=35a76290-fdf7-4e86-8aa3-8630824a27dc",
-        "description": "",
+        "description": "Kofta of premium meat stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من اللحم الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "39.00",
         "calories": "260"
       },
       {
-        "name": "",
+        "name": "Chicken Kiwan Kofta",
         "nameAr": "كفتة كيوان دجاج",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3522abe6-db12-42b7-ad95-230012a0ad12.jpeg?alt=media&token=b2a24e4b-3577-4bd6-a8d8-086755450c5a",
-        "description": "",
+        "description": "Kofta of premium chicken stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من الدجاج الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "36.00",
         "calories": "230"
       },
       {
-        "name": "",
+        "name": "Kebab with Cherries",
         "nameAr": "كباب بالكرز",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F81d8656f-171d-4c21-b050-b80a30254119.jpeg?alt=media&token=8c483dfd-7444-4749-822b-eb13c7da6daf",
-        "description": "",
+        "description": "Balled pieces of fresh meat kebab dipped in cherries specially squeezed for this luxurious dish",
         "descriptionAr": "قطع مكورة من كباب اللحم الطازج المغمورة بالكرز المعصور خصيصا لهذا الطبق الفاخر",
         "price": "56.00",
         "calories": "310"
       },
       {
-        "name": "",
+        "name": "Mozzarella Kebab with Nuts",
         "nameAr": "كباب موزريلا مع المكسرات",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F1df55a29-ae08-458c-b4a7-82df8bbd82b1.jpeg?alt=media&token=15104153-b8aa-4330-bc87-6e436524022e",
-        "description": "",
+        "description": "Tender meat kebab marinated in our special way with mozzarella cheese and nuts (4 skewers)",
         "descriptionAr": "كباب اللحم الطري المتبل بطريقتنا الخاصة مع جبنة الموزريلا والمكسرات (4 أسياخ)",
         "price": "43.00",
         "calories": "240"
       },
       {
-        "name": "",
+        "name": "Rital Roll",
         "nameAr": "رول ريتال",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb915b3c3-c774-4578-9fb9-423b0da8511c.jpeg?alt=media&token=4a060503-c6ff-4d7a-9caf-f8c915ad6ac7",
-        "description": "",
+        "description": "Slices of fresh meat stuffed with cheese and nuts wrapped in a thin layer of lard (5 pieces)",
         "descriptionAr": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم (5 قطع)",
         "price": "64.00",
         "calories": "510"
       },
       {
-        "name": "",
+        "name": "ريش لحم",
         "nameAr": "ريش لحم",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff11a7a04-2b8a-4db6-b6ad-ccc36687473b.jpeg?alt=media&token=1f2ab6ff-81a8-459c-a217-97c8c9b18d16",
-        "description": "",
+        "description": "Four pieces of delicious and tender lamb chops",
         "descriptionAr": "أربع قطع من ريش الغنم الشهية والطرية",
         "price": "64.00",
         "calories": "330"
       },
       {
-        "name": "",
+        "name": "Chef's dish",
         "nameAr": "طبق الشيف",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F84ca4cef-d2f8-4fdc-8e00-1c69db93d8ec.jpeg?alt=media&token=65644cb5-22aa-4640-8dff-657ef9416b48",
-        "description": "",
+        "description": "Pieces of fresh meat with our special toppings, wrapped in dough and roasted in the oven",
         "descriptionAr": "قطع من اللحم الطازج مع إضافتنا الخاصة الملفوفة بالعجين والمقمرة بالفرن",
         "price": "48.00",
         "calories": "310"
@@ -542,10 +542,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F12940de0-3442-4a5b-85c5-219542c44611.jpeg?alt=media&token=adfb1c2f-d6d9-4223-88b0-1241a1e2d40d",
     "products": [
       {
-        "name": "",
+        "name": "Umm Ali",
         "nameAr": "أم علي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F1dedd2ee-e8ea-4573-aaa0-04920160b771.jpeg?alt=media&token=4a266d25-f4c8-4c29-bd1b-aee7cd6850d6",
-        "description": "",
+        "description": "Enjoy a delicious and hot dish with this luxurious dish served with pistachios and coconut",
         "descriptionAr": "تمتع بطبق رائع ومذاق ساخن مع هذا الطبق الفاخر المقدم مع الفستق وجوز الهند",
         "price": "16.00",
         "calories": "350"
@@ -558,7 +558,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F712d452b-e5ed-4217-8243-5c6e71a5330f.jpg?alt=media&token=a3b31aa0-ea88-45bd-ac7a-0f5c32a3e8b1",
     "products": [
       {
-        "name": "",
+        "name": "Pepsi",
         "nameAr": "ببسي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F229a974b-3d6f-490f-8ced-f706f9d6425c.jpg?alt=media&token=cf2bbb52-d95d-4b9c-a0bf-98cd0cdb2d36",
         "description": "",
@@ -567,8 +567,8 @@
         "calories": "150"
       },
       {
-        "name": "",
-        "nameAr": "سفن",
+        "name": "Seven Up",
+        "nameAr": "سيفين أب",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb1eeb4d3-bc52-4041-85ea-4dbb79280806.jpg?alt=media&token=eb2bba69-d410-430e-b5cb-72a488312d00",
         "description": "",
         "descriptionAr": "",
@@ -576,7 +576,7 @@
         "calories": "150"
       },
       {
-        "name": "",
+        "name": "Dew",
         "nameAr": "ديو",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F7e740af6-90f7-494f-a166-b433fa9df3c8.png?alt=media&token=b20dfbb1-0eb1-4a3e-9852-f58206818d27",
         "description": "",
@@ -585,8 +585,8 @@
         "calories": "150"
       },
       {
-        "name": "",
-        "nameAr": "حمضيات",
+        "name": "Mirinda (Citrus)",
+        "nameAr": "ميرندا (الحمضيات)",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe165c59e-0931-4862-9259-99a42d98d70f.jpg?alt=media&token=eeaeb772-a044-45a0-9bba-5cf855f745a7",
         "description": "",
         "descriptionAr": "",
@@ -594,7 +594,7 @@
         "calories": "150"
       },
       {
-        "name": "",
+        "name": "Water",
         "nameAr": "ماء",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc89a6730-ebef-41d6-91ff-16d1534c0f16.jpeg?alt=media&token=f7aed96f-8a4f-4346-a13a-958d1d0617b6",
         "description": "",
@@ -610,118 +610,118 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F18ece9b6-d388-45a2-81e4-81147998e2ad.jpeg?alt=media&token=652e928c-84f9-49c8-afeb-9c5562e9b775",
     "products": [
       {
-        "name": "",
+        "name": "Layers of Kiwan",
         "nameAr": "طبقات كيوان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3d98fa8f-2c31-4fc2-8f24-e44b119d0bc4.jpeg?alt=media&token=51448ec4-0cb4-4387-8e44-c1ed27653909",
-        "description": "",
+        "description": "Our special drink with fresh pomegranate seeds, luxurious mango, strawberry topping, ice cream and a special berry drink",
         "descriptionAr": "مشروبنا المميز مع حبيبات الرمان الطازج والمانجو الفاخرة وطبقة فراولة والآيس كريم ومشروب التوت الخاص",
         "price": "16.00",
         "calories": "470"
       },
       {
-        "name": "",
+        "name": "Light Cocktail",
         "nameAr": "كوكتيل لايت",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fdbddb307-6e16-4b4a-9f24-2850f6d6670c.jpeg?alt=media&token=c3bb5b46-4d86-4652-b964-eaf83623b991",
-        "description": "",
+        "description": "A mixture of delicious natural fruits",
         "descriptionAr": "خليط من الفواكه الطبيعية اللذيذة",
         "price": "14.00",
         "calories": "180"
       },
       {
-        "name": "",
+        "name": "Orange",
         "nameAr": "برتقال",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F54e7938c-d0f2-4499-9d1a-a6973def6baf.jpeg?alt=media&token=2ff9db5c-4f96-458a-9a66-50af78a6d4c3",
-        "description": "",
+        "description": "Fresh orange juice",
         "descriptionAr": "عصير البرتقال الطازج",
         "price": "16.00",
         "calories": "130"
       },
       {
-        "name": "",
+        "name": "Apple",
         "nameAr": "تفاح",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fef1c03d0-867d-44ca-8ac5-fd487336aeb1.jpg?alt=media&token=be431fac-4f9c-4535-b47e-de6341651989",
-        "description": "",
+        "description": "Fresh apple juice",
         "descriptionAr": "عصير التفاح الطازج",
         "price": "14.00",
         "calories": "52"
       },
       {
-        "name": "",
+        "name": "Pomegranate",
         "nameAr": "رمان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fde9cddd0-df58-4759-958b-513b20b449a5.jpeg?alt=media&token=572a154c-4b76-42eb-b34c-f8d9c952a784",
-        "description": "",
+        "description": "Enjoy the fresh and delicious taste of pomegranate",
         "descriptionAr": "تمتع بمذاق الرمان الطازج والشهي",
         "price": "14.00",
         "calories": "110"
       },
       {
-        "name": "",
+        "name": "Mango",
         "nameAr": "منجا",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fcad48fad-5e29-448c-92af-34895ba9db57.jpg?alt=media&token=240335e2-fb54-47a5-bc73-ee46aee91a6d",
-        "description": "",
+        "description": "Fresh mango juice",
         "descriptionAr": "عصير المنجا الطازج",
         "price": "14.00",
         "calories": "60"
       },
       {
-        "name": "",
+        "name": "Lemon Mint",
         "nameAr": "ليمون نعناع",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff3b20c62-f068-4168-8cf9-71254d2e99d7.jpeg?alt=media&token=e27a815e-bf19-48fa-aa79-52a75ad45c92",
-        "description": "",
+        "description": "Enjoy a refreshing lemon and mint drink",
         "descriptionAr": "استمتع بمشروب الليمون والنعناع المنعش",
         "price": "13.00",
         "calories": "90"
       },
       {
-        "name": "",
+        "name": "Strawberry",
         "nameAr": "فراولة",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
-        "description": "",
+        "description": "Fresh strawberry juice",
         "descriptionAr": "عصير الفراولة الطازجة",
         "price": "13.00",
-        "calories": ""
+        "calories": "90 "
       },
       {
-        "name": "",
+        "name": "Saudi cocktail",
         "nameAr": "كوكتيل سعودي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe735be6d-f113-481d-8b8c-f722db3df929.jpg?alt=media&token=4823f14f-8ee4-4013-a88e-5b4c878a245f",
-        "description": "",
+        "description": "Fresh fruit pieces dipped in special drink",
         "descriptionAr": "قطع الفواكة الطازجة المغمورة بالمشروب الخاص",
         "price": "16.00",
         "calories": "51"
       },
       {
-        "name": "",
+        "name": "Passion fruit Mojito",
         "nameAr": "موهيتو باشن فروت",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
-        "description": "",
+        "description": "Refreshing passion fruit flavored mojito",
         "descriptionAr": "موهيتو بنكهة الباشن فروت المنعش",
         "price": "16.00",
-        "calories": ""
+        "calories": "140"
       },
       {
-        "name": "",
+        "name": "Blueberry Mojito",
         "nameAr": "موهيتو توت أزرق",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0484cf74-15c3-42ed-b111-23f1ffbbc525.jpeg?alt=media&token=25f38efe-6971-4bf8-a7ea-f2494040eb3d",
-        "description": "",
+        "description": "Special Mojito taste with blueberry flavor",
         "descriptionAr": "مذاق الموهيتو الخاص بنكهة التوت الأزرق",
         "price": "16.00",
         "calories": "320"
       },
       {
-        "name": "",
+        "name": "Pomegranate Mojito",
         "nameAr": "موهيتو رمان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd25640ff-cc81-423e-a0b8-0248e1c7a477.jpeg?alt=media&token=e2ac7531-760e-4c96-b134-5343b41e1251",
-        "description": "",
+        "description": "Special mojito taste with pomegranate flavor",
         "descriptionAr": "مذاق الموهيتو الخاص بنكهة الرمان",
         "price": "16.00",
         "calories": "310"
       },
       {
-        "name": "",
+        "name": "Tea",
         "nameAr": "شاي",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F62a5156b-fc48-48fe-b5c6-52b56a136d0a.jpeg?alt=media&token=c5407a38-7b5c-4036-b337-d5ac58731932",
-        "description": "",
+        "description": "Istanbul style",
         "descriptionAr": "على الطريقة الاسطنبولية",
         "price": "3.00",
         "calories": ""
