@@ -1,6 +1,6 @@
 [
   {
-    "name": "",
+    "name": "Cold Appetizers",
     "nameAr": "المقبلات الباردة",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F38e5643e-9bd6-49da-a016-12b73f282c64.jpg?alt=media&token=c4340b1c-9396-4c3a-8d4f-a082f1644c68",
     "products": [
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Hot Appetizers",
     "nameAr": "المقبلات الساخنة",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F48d468ae-fca2-413e-aad2-a066d4fa9a33.jpeg?alt=media&token=ad181384-49c0-4564-8237-4bc33fc0bb0b",
     "products": [
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Oven Dishes",
     "nameAr": "أطباق الفرن",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Ff02435b4-6257-4946-b0ed-9081a655c28f.jpeg?alt=media&token=69c615e8-29dd-49c2-8f51-4d4252191c8a",
     "products": [
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Meat Grills",
     "nameAr": "مشويات اللحوم",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fe566138f-595d-4dc5-a508-7a9947a54684.jpeg?alt=media&token=9e6c58f1-702c-49de-b632-57a0d797e0e0",
     "products": [
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Chicken Grills",
     "nameAr": "مشويات الدجاج",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fcbbcc30f-0e93-454a-85eb-1acc37a1503c.jpeg?alt=media&token=978a6817-f4c3-45a2-8323-3e9008fc6370",
     "products": [
@@ -431,7 +431,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Kiwanis",
     "nameAr": "كيوانيات",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F77f4cec4-1913-4b01-90cd-ad5bdfcc6707.jpeg?alt=media&token=c51b4a51-33c4-4fc9-877e-5ef5c466487d",
     "products": [
@@ -537,7 +537,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "The Sweets",
     "nameAr": "الحلى",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F12940de0-3442-4a5b-85c5-219542c44611.jpeg?alt=media&token=adfb1c2f-d6d9-4223-88b0-1241a1e2d40d",
     "products": [
@@ -553,7 +553,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Soft Drinks",
     "nameAr": "المشروبات الغازية",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F712d452b-e5ed-4217-8243-5c6e71a5330f.jpg?alt=media&token=a3b31aa0-ea88-45bd-ac7a-0f5c32a3e8b1",
     "products": [
@@ -605,7 +605,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Fresh Juices",
     "nameAr": "العصائر الطازجة",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F18ece9b6-d388-45a2-81e4-81147998e2ad.jpeg?alt=media&token=652e928c-84f9-49c8-afeb-9c5562e9b775",
     "products": [
