@@ -48,7 +48,7 @@ export default function MenuCard({ product, delay }) {
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
-        {selectedLanguage === "ar" && " "}
+        {selectedLanguage === "ar" && "الوزن "}
         {product?.calories}
         {selectedLanguage === "en" && " CAL"}
       </div>
@@ -67,10 +67,10 @@ export default function MenuCard({ product, delay }) {
       >
         {isInCart
           ? selectedLanguage === "ar"
-            ? ""
+            ? "إزالة"
             : "Added"
           : selectedLanguage === "ar"
-          ? ""
+          ? "أضف إلى السلة"
           : "Add to cart"}
       </button>
     </div>
