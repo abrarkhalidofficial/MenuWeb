@@ -1,11 +1,11 @@
 [
   {
-    "name": "",
+    "name": "Cold appetizers",
     "nameAr": "المقبلات الباردة",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F38e5643e-9bd6-49da-a016-12b73f282c64.jpg?alt=media&token=c4340b1c-9396-4c3a-8d4f-a082f1644c68",
     "products": [
       {
-        "name": "",
+        "name": "Green salad",
         "nameAr": "سلطة خضراء",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F92a51fce-4df2-4278-80db-115f8adabc9d.jpeg?alt=media&token=33fc5e3c-569a-4d2b-9fde-04a1002b9b2e",
         "description": "",
@@ -14,7 +14,7 @@
         "calories": "60"
       },
       {
-        "name": "",
+        "name": "Rocket salad",
         "nameAr": "سلطة جرجير",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb2ba5146-457f-4c99-b250-b85d5fb3c595.jpeg?alt=media&token=589af20e-ee12-4e28-a075-e1c9520cff4d",
         "description": "",
@@ -23,7 +23,7 @@
         "calories": "100"
       },
       {
-        "name": "",
+        "name": "Tabbouleh",
         "nameAr": "تبولة",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc117bba6-b1d3-494a-af82-07e25523029d.jpeg?alt=media&token=f2f10238-a213-451e-a7ad-447fdc672b9b",
         "description": "",
