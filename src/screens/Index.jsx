@@ -107,14 +107,14 @@ export default function Index() {
                   (parseInt(deferredActiveCategory) === index ? "active" : "")
                 }
               >
+                <img
+                  className="menu__home__content__left__link__img"
+                  src={category.imageUrl}
+                  alt={language === "ar" ? category.nameAr : category.name}
+                />
                 <div className="menu__home__content__left__link__overlay">
-                  <img
-                    className="menu__home__content__left__link__img"
-                    src={category.imageUrl}
-                    alt={language === "ar" ? category.nameAr : category.name}
-                  />{" "}
+                  {language === "ar" ? category.nameAr : category.name}
                 </div>
-                {language === "ar" ? category.nameAr : category.name}
               </button>
             ))}
           </div>
