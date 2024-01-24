@@ -23,7 +23,7 @@ export default function RoundedButton({
           duration: 0.4,
           ease: "power3.in",
         },
-        "enter"
+        "enter",
       )
       .to(
         circle.current,
@@ -32,7 +32,7 @@ export default function RoundedButton({
           width: "125%",
           duration: 0.25,
         },
-        "exit"
+        "exit",
       );
 
     return () => {
