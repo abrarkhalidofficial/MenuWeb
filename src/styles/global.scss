@@ -103,10 +103,10 @@ body {
   width: 1px;
 }
 .menu__home__content__left::-webkit-scrollbar-track {
-  background-color: #fb7d37;
+  background-color: transparent;
 }
 .menu__home__content__left::-webkit-scrollbar-thumb {
-  background-color: var(--cardbackgroundcolor);
+  background-color: transparent;
   border-radius: 6px;
 }
 
@@ -119,6 +119,7 @@ body {
   // height: 100%;
   padding: 0 1em;
 }
+
 .menu__home__content__right__mobilebar__links {
   display: none;
   width: calc(100vw - 1em);
@@ -176,7 +177,45 @@ body {
   user-select: none;
   z-index: -2;
 }
+.menu__home__content__left__link__img__mobile {
+  // position: absolute;
+  border-radius: 10px;
+  left: 0%;
+  top: 0;
+  width: 150px;
+  height: 100px;
+  // height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  user-select: none;
+  z-index: -2;
+}
 
+.menu__home__content__left__link__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__home__content__left__link__overlay__mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+  z-index: 9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .menu__home__content__left__link__overlay {
   position: absolute;
   top: 0;
@@ -220,8 +259,30 @@ body {
   max-width: 200px;
   padding: 0.2em 1em;
   color: #fff;
+  position: relative;
 }
 .rtl .menu__home__content__right__mobilebar__link {
+  font-family: "Tajawal", sans-serif !important;
+}
+.menu__home__content__right__mobilebar__link__mobile {
+  text-decoration: none;
+  color: var(--textcolor);
+  font-size: 14px;
+  padding: 0.5em 0;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  // background-color: var(--buttonborder);
+  border: 3px solid var(--buttonborder);
+  border-radius: 10px;
+  // max-width: 200px;
+  padding: 0.2em 1em;
+  color: #fff;
+  position: relative;
+}
+
+.rtl .menu__home__content__right__mobilebar__link__mobile {
   font-family: "Tajawal", sans-serif !important;
 }
 .menu__home__content__right__mobilebar__link:hover {
