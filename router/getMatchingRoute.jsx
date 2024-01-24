@@ -7,7 +7,7 @@ const getMatchingRoute = (path) => {
     let regex = regexCache.get(route.path);
     if (!regex) {
       regex = new RegExp(
-        `^${route.path.replace(/:[^/]+/g, "([^/]+)").replace(/\*/g, ".*")}$`
+        `^${route.path.replace(/:[^/]+/g, "([^/]+)").replace(/\*/g, ".*")}$`,
       );
       regexCache.set(route.path, regex);
     }
