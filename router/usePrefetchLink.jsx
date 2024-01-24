@@ -18,7 +18,7 @@ export default (to, prefetch = true) => {
             observer.unobserve(ref.current);
           }
         },
-        { rootMargin: "200px" }
+        { rootMargin: "200px" },
       );
       observer.observe(ref.current);
       return () => observer.disconnect();
