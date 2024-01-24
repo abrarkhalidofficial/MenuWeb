@@ -8,11 +8,10 @@ import {
 
 import CartPopup from "../components/CartPopup";
 import { Category } from "../components/Category";
+import Menulogo from "../assets/Menulogo.png";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { cartAtom } from "../data/cartAtom";
 import data from "../data/data.json";
-import Menulogo from "../assets/Menulogo.png";
-
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
@@ -73,7 +72,7 @@ export default function Index() {
           {
             root: parentScrollContainer,
             threshold: 0.5,
-          },
+          }
         );
       });
 
@@ -127,10 +126,10 @@ export default function Index() {
                     language === "en" && theme === "light"
                       ? Menulogo
                       : language === "en" && theme === "dark"
-                        ? Menulogo
-                        : language === "ar" && theme === "light"
-                          ? Menulogo
-                          : Menulogo
+                      ? Menulogo
+                      : language === "ar" && theme === "light"
+                      ? Menulogo
+                      : Menulogo
                   }
                   alt="logo"
                 />
@@ -277,7 +276,9 @@ export default function Index() {
                   index={index}
                   category={category}
                   products={category.products?.filter((product) =>
-                    product.name.toLowerCase().includes(query.toLowerCase()),
+                    (language === "ar" ? product.nameAr : product.name)
+                      .toLowerCase()
+                      .includes(query.toLowerCase())
                   )}
                 />
               ))}
