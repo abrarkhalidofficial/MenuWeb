@@ -1,7 +1,5 @@
 import { cartAtom } from "../data/cartAtom";
 import { productPopupAtom } from "../data/productAtom";
-import star from "../assets/star.png";
-import stardark from "../assets/stardark.png";
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
@@ -37,18 +35,12 @@ export default function MenuCard({ product, delay }) {
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
         <img loading="lazy" src={product?.image} alt="item" />
       </div>
-      <div className="menu__home__content__right__content__bottom__content__items__card__ratingimg">
-        {theme === "light" ? (
-          <img loading="lazy" src={star} alt="star" />
-        ) : (
-          <img loading="lazy" src={stardark} alt="star" />
-        )}
-      </div>
+
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__weight">
-        {selectedLanguage === "ar" && "الوزن "}
+        {selectedLanguage === "ar" && "سعرات حرارية "}
         {product?.calories}
         {selectedLanguage === "en" && " CAL"}
       </div>
