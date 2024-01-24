@@ -110,6 +110,10 @@ export default function Index() {
                   (parseInt(deferredActiveCategory) === index ? "active" : "")
                 }
               >
+                <img
+                  src={category.imageUrl}
+                  alt={language === "ar" ? category.nameAr : category.name}
+                />
                 {language === "ar" ? category.nameAr : category.name}
               </button>
             ))}
