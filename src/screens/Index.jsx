@@ -11,10 +11,8 @@ import { Category } from "../components/Category";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { cartAtom } from "../data/cartAtom";
 import data from "../data/data.json";
-import logo from "../assets/logo.svg";
-import logoar from "../assets/logoar.svg";
-import logoarwhite from "../assets/logoarwhite.svg";
-import logodark from "../assets/logodark.svg";
+import Menulogo from "../assets/Menulogo.png";
+
 import { themeAtom } from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
@@ -127,12 +125,12 @@ export default function Index() {
                   loading="lazy"
                   src={
                     language === "en" && theme === "light"
-                      ? logo
+                      ? Menulogo
                       : language === "en" && theme === "dark"
-                      ? logodark
+                      ? Menulogo
                       : language === "ar" && theme === "light"
-                      ? logoar
-                      : logoarwhite
+                      ? Menulogo
+                      : Menulogo
                   }
                   alt="logo"
                 />
