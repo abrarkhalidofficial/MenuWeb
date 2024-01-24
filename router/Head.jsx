@@ -31,7 +31,7 @@ export default ({ title, description, url, image, children }) => {
             property={`${prefix}${property}`}
             content={defaultMetaProps[property]}
           />
-        ))
+        )),
       )}
       <link rel="icon" href={image} />
       <link rel="apple-touch-icon" href={image} />
