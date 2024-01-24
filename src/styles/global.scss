@@ -118,9 +118,32 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  position: relative;
+  z-index: 9999999;
+}
+.menu__home__content__left__link img {
+  position: absolute;
+  border-radius: 10px;
+  left: 110%;
+  top: -100px;
+  border: 10px solid var(--backgroundcolor);
+  box-shadow: 0px 10px 30px rgba(0, 35, 80, 0.1);
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 0;
+  user-select: none;
+}
+.menu__home__content__left__link:hover img {
+  opacity: 1;
+  user-select: all;
 }
 .rtl .menu__home__content__left__link {
   font-family: "Tajawal", sans-serif !important;
+}
+.rtl .menu__home__content__left__link img {
+  right: 110%;
+  left: auto;
 }
 .menu__home__content__right__mobilebar__links {
   text-decoration: none;
