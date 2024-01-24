@@ -264,11 +264,23 @@ export default function Index() {
                   style={{ animationDelay: `${index * 0.1}s` }}
                   data-to-scrollSpy-id={index}
                   className={
-                    "menu__home__content__right__mobilebar__link " +
+                    "menu__home__content__right__mobilebar__link__mobile " +
                     (activeCategory === index ? "active" : "")
                   }
                 >
-                  {language === "ar" ? category.nameAr : category.name}
+                  <img
+                    className="menu__home__content__left__link__img__mobile"
+                    src={category.imageUrl}
+                    alt={language === "ar" ? category.nameAr : category.name}
+                  />
+                  <div
+                    className="menu__home__content__left__link__overlay__mobile"
+                    key={index}
+                    onClick={onPress}
+                    data-to-scrollSpy-id={index}
+                  >
+                    {language === "ar" ? category.nameAr : category.name}
+                  </div>
                 </button>
               ))}
             </ScrollContainer>
