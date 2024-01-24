@@ -112,7 +112,12 @@ export default function Index() {
                   src={category.imageUrl}
                   alt={language === "ar" ? category.nameAr : category.name}
                 />
-                <div className="menu__home__content__left__link__overlay">
+                <div
+                  className="menu__home__content__left__link__overlay"
+                  key={index}
+                  onClick={onPress}
+                  data-to-scrollSpy-id={index}
+                >
                   {language === "ar" ? category.nameAr : category.name}
                 </div>
               </button>
