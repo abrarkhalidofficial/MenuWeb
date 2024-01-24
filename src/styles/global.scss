@@ -220,9 +220,10 @@ body {
 }
 .menu__home__content__right__content__top__logo {
   width: 60%;
+  height: 100px;
 }
 .menu__home__content__right__content__top__logo img {
-  width: 180px;
+  width: 130px;
 }
 .menu__home__content__right__content__top__search {
   background-color: var(--backgroundcolor);
@@ -335,16 +336,7 @@ body {
   background: linear-gradient(to right, #fff8f4, #fff4ed, #fff8f4);
   border-color: transparent;
 }
-.menu__home__content__right__content__bottom__content__items__card__empty
-  .menu__home__content__right__content__bottom__content__items__card__ratingimg {
-  background: linear-gradient(to right, #fff8f4, #fff4ed, #fff8f4);
-  width: 100px;
-  height: 20px;
-  margin-bottom: 1em;
-  border-radius: 29.411px;
-  color: transparent;
-  margin-top: 1em;
-}
+
 .menu__home__content__right__content__bottom__content__items__card__empty
   .menu__home__content__right__content__bottom__content__items__card__foodimg {
   background: linear-gradient(to right, #fff8f4, #fff4ed, #fff8f4);
