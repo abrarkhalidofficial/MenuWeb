@@ -2,14 +2,12 @@ import SvgLogo from './logo.svg'
 import SvgLogoar from './logoar.svg'
 import SvgLogoarwhite from './logoarwhite.svg'
 import SvgLogodark from './logodark.svg'
-import PngStar from './star.png'
-import PngStardark from './stardark.png'
+import PngMenulogo from './Menulogo.png'
 
 export {
   SvgLogo,
   SvgLogoar,
   SvgLogoarwhite,
   SvgLogodark,
-  PngStar,
-  PngStardark
+  PngMenulogo
 }
