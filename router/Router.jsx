@@ -12,7 +12,7 @@ const LAZY_ROUTES = import.meta.glob("/src/screens/**/*.lazy.jsx");
 
 const EAGER_ROUTES = import.meta.glob(
   ["/src/screens/**/*.jsx", "!/src/screens/**/*.lazy.jsx"],
-  { eager: true }
+  { eager: true },
 );
 
 // Define a function that returns the action for a given module
