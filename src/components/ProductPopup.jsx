@@ -153,7 +153,7 @@ function ProductPopup({}) {
                       <span key={index}>
                         {allergy[selectedLanguage === "ar" ? "ar" : "en"]}،{" "}
                       </span>
-                    )
+                    ),
                   )}
                 </div>
               )}
@@ -176,7 +176,9 @@ function ProductPopup({}) {
                         onClick={() => {
                           if (addedAdditives.includes(additive)) {
                             setAddedAdditives(
-                              addedAdditives.filter((item) => item !== additive)
+                              addedAdditives.filter(
+                                (item) => item !== additive,
+                              ),
                             );
                           } else {
                             setAddedAdditives([...addedAdditives, additive]);
@@ -212,13 +214,13 @@ function ProductPopup({}) {
                           onClick={() => {
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name
+                                (item) => item.name === variant.name,
                               )?.quantity === 1
                             ) {
                               setAddedVariants(
                                 addedVariants.filter(
-                                  (item) => item.name !== variant.name
-                                )
+                                  (item) => item.name !== variant.name,
+                                ),
                               );
                             } else {
                               setAddedVariants(
@@ -230,7 +232,7 @@ function ProductPopup({}) {
                                     };
                                   }
                                   return item;
-                                })
+                                }),
                               );
                             }
                           }}
@@ -243,14 +245,14 @@ function ProductPopup({}) {
                           style={{ animationDelay: `0.5s` }}
                         >
                           {addedVariants?.find(
-                            (item) => item.name === variant.name
+                            (item) => item.name === variant.name,
                           )?.quantity || 0}
                         </div>
                         <button
                           onClick={() => {
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name
+                                (item) => item.name === variant.name,
                               )?.quantity === undefined
                             ) {
                               setAddedVariants([
@@ -264,7 +266,7 @@ function ProductPopup({}) {
                             }
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name
+                                (item) => item.name === variant.name,
                               )?.quantity !== undefined
                             ) {
                               setAddedVariants(
@@ -276,7 +278,7 @@ function ProductPopup({}) {
                                     };
                                   }
                                   return item;
-                                })
+                                }),
                               );
                             }
                           }}
@@ -298,8 +300,8 @@ function ProductPopup({}) {
                         {parseFloat(
                           parseFloat(variant.price) *
                             (addedVariants?.find(
-                              (item) => item.name === variant.name
-                            )?.quantity || 0)
+                              (item) => item.name === variant.name,
+                            )?.quantity || 0),
                         ).toFixed(2)}
                         {selectedLanguage === "en" && " SAR"}
                       </div>
@@ -352,17 +354,17 @@ function ProductPopup({}) {
                         (acc, curr) =>
                           acc +
                           parseFloat(curr.price) * parseFloat(curr.quantity),
-                        0
+                        0,
                       )
                     : 0) +
                     (addedAdditives.length > 0
                       ? addedAdditives?.reduce(
                           (acc, curr) => acc + parseFloat(curr.price),
-                          0
+                          0,
                         )
                       : 0) +
                     parseFloat(dataForProductPopup?.price)) *
-                    quantity
+                    quantity,
                 ).toFixed(2)}
                 {selectedLanguage === "en" && " SAR"}
               </div>
