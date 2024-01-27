@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
+import { memo, useEffect, useRef } from "react";
 
 import Magnetic from "./Magnetic";
 import gsap from "gsap";
 
-export default function RoundedButton({
+function RoundedButton({
   children,
   border1,
   backgroundColor = "#fb7d37",
@@ -23,7 +23,7 @@ export default function RoundedButton({
           duration: 0.4,
           ease: "power3.in",
         },
-        "enter",
+        "enter"
       )
       .to(
         circle.current,
@@ -32,7 +32,7 @@ export default function RoundedButton({
           width: "125%",
           duration: 0.25,
         },
-        "exit",
+        "exit"
       );
 
     return () => {
@@ -70,3 +70,5 @@ export default function RoundedButton({
     </Magnetic>
   );
 }
+
+export default memo(RoundedButton);
