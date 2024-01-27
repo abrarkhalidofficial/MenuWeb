@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 
 import MenuCard from "./MenuCard";
 import { useLanguage } from "../context/LanguageContext";
 
-export function Category({ category, products, index }) {
+function Category({ category, products, index }) {
   const [selectedLanguage] = useLanguage();
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -46,3 +46,5 @@ export function Category({ category, products, index }) {
     </section>
   );
 }
+
+export default memo(Category);
