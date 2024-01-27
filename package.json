@@ -19,7 +19,6 @@
     "react-helmet": "^6.1.0",
     "react-indiana-drag-scroll": "^2.2.0",
     "react-router-dom": "6.21.3",
-    "swiper": "^10.3.1",
     "swr": "^2.2.4"
   },
   "devDependencies": {

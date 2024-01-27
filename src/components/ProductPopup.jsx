@@ -1,7 +1,4 @@
-import "swiper/scss";
-
 import { Minus, Plus } from "react-feather";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { memo, useEffect, useState } from "react";
 
 import Rounded from "./RoundedButton";
