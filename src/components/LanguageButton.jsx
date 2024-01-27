@@ -1,7 +1,8 @@
 import { Head } from "@router";
+import { memo } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
-export default function LanguageButton() {
+function LanguageButton() {
   const [language, setLanguage] = useLanguage();
 
   return (
@@ -16,3 +17,5 @@ export default function LanguageButton() {
     </div>
   );
 }
+
+export default memo(LanguageButton);
