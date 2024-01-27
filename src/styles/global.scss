@@ -648,7 +648,7 @@ body {
   width: calc(100% + 4em);
   margin-left: -2em;
   margin-top: -2em;
-  height: 300px;
+  height: 250px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -719,6 +719,7 @@ body {
   border-radius: 5px;
   height: 20px;
   margin: 0.2em;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 .menu__home__content__popup__content__buttons__buttons__button__active {
   background: #00a1a1;
@@ -762,6 +763,9 @@ body {
   border-radius: 6px;
   margin: 1em 0;
   width: 100%;
+}
+.menu__home__content__popup__content__qauntity__and__price__new {
+  background-color: var(--cartbackgroundbutton);
 }
 .menu__home__content__popup__content__qauntity__and__price__price__name {
   font-size: 16px;
