@@ -1,3 +1,3 @@
 import { atom } from "jotai";
 
-export const cartAtom = atom([]);
+export default atom([]);
