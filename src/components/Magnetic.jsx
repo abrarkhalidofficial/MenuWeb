@@ -1,8 +1,8 @@
-import { cloneElement, useEffect, useRef } from "react";
+import { cloneElement, memo, useEffect, useRef } from "react";
 
 import gsap from "gsap";
 
-export default function MagneticEffect({ children }) {
+function MagneticEffect({ children }) {
   const magnetic = useRef(null);
 
   useEffect(() => {
@@ -42,3 +42,5 @@ export default function MagneticEffect({ children }) {
 
   return cloneElement(children, { ref: magnetic });
 }
+
+export default memo(MagneticEffect);
