@@ -1,4 +1,10 @@
-import { createContext, useContext, useLayoutEffect, useState } from "react";
+import {
+  createContext,
+  memo,
+  useContext,
+  useLayoutEffect,
+  useState,
+} from "react";
 
 const LanguageContext = createContext();
 
@@ -38,4 +44,4 @@ const LanguageProvider = ({ children }) => {
   );
 };
 
-export default LanguageProvider;
+export default memo(LanguageProvider);
