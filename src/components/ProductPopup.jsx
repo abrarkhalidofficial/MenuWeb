@@ -153,7 +153,7 @@ function ProductPopup({}) {
                       <span key={index}>
                         {allergy[selectedLanguage === "ar" ? "ar" : "en"]}،{" "}
                       </span>
-                    ),
+                    )
                   )}
                 </div>
               )}
@@ -176,9 +176,7 @@ function ProductPopup({}) {
                         onClick={() => {
                           if (addedAdditives.includes(additive)) {
                             setAddedAdditives(
-                              addedAdditives.filter(
-                                (item) => item !== additive,
-                              ),
+                              addedAdditives.filter((item) => item !== additive)
                             );
                           } else {
                             setAddedAdditives([...addedAdditives, additive]);
@@ -207,20 +205,22 @@ function ProductPopup({}) {
                   <div className="menu__home__content__popup__content__qauntity__and__price menu__home__content__popup__content__qauntity__and__price__new fadeIn">
                     <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
                       <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                        {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
+                        {selectedLanguage === "ar"
+                          ? variant.nameAr
+                          : variant.name}
                       </div>
                       <div className="menu__home__content__popup__content__qauntity">
                         <button
                           onClick={() => {
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name,
+                                (item) => item.name === variant.name
                               )?.quantity === 1
                             ) {
                               setAddedVariants(
                                 addedVariants.filter(
-                                  (item) => item.name !== variant.name,
-                                ),
+                                  (item) => item.name !== variant.name
+                                )
                               );
                             } else {
                               setAddedVariants(
@@ -232,7 +232,7 @@ function ProductPopup({}) {
                                     };
                                   }
                                   return item;
-                                }),
+                                })
                               );
                             }
                           }}
@@ -245,14 +245,14 @@ function ProductPopup({}) {
                           style={{ animationDelay: `0.5s` }}
                         >
                           {addedVariants?.find(
-                            (item) => item.name === variant.name,
+                            (item) => item.name === variant.name
                           )?.quantity || 0}
                         </div>
                         <button
                           onClick={() => {
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name,
+                                (item) => item.name === variant.name
                               )?.quantity === undefined
                             ) {
                               setAddedVariants([
@@ -266,7 +266,7 @@ function ProductPopup({}) {
                             }
                             if (
                               addedVariants?.find(
-                                (item) => item.name === variant.name,
+                                (item) => item.name === variant.name
                               )?.quantity !== undefined
                             ) {
                               setAddedVariants(
@@ -278,7 +278,7 @@ function ProductPopup({}) {
                                     };
                                   }
                                   return item;
-                                }),
+                                })
                               );
                             }
                           }}
@@ -289,9 +289,6 @@ function ProductPopup({}) {
                       </div>
                     </div>
                     <div className="menu__home__content__popup__content__qauntity__and__price__price fadeIn">
-                      <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                        {selectedLanguage === "ar" ? "السعر" : "Price"}
-                      </div>
                       <div
                         className="menu__home__content__popup__content__qauntity__and__price__price__number"
                         style={{ animationDelay: `0.5s` }}
@@ -300,8 +297,8 @@ function ProductPopup({}) {
                         {parseFloat(
                           parseFloat(variant.price) *
                             (addedVariants?.find(
-                              (item) => item.name === variant.name,
-                            )?.quantity || 0),
+                              (item) => item.name === variant.name
+                            )?.quantity || 0)
                         ).toFixed(2)}
                         {selectedLanguage === "en" && " SAR"}
                       </div>
@@ -354,17 +351,18 @@ function ProductPopup({}) {
                         (acc, curr) =>
                           acc +
                           parseFloat(curr.price) * parseFloat(curr.quantity),
-                        0,
+                        0
                       )
-                    : 0) +
+                    : dataForProductPopup?.variants
+                    ? 0
+                    : parseFloat(dataForProductPopup?.price)) +
                     (addedAdditives.length > 0
                       ? addedAdditives?.reduce(
                           (acc, curr) => acc + parseFloat(curr.price),
-                          0,
+                          0
                         )
-                      : 0) +
-                    parseFloat(dataForProductPopup?.price)) *
-                    quantity,
+                      : 0)) *
+                    quantity
                 ).toFixed(2)}
                 {selectedLanguage === "en" && " SAR"}
               </div>
