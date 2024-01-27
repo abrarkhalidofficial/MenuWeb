@@ -20,40 +20,34 @@
           {
             "name": "Small",
             "nameAr": "صغير",
-            "price": "16.00",
-            "calories": "60"
+            "price": "12.00"
           },
           {
             "name": "Medium",
             "nameAr": "متوسط",
-            "price": "16.00",
-            "calories": "60"
+            "price": "16.00"
           },
           {
             "name": "Large",
             "nameAr": "كبير",
-            "price": "16.00",
-            "calories": "60"
+            "price": "16.00"
           }
         ],
         "additives": [
           {
             "name": "Extra Olive Oil",
             "nameAr": "زيت زيتون إضافي",
-            "price": "16.00",
-            "calories": "60"
+            "price": "16.00"
           },
           {
             "name": "Extra Lemon",
             "nameAr": "ليمون إضافي",
-            "price": "16.00",
-            "calories": "60"
+            "price": "16.00"
           },
           {
             "name": "Extra Pomegranate Molasses",
             "nameAr": "دبس رمان إضافي",
-            "price": "16.00",
-            "calories": "60"
+            "price": "16.00"
           }
         ]
       },
