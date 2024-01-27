@@ -15,10 +15,10 @@ function Header({ query, setQuery, toggleTheme, theme, cart }) {
               language === "en" && theme === "light"
                 ? Menulogo
                 : language === "en" && theme === "dark"
-                  ? Menulogo
-                  : language === "ar" && theme === "light"
-                    ? Menulogo
-                    : Menulogo
+                ? Menulogo
+                : language === "ar" && theme === "light"
+                ? Menulogo
+                : Menulogo
             }
             alt="logo"
           />
