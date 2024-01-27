@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "gsap": "^3.12.5",
-    "jotai": "^2.6.2",
+    "jotai": "^2.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
@@ -29,7 +29,7 @@
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-hot-export": "^0.5.9",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-pwa": "^0.17.4",
+    "vite-plugin-pwa": "^0.17.5",
     "vite-plugin-webfont-dl": "^3.9.1"
   }
 }
