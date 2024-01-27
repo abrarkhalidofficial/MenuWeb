@@ -7,32 +7,19 @@ import productPopupAtom from "../data/productAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
 
-const sizes = [
-  { en: "Small", ar: "صغير" },
-  { en: "Medium", ar: "متوسط" },
-  { en: "Large", ar: "كبير" },
-];
-const spices = [
-  { en: "Medium", ar: "متوسط" },
-  { en: "Extra", ar: "إضافي" },
-  { en: "Extra Hot", ar: "حار إضافي" },
-];
-
-function ProductPopup() {
+function ProductPopup({}) {
   const [selectedLanguage] = useLanguage();
   const [cart, setCart] = useAtom(cartAtom);
   const [quantity, setQuantity] = useState(1);
   const [popupOpen, setPopupOpen] = useState(false);
-  const [selectedSize, setSelectedSize] = useState(sizes[0].en);
-  const [selectedSpice, setSelectedSpice] = useState(spices[0].en);
   const [dataForProductPopup, setDataForProductPopup] =
     useAtom(productPopupAtom);
 
-  const handleDecrement = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
+  const [addedAdditives, setAddedAdditives] = useState([]);
+
+  const [addedVariants, setAddedVariants] = useState([]);
+
+  const handleDecrement = () => quantity > 1 && setQuantity(quantity - 1);
 
   const handleIncrement = () => setQuantity(quantity + 1);
 
@@ -42,9 +29,13 @@ function ProductPopup() {
       {
         ...dataForProductPopup,
         quantity,
+        additives: addedAdditives,
+        variants: addedVariants,
       },
     ]);
     setDataForProductPopup({});
+    setAddedAdditives([]);
+    setAddedVariants([]);
   };
 
   useEffect(() => {
@@ -61,7 +52,11 @@ function ProductPopup() {
     popupOpen && (
       <div
         className="menu__home__content__popup"
-        onClick={() => setDataForProductPopup({})}
+        onClick={() => {
+          setDataForProductPopup({});
+          setAddedAdditives([]);
+          setAddedVariants([]);
+        }}
       >
         <div
           onClick={(e) => e.stopPropagation()}
@@ -72,112 +67,276 @@ function ProductPopup() {
               : "is__closed")
           }
         >
-          <div className="menu__home__content__popup__content__slide">
+          <div className="menu__home__content__popup__content__slider">
+            <img
+              loading="lazy"
+              src={dataForProductPopup?.image}
+              alt={dataForProductPopup?.name}
+              className="fadeIn"
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <div
+            style={{
+              overflowY: "auto",
+              maxHeight: "calc(100% - 350px - 4em)",
+              width: "calc(100% + 4em)",
+              padding: "0em 2em",
+              marginLeft: selectedLanguage === "en" ? "-2em" : 0,
+              marginRight: selectedLanguage === "ar" ? "-2em" : 0,
+            }}
+          >
             <div className="menu__home__content__popup__content__slider__content">
-              <div className="menu__home__content__popup__content__slider">
-                <img
-                  loading="lazy"
-                  src={dataForProductPopup?.image}
-                  alt={dataForProductPopup?.name}
-                  className="fadeIn"
-                />
-              </div>
               <div
-                className="menu__home__content__popup__content__slider__heading fadeIn"
-                style={{ animationDelay: `0.3s` }}
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  alignItems: "center",
+                }}
               >
-                {selectedLanguage === "ar"
-                  ? dataForProductPopup?.nameAr
-                  : dataForProductPopup?.name}
-              </div>
-              <div
-                className="menu__home__content__popup__content__slider__weight fadeIn"
-                style={{ animationDelay: `0.4s` }}
-              >
-                {selectedLanguage === "ar" && "سعرات حرارية "}
-                {dataForProductPopup?.calories}
-                {selectedLanguage === "en" && " CAL"}
+                <div
+                  className="menu__home__content__popup__content__slider__heading fadeIn"
+                  style={{ animationDelay: `0.3s` }}
+                >
+                  {selectedLanguage === "ar"
+                    ? dataForProductPopup?.nameAr
+                    : dataForProductPopup?.name}
+                </div>
+                <div
+                  className="menu__home__content__popup__content__slider__weight fadeIn"
+                  style={{ animationDelay: `0.4s`, marginBottom: 0 }}
+                >
+                  {selectedLanguage === "ar" && "سعرات حرارية "}
+                  {dataForProductPopup?.calories}
+                  {selectedLanguage === "en" && " CAL"}
+                </div>
               </div>
               <div
                 className="menu__home__content__popup__content__slider__info fadeIn"
-                style={{ animationDelay: `0.5s` }}
+                style={{
+                  animationDelay: `0.5s`,
+                  width: "100%",
+                  textAlign: selectedLanguage === "ar" ? "right" : "left",
+                }}
               >
                 {selectedLanguage === "ar"
                   ? dataForProductPopup?.descriptionAr
                   : dataForProductPopup?.description}
               </div>
-            </div>
-          </div>
-          <div className="menu__home__content__popup__content__buttons">
-            <div className="menu__home__content__popup__content__buttons__content fadeIn">
-              <div className="menu__home__content__popup__content__buttons__name">
-                {selectedLanguage === "ar" ? "حدد الحجم" : "Select Size"}
-              </div>
-              <div className="menu__home__content__popup__content__buttons__buttons">
-                {sizes.map((size, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setSelectedSize(size.en)}
-                    className={
-                      selectedSize === size.en
-                        ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
-                        : `menu__home__content__popup__content__buttons__buttons__button fadeIn`
-                    }
-                    style={{ animationDelay: `${index * 0.5}s` }}
+              {dataForProductPopup?.allergies && (
+                <div
+                  className="menu__home__content__popup__content__slider__info fadeIn"
+                  style={{
+                    animationDelay: `0.5s`,
+                    width: "100%",
+                    textAlign: selectedLanguage === "ar" ? "right" : "left",
+                  }}
+                >
+                  <div
+                    className="menu__home__content__popup__content__slider__info__allergy__heading"
+                    style={{
+                      marginBottom: 5,
+                      marginTop: 5,
+                      fontWeight: 600,
+                      fontSize: 16,
+                    }}
                   >
-                    {size[selectedLanguage === "ar" ? "ar" : "en"]}
-                  </button>
-                ))}
-              </div>
+                    {selectedLanguage === "ar" ? "الحساسية" : "Allergies"}
+                  </div>
+                  {dataForProductPopup?.allergies?.map((allergy, index) =>
+                    index === dataForProductPopup?.allergies?.length - 1 ? (
+                      <span key={index}>
+                        {allergy[selectedLanguage === "ar" ? "ar" : "en"]}
+                      </span>
+                    ) : (
+                      <span key={index}>
+                        {allergy[selectedLanguage === "ar" ? "ar" : "en"]}،{" "}
+                      </span>
+                    )
+                  )}
+                </div>
+              )}
             </div>
-            <div className="menu__home__content__popup__content__buttons__content fadeIn">
-              <div className="menu__home__content__popup__content__buttons__name">
-                {selectedLanguage === "ar" ? "حدد الحرارة" : "Select Spice"}
-              </div>
-              <div className="menu__home__content__popup__content__buttons__buttons">
-                {spices.map((spice, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setSelectedSpice(spice.en)}
-                    className={
-                      selectedSpice === spice.en
-                        ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
-                        : `menu__home__content__popup__content__buttons__buttons__button fadeIn`
-                    }
-                    style={{ animationDelay: `${index * 0.5}s` }}
+            {dataForProductPopup?.additives && (
+              <div className="menu__home__content__popup__content__buttons">
+                <div
+                  className="menu__home__content__popup__content__buttons__content fadeIn"
+                  style={{ width: "100%", marginRight: 0, marginLeft: 0 }}
+                >
+                  <div
+                    className="menu__home__content__popup__content__buttons__name"
+                    style={{ fontWeight: 600 }}
                   >
-                    {spice[selectedLanguage === "ar" ? "ar" : "en"]}
-                  </button>
-                ))}
+                    {selectedLanguage === "ar" ? "حدد الحجم" : "Select Size"}
+                  </div>
+                  <div className="menu__home__content__popup__content__buttons__buttons">
+                    {dataForProductPopup?.additives?.map((additive, index) => (
+                      <button
+                        onClick={() => {
+                          if (addedAdditives.includes(additive)) {
+                            setAddedAdditives(
+                              addedAdditives.filter((item) => item !== additive)
+                            );
+                          } else {
+                            setAddedAdditives([...addedAdditives, additive]);
+                          }
+                        }}
+                        key={index}
+                        className={
+                          addedAdditives.includes(additive)
+                            ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
+                            : `menu__home__content__popup__content__buttons__buttons__button fadeIn`
+                        }
+                        style={{ animationDelay: `${index * 0.5}s` }}
+                      >
+                        {selectedLanguage === "ar"
+                          ? additive.nameAr
+                          : additive.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
+            )}
+            {dataForProductPopup?.variants && (
+              <>
+                {dataForProductPopup?.variants?.map((variant, index) => (
+                  <div className="menu__home__content__popup__content__qauntity__and__price menu__home__content__popup__content__qauntity__and__price__new fadeIn">
+                    <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
+                      <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
+                        {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
+                      </div>
+                      <div className="menu__home__content__popup__content__qauntity">
+                        <button
+                          onClick={() => {
+                            if (
+                              addedVariants?.find(
+                                (item) => item.name === variant.name
+                              )?.quantity === 1
+                            ) {
+                              setAddedVariants(
+                                addedVariants.filter(
+                                  (item) => item.name !== variant.name
+                                )
+                              );
+                            } else {
+                              setAddedVariants(
+                                addedVariants.map((item) => {
+                                  if (item.name === variant.name) {
+                                    return {
+                                      ...item,
+                                      quantity: item.quantity - 1,
+                                    };
+                                  }
+                                  return item;
+                                })
+                              );
+                            }
+                          }}
+                          className="menu__home__content__popup__content__qauntity__button"
+                        >
+                          <Minus />
+                        </button>
+                        <div
+                          className="menu__home__content__popup__content__qauntity__number fadeIn"
+                          style={{ animationDelay: `0.5s` }}
+                        >
+                          {addedVariants?.find(
+                            (item) => item.name === variant.name
+                          )?.quantity || 0}
+                        </div>
+                        <button
+                          onClick={() => {
+                            if (
+                              addedVariants?.find(
+                                (item) => item.name === variant.name
+                              )?.quantity === undefined
+                            ) {
+                              setAddedVariants([
+                                ...addedVariants,
+                                {
+                                  ...variant,
+                                  quantity: 1,
+                                  index,
+                                },
+                              ]);
+                            }
+                            if (
+                              addedVariants?.find(
+                                (item) => item.name === variant.name
+                              )?.quantity !== undefined
+                            ) {
+                              setAddedVariants(
+                                addedVariants.map((item) => {
+                                  if (item.name === variant.name) {
+                                    return {
+                                      ...item,
+                                      quantity: item.quantity + 1,
+                                    };
+                                  }
+                                  return item;
+                                })
+                              );
+                            }
+                          }}
+                          className="menu__home__content__popup__content__qauntity__button"
+                        >
+                          <Plus />
+                        </button>
+                      </div>
+                    </div>
+                    <div className="menu__home__content__popup__content__qauntity__and__price__price fadeIn">
+                      <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
+                        {selectedLanguage === "ar" ? "السعر" : "Price"}
+                      </div>
+                      <div
+                        className="menu__home__content__popup__content__qauntity__and__price__price__number"
+                        style={{ animationDelay: `0.5s` }}
+                      >
+                        {selectedLanguage === "ar" && "السعر "}
+                        {parseFloat(
+                          parseFloat(variant.price) *
+                            (addedVariants?.find(
+                              (item) => item.name === variant.name
+                            )?.quantity || 0)
+                        ).toFixed(2)}
+                        {selectedLanguage === "en" && " SAR"}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </>
+            )}
           </div>
           <div className="menu__home__content__popup__content__qauntity__and__price fadeIn">
-            <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
-              <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
-              </div>
-              <div className="menu__home__content__popup__content__qauntity">
-                <button
-                  className="menu__home__content__popup__content__qauntity__button"
-                  onClick={handleDecrement}
-                >
-                  <Minus />
-                </button>
-                <div
-                  className="menu__home__content__popup__content__qauntity__number fadeIn"
-                  style={{ animationDelay: `0.5s` }}
-                >
-                  {quantity}
+            {dataForProductPopup?.variants === undefined && (
+              <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
+                <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
+                  {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
                 </div>
-                <button
-                  className="menu__home__content__popup__content__qauntity__button"
-                  onClick={handleIncrement}
-                >
-                  <Plus />
-                </button>
+                <div className="menu__home__content__popup__content__qauntity">
+                  <button
+                    className="menu__home__content__popup__content__qauntity__button"
+                    onClick={handleDecrement}
+                  >
+                    <Minus />
+                  </button>
+                  <div
+                    className="menu__home__content__popup__content__qauntity__number fadeIn"
+                    style={{ animationDelay: `0.5s` }}
+                  >
+                    {quantity}
+                  </div>
+                  <button
+                    className="menu__home__content__popup__content__qauntity__button"
+                    onClick={handleIncrement}
+                  >
+                    <Plus />
+                  </button>
+                </div>
               </div>
-            </div>
+            )}
             <div className="menu__home__content__popup__content__qauntity__and__price__price fadeIn">
               <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
                 {selectedLanguage === "ar" ? "السعر" : "Price"}
@@ -187,7 +346,24 @@ function ProductPopup() {
                 style={{ animationDelay: `0.5s` }}
               >
                 {selectedLanguage === "ar" && "السعر "}
-                {dataForProductPopup?.price * quantity}
+                {parseFloat(
+                  ((addedVariants.length > 0
+                    ? addedVariants?.reduce(
+                        (acc, curr) =>
+                          acc +
+                          parseFloat(curr.price) * parseFloat(curr.quantity),
+                        0
+                      )
+                    : 0) +
+                    (addedAdditives.length > 0
+                      ? addedAdditives?.reduce(
+                          (acc, curr) => acc + parseFloat(curr.price),
+                          0
+                        )
+                      : 0) +
+                    parseFloat(dataForProductPopup?.price)) *
+                    quantity
+                ).toFixed(2)}
                 {selectedLanguage === "en" && " SAR"}
               </div>
             </div>
