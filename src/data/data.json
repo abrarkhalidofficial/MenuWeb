@@ -11,7 +11,51 @@
         "description": "Fresh vegetables prepared in the Levantine style",
         "descriptionAr": "الخضار الطازج المعد على الطريقة الشامية",
         "price": "16.00",
-        "calories": "60"
+        "calories": "60",
+        "allergies": [
+          { "en": "Gluten", "ar": "جلوتين" },
+          { "en": "Soy", "ar": "صويا" }
+        ],
+        "variants": [
+          {
+            "name": "Small",
+            "nameAr": "صغير",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Medium",
+            "nameAr": "متوسط",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Large",
+            "nameAr": "كبير",
+            "price": "16.00",
+            "calories": "60"
+          }
+        ],
+        "additives": [
+          {
+            "name": "Extra Olive Oil",
+            "nameAr": "زيت زيتون إضافي",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Extra Lemon",
+            "nameAr": "ليمون إضافي",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Extra Pomegranate Molasses",
+            "nameAr": "دبس رمان إضافي",
+            "price": "16.00",
+            "calories": "60"
+          }
+        ]
       },
       {
         "name": "Arugula Salad",
@@ -20,7 +64,27 @@
         "description": "Fresh arugula with white onion pieces and walnuts",
         "descriptionAr": "الجرجير الطازج مع قطع البصل الأبيض ومكسرات عين الجمل",
         "price": "16.00",
-        "calories": "100"
+        "calories": "100",
+        "additives": [
+          {
+            "name": "Extra Olive Oil",
+            "nameAr": "زيت زيتون إضافي",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Extra Lemon",
+            "nameAr": "ليمون إضافي",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Extra Pomegranate Molasses",
+            "nameAr": "دبس رمان إضافي",
+            "price": "16.00",
+            "calories": "60"
+          }
+        ]
       },
       {
         "name": "Tabbouleh",
@@ -29,7 +93,11 @@
         "description": "Chopped parsley with bulgur, tomato granules, and a sprinkle of lemon and lime",
         "descriptionAr": "البقدونس المفروم مع البرغل وحبيبات الطماطم ورشة الحامض والليمون",
         "price": "16.00",
-        "calories": "80"
+        "calories": "80",
+        "allergies": [
+          { "en": "Gluten", "ar": "جلوتين" },
+          { "en": "Soy", "ar": "صويا" }
+        ]
       },
       {
         "name": "Fattoush",
@@ -38,7 +106,27 @@
         "description": "Fresh vegetables with crispy bread pieces and drops of pomegranate molasses",
         "descriptionAr": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
         "price": "17.00",
-        "calories": "70"
+        "calories": "70",
+        "variants": [
+          {
+            "name": "Small",
+            "nameAr": "صغير",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Medium",
+            "nameAr": "متوسط",
+            "price": "16.00",
+            "calories": "60"
+          },
+          {
+            "name": "Large",
+            "nameAr": "كبير",
+            "price": "16.00",
+            "calories": "60"
+          }
+        ]
       },
       {
         "name": "Hummus",
@@ -679,7 +767,7 @@
         "description": "Fresh strawberry juice",
         "descriptionAr": "عصير الفراولة الطازجة",
         "price": "13.00",
-        "calories": "90 "
+        "calories": "90"
       },
       {
         "name": "Saudi cocktail",
