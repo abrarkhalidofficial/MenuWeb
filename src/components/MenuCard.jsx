@@ -62,8 +62,8 @@ export default function MenuCard({ product, delay }) {
             ? "إزالة"
             : "Added"
           : selectedLanguage === "ar"
-          ? "أضف إلى السلة"
-          : "Add to cart"}
+            ? "أضف إلى السلة"
+            : "Add to cart"}
       </button>
     </div>
   );
