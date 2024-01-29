@@ -662,9 +662,9 @@ body {
   background-color: #000000b0;
 }
 .imagespopup__img img {
-  height: 80%;
+  height: auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 60%;
   margin: 0 auto;
   border: 7px solid #fff;
   border-radius: 20px;
@@ -992,8 +992,9 @@ body {
     width: 100%;
   }
   .imagespopup__img img {
-    height: 300px;
+    height: auto;
     width: 100%;
+    max-width: 80%;
   }
 }
 @media (max-width: 400px) {
