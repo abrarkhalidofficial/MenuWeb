@@ -294,7 +294,7 @@
       {
         "name": "Meat Kebab",
         "nameAr": "كباب لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb76e9091-196c-4d2d-95a6-7c33f9380957.jpeg?alt=media&token=b650a27c-e9d2-4933-ae5d-886dc8e890a4",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520449/part4/img_hz2fy9.webp",
         "description": "Fresh, tender meat kebab marinated in our way",
         "descriptionAr": "كباب اللحم الطازج الطري المتبل بطريقتنا",
         "price": "34.00",
@@ -303,7 +303,7 @@
       {
         "name": "Meat awsal",
         "nameAr": "أوصال لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F115bbe0f-6773-4850-8744-a62b262c32b0.jpg?alt=media&token=eaec6933-76cf-4b77-9b86-34a36d9b4d79",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520383/part4/img2_tqjmgl.webp",
         "description": "Pieces of tender and fresh meat marinated in our way",
         "descriptionAr": "قطع من اللحم الطري والطازج المتبلة على طريقتنا",
         "price": "61.00",
@@ -312,7 +312,7 @@
       {
         "name": "Meat Problem",
         "nameAr": "مشكل لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2abc05ad-3b40-44d8-95ef-92a85b12b989.jpeg?alt=media&token=6f734894-312d-49c3-962c-5219b6924844",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520449/part4/img_hz2fy9.webp",
         "description": "A selection of tender meat awwal and fresh meat kebab (4 skewers)",
         "descriptionAr": "تشكيلة من أوصال اللحم الطري وكباب اللحم الطازج (4 أسياخ)",
         "price": "57.00",
@@ -321,7 +321,7 @@
       {
         "name": "Small mixed grill",
         "nameAr": "مشوي مشكل صغير",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F9201ee23-d69f-415b-85ed-47719b2650d6.jpeg?alt=media&token=f36a4ea1-0eca-4e84-a115-2cf88aba7391",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520382/part4/img3_o51z8p.webp",
         "description": "A selection of meat awwal, chicken awwal, meat kebab, and chicken kebab, grilled and served with eggplant, tomato, and fresh bell pepper.",
         "descriptionAr": "تشكيلة من أوصال اللحموأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
         "price": "37.00",
@@ -330,7 +330,7 @@
       {
         "name": "Istanbul Kebab",
         "nameAr": "كباب اسطنبولي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd0162773-05e1-48b8-ae9f-f9fc71e8ba23.jpeg?alt=media&token=78e92cd9-ab97-497c-abcc-d0f5d510847d",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520408/part4/img4_vepw4f.webp",
         "description": "Tender and fresh meat kebab with our special seasoning with a hint of garlic and cold pepper (2 skewers)",
         "descriptionAr": "كباب اللحم الطري والطازج بتتبيلتنا الخاصة مع نفحة من الثوم والفلفل البارد (2 سيخ)",
         "price": "36.00",
@@ -339,7 +339,7 @@
       {
         "name": "Eggplant Kebab",
         "nameAr": "كباب باذنجان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa02bb6f5-fa89-4f5d-9364-576e6c90fef6.jpeg?alt=media&token=86a1ebd5-2b0d-4554-b348-6cc92175f727",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520389/part4/img5_nmewp0.webp",
         "description": "Grilled tender meat kebab pieces with eggplant and tomato slices, served with special sauce cooked over charcoal",
         "descriptionAr": "قطع كباب اللحم الطري المشوي مع الباذنجان وشرائح الطماطم يأتيك مع الصوص الخاص المطبوخ على الفحم",
         "price": "36.00",
@@ -348,7 +348,7 @@
       {
         "name": "Kebab with Sauce",
         "nameAr": "كباب مع الصوص",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F09b7f40f-be1e-4227-9e6c-b0ade13623e8.jpeg?alt=media&token=4ab2c80b-fb62-4d2c-b760-a1e5108d4326",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520387/part4/img6_wilutt.webp",
         "description": "Tender meat kebab served with mashed tomatoes prepared on charcoal (4 skewers)",
         "descriptionAr": "كباب اللحم الطري يقدم مع الطماطم المهروسة المعدة على الفحم (4 أسياخ)",
         "price": "36.00",
@@ -357,7 +357,7 @@
       {
         "name": "Khashkhash Kebab",
         "nameAr": "كباب خشخاش",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F63df290f-3afb-4b24-a952-8ca4018a7808.jpg?alt=media&token=3a83294e-ccb7-44ed-96ae-2068bffa90f8",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520888/part4/DSC02402_g582gx.webp",
         "description": "Fresh meat kebab marinated in our special way, served with special sauce prepared on charcoal (4 skewers)",
         "descriptionAr": "كباب اللحم الطازج المتبل على طريقتنا الخاصة يقدم مع الصوص الخاص المعد على الفحم (4 أسياخ)",
         "price": "36.00",
@@ -366,7 +366,7 @@
       {
         "name": "Arayes Meat",
         "nameAr": "عرايس لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F897b94b9-d23b-45d7-b6be-adedb9c5736c.jpeg?alt=media&token=92164ffd-7af1-46e5-8757-09063e4e55d7",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520446/part4/img8_mwkeyv.webp",
         "description": "A special filling of meat between two thin layers of bread topped with drops of pomegranate molasses (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان (8 قطع)",
         "price": "29.00",
@@ -376,7 +376,7 @@
       {
         "name": "Toshka with Cheese and Nuts",
         "nameAr": "طوشكا مع الجبن والمكسرات",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbf74f82f-e349-4bcf-bda2-5466155cb808.jpeg?alt=media&token=4fe2e72f-5984-46b9-8b9b-fc4e76743627",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520450/part4/img9_zyd9ym.webp",
         "description": "A special filling of meat, cheese and nuts between two thin layers of bread, grilled and served to you (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك (8 قطع)",
         "price": "36.00",
@@ -390,7 +390,7 @@
       {
         "name": "Grilled Sheep Liver",
         "nameAr": "كبدة غنم مشوية",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F33260d8f-6ff1-426c-83b6-7a1106cc731d.jpeg?alt=media&token=cca5fefd-8146-420b-acf7-9b70759092b8",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520451/part4/img10_uvoioh.webp",
         "description": "Grilled lamb liver with a pinch of salt and black pepper (2 skewers)",
         "descriptionAr": "كبدة غنم مشوية مع رشة من الملح والفلفل الأسود (2 سيخ)",
         "price": "29.00",
@@ -399,7 +399,7 @@
       {
         "name": "Kasabiya Meat Kibbeh",
         "nameAr": "كبة لحم قصابية",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6616c6a5-24a1-44d8-a453-a1d38154d66a.jpg?alt=media&token=ae8d5b06-c545-413d-8ac2-b8974740302f",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520446/part4/img11_bpw7ss.webp",
         "description": "Pieces of fresh meat kebab prepared in Aleppo style (2 skewers)",
         "descriptionAr": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية (2 سيخ)",
         "price": "29.00",
@@ -411,12 +411,12 @@
   {
     "name": "Chicken Grills",
     "nameAr": "مشويات الدجاج",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Fcbbcc30f-0e93-454a-85eb-1acc37a1503c.jpeg?alt=media&token=978a6817-f4c3-45a2-8323-3e9008fc6370",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522034/part4/part5/img_sbfc5u.webp",
     "products": [
       {
         "name": "Chicken kebab",
         "nameAr": "كباب دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2d481472-9adf-492a-900a-a271d01ecab5.jpeg?alt=media&token=f72b124e-49e7-4801-a977-4f785a0c77f3",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522052/part4/part5/img1_qecxo7.webp",
         "description": "Tender and fresh chicken kebab marinated in our special way",
         "descriptionAr": "كباب الدجاج الطري والطازج المتبل على طريقتنا الخاصة",
         "price": "29.00",
@@ -425,7 +425,7 @@
       {
         "name": "Chicken Grill",
         "nameAr": "شيش طاووق",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0734ff45-c0e8-4815-bade-647a3a1ff693.jpeg?alt=media&token=b313e65c-8a68-4cd5-8329-20efae8ad4b3",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522034/part4/part5/img_sbfc5u.webp",
         "description": "Pieces of premium chicken breast marinated with our special spices",
         "descriptionAr": "قطع من صدر الدجاج الفاخر المتبلة بتوابلنا الخاصة",
         "price": "33.00",
@@ -434,7 +434,7 @@
       {
         "name": "Chicken Problem",
         "nameAr": "مشكل دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb5ce47fe-06af-4a21-8c5e-004393b93cb2.jpeg?alt=media&token=081ee30d-e539-4d03-a6e5-4eb42a0ea9ac",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522034/part4/part5/img_sbfc5u.webp",
         "description": "A selection of tender chicken tenders and chicken kebab",
         "descriptionAr": "تشكيلة من أوصال الدجاج الطري وكباب الدجاج",
         "price": "34.00",
@@ -443,7 +443,7 @@
       {
         "name": "Chicken Wings",
         "nameAr": "أجنحة دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F28e45e1b-2c6f-4058-89b9-1cf9ae8d405a.jpeg?alt=media&token=a5d60931-5e4e-4bb2-bad7-4c37187b4e6b",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522084/part4/part5/img3_deetx2.webp",
         "description": "Twelve pieces of bone-in chicken wings served with special sauce",
         "descriptionAr": "اثنتا عشرة قطعة من أجنحة الدجاج بالعظم تقدم مع الصوص الخاص",
         "price": "18.00",
@@ -454,12 +454,12 @@
   {
     "name": "Kiwanis",
     "nameAr": "كيوانيات",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F77f4cec4-1913-4b01-90cd-ad5bdfcc6707.jpeg?alt=media&token=c51b4a51-33c4-4fc9-877e-5ef5c466487d",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522084/part4/part5/img3_deetx2.webp",
     "products": [
       {
         "name": "Kiwan Meat Kebab",
         "nameAr": "كباب كيوان لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc001a7f5-1bff-4e62-a922-4a03986a024a.jpeg?alt=media&token=ae819a56-933d-426e-b25e-61ce149ea0fe",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522088/part4/part5/img4_e1gjzc.webp",
         "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "54.00",
@@ -469,7 +469,7 @@
       {
         "name": "Chicken Kebab",
         "nameAr": "كباب كيوان دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F038ea8d0-de27-48b6-89af-4077d56e074d.jpeg?alt=media&token=a9d1c257-ea13-4f0b-be20-3a91cf255a4b",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522096/part4/part5/img5_gdn9lq.webp",
         "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "44.00",
@@ -482,7 +482,7 @@
       {
         "name": "Kebab roll with nuts and meat",
         "nameAr": "كباب رول مع المكسرات لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F2018ae78-6924-4a15-b888-9c389ac5f275.jpg?alt=media&token=acd23946-f077-439b-aa3b-b3e47cc99b28",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522318/part4/part5/img6_ezxfct.webp",
         "description": "Eight pieces of fresh meat kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب اللحم الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "39.00",
@@ -495,7 +495,7 @@
       {
         "name": "Kebab roll with nuts chicken",
         "nameAr": "كباب رول مع المكسرات دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb514a7bd-d8f7-45b4-9dc4-9104a5083aa7.jpg?alt=media&token=ce68cbd2-2a2f-4773-9c1f-bd181ad6c5e2",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522332/part4/part5/img7_lvjgtr.webp",
         "description": "Eight pieces of fresh chicken kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب الدجاج الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "34.00",
@@ -505,7 +505,7 @@
       {
         "name": "Kiwan Meat Kofta",
         "nameAr": "كفتة كيوان لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Feaccdb84-15de-4025-a07f-06889b2eeb61.jpg?alt=media&token=35a76290-fdf7-4e86-8aa3-8630824a27dc",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522090/part4/part5/img8_vebv4b.webp",
         "description": "Kofta of premium meat stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من اللحم الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "39.00",
@@ -518,7 +518,7 @@
       {
         "name": "Chicken Kiwan Kofta",
         "nameAr": "كفتة كيوان دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3522abe6-db12-42b7-ad95-230012a0ad12.jpeg?alt=media&token=b2a24e4b-3577-4bd6-a8d8-086755450c5a",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522098/part4/part5/img9_wgp0ch.webp",
         "description": "Kofta of premium chicken stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من الدجاج الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "36.00",
@@ -531,7 +531,7 @@
       {
         "name": "Kebab with Cherries",
         "nameAr": "كباب بالكرز",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F81d8656f-171d-4c21-b050-b80a30254119.jpeg?alt=media&token=8c483dfd-7444-4749-822b-eb13c7da6daf",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522054/part4/part5/img10_okxymc.webp",
         "description": "Balled pieces of fresh meat kebab dipped in cherries specially squeezed for this luxurious dish",
         "descriptionAr": "قطع مكورة من كباب اللحم الطازج المغمورة بالكرز المعصور خصيصا لهذا الطبق الفاخر",
         "price": "56.00",
@@ -540,7 +540,7 @@
       {
         "name": "Mozzarella Kebab with Nuts",
         "nameAr": "كباب موزريلا مع المكسرات",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F1df55a29-ae08-458c-b4a7-82df8bbd82b1.jpeg?alt=media&token=15104153-b8aa-4330-bc87-6e436524022e",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522056/part4/part5/img11_w9o66j.webp",
         "description": "Tender meat kebab marinated in our special way with mozzarella cheese and nuts (4 skewers)",
         "descriptionAr": "كباب اللحم الطري المتبل بطريقتنا الخاصة مع جبنة الموزريلا والمكسرات (4 أسياخ)",
         "price": "43.00",
@@ -549,7 +549,7 @@
       {
         "name": "Rital Roll",
         "nameAr": "رول ريتال",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb915b3c3-c774-4578-9fb9-423b0da8511c.jpeg?alt=media&token=4a060503-c6ff-4d7a-9caf-f8c915ad6ac7",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522119/part4/part5/img12_rrglar.webp",
         "description": "Slices of fresh meat stuffed with cheese and nuts wrapped in a thin layer of lard (5 pieces)",
         "descriptionAr": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم (5 قطع)",
         "price": "64.00",
@@ -562,7 +562,7 @@
       {
         "name": "ريش لحم",
         "nameAr": "ريش لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff11a7a04-2b8a-4db6-b6ad-ccc36687473b.jpeg?alt=media&token=1f2ab6ff-81a8-459c-a217-97c8c9b18d16",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522089/part4/part5/img13_b4g977.webp",
         "description": "Four pieces of delicious and tender lamb chops",
         "descriptionAr": "أربع قطع من ريش الغنم الشهية والطرية",
         "price": "64.00",
@@ -571,7 +571,7 @@
       {
         "name": "Chef's dish",
         "nameAr": "طبق الشيف",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F84ca4cef-d2f8-4fdc-8e00-1c69db93d8ec.jpeg?alt=media&token=65644cb5-22aa-4640-8dff-657ef9416b48",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522283/part4/part5/img14_drwnjr.webp",
         "description": "Pieces of fresh meat with our special toppings, wrapped in dough and roasted in the oven",
         "descriptionAr": "قطع من اللحم الطازج مع إضافتنا الخاصة الملفوفة بالعجين والمقمرة بالفرن",
         "price": "48.00",
