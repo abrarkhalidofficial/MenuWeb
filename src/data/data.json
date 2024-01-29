@@ -11,45 +11,7 @@
         "description": "Fresh vegetables prepared in the Levantine style",
         "descriptionAr": "الخضار الطازج المعد على الطريقة الشامية",
         "price": "16.00",
-        "calories": "60",
-        "allergies": [
-          { "en": "Gluten", "ar": "جلوتين" },
-          { "en": "Soy", "ar": "صويا" }
-        ],
-        "variants": [
-          {
-            "name": "Small",
-            "nameAr": "صغير",
-            "price": "12.00"
-          },
-          {
-            "name": "Medium",
-            "nameAr": "متوسط",
-            "price": "16.00"
-          },
-          {
-            "name": "Large",
-            "nameAr": "كبير",
-            "price": "16.00"
-          }
-        ],
-        "additives": [
-          {
-            "name": "Extra Olive Oil",
-            "nameAr": "زيت زيتون إضافي",
-            "price": "16.00"
-          },
-          {
-            "name": "Extra Lemon",
-            "nameAr": "ليمون إضافي",
-            "price": "16.00"
-          },
-          {
-            "name": "Extra Pomegranate Molasses",
-            "nameAr": "دبس رمان إضافي",
-            "price": "16.00"
-          }
-        ]
+        "calories": "60"
       },
       {
         "name": "Arugula Salad",
@@ -59,26 +21,7 @@
         "descriptionAr": "الجرجير الطازج مع قطع البصل الأبيض ومكسرات عين الجمل",
         "price": "16.00",
         "calories": "100",
-        "additives": [
-          {
-            "name": "Extra Olive Oil",
-            "nameAr": "زيت زيتون إضافي",
-            "price": "16.00",
-            "calories": "60"
-          },
-          {
-            "name": "Extra Lemon",
-            "nameAr": "ليمون إضافي",
-            "price": "16.00",
-            "calories": "60"
-          },
-          {
-            "name": "Extra Pomegranate Molasses",
-            "nameAr": "دبس رمان إضافي",
-            "price": "16.00",
-            "calories": "60"
-          }
-        ]
+        "allergies": [{ "en": "almonds", "ar": "لوز" }]
       },
       {
         "name": "Tabbouleh",
@@ -87,11 +30,7 @@
         "description": "Chopped parsley with bulgur, tomato granules, and a sprinkle of lemon and lime",
         "descriptionAr": "البقدونس المفروم مع البرغل وحبيبات الطماطم ورشة الحامض والليمون",
         "price": "16.00",
-        "calories": "80",
-        "allergies": [
-          { "en": "Gluten", "ar": "جلوتين" },
-          { "en": "Soy", "ar": "صويا" }
-        ]
+        "calories": "80"
       },
       {
         "name": "Fattoush",
@@ -100,27 +39,7 @@
         "description": "Fresh vegetables with crispy bread pieces and drops of pomegranate molasses",
         "descriptionAr": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
         "price": "17.00",
-        "calories": "70",
-        "variants": [
-          {
-            "name": "Small",
-            "nameAr": "صغير",
-            "price": "16.00",
-            "calories": "60"
-          },
-          {
-            "name": "Medium",
-            "nameAr": "متوسط",
-            "price": "16.00",
-            "calories": "60"
-          },
-          {
-            "name": "Large",
-            "nameAr": "كبير",
-            "price": "16.00",
-            "calories": "60"
-          }
-        ]
+        "calories": "70"
       },
       {
         "name": "Hummus",
@@ -217,7 +136,8 @@
         "description": "Hearty and delicious wild mushroom soup",
         "descriptionAr": "حساء الفطر البري الشهي واللذيذ",
         "price": "16.00",
-        "calories": "110"
+        "calories": "110",
+        "allergies": [{ "en": "mushroom", "ar": "فطر" }]
       },
       {
         "name": "Lentil Soup",
@@ -262,7 +182,11 @@
         "description": "Prepared in our special way (4 pieces)",
         "descriptionAr": "معدة على طريقتنا الخاصة (٤ حبات)",
         "price": "22.00",
-        "calories": "170"
+        "calories": "170",
+        "allergies": [
+          { "en": "barley", "ar": "شعير" },
+          { "en": "almonds", "ar": "لوز" }
+        ]
       },
       {
         "name": "Hummus with Meat",
@@ -271,7 +195,8 @@
         "description": "Our special hummus with hot pieces of meat in the middle",
         "descriptionAr": "حمصنا الخاص تتوسطه قطع اللحم الساخنة",
         "price": "26.00",
-        "calories": "260"
+        "calories": "260",
+        "allergies": [{ "en": "milk", "ar": "حليب" }]
       },
       {
         "name": "Marinated with Meat",
@@ -296,7 +221,8 @@
         "description": "Minced meat marinated in our special way on oven-baked dough sheets",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
-        "calories": "368"
+        "calories": "368",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Levantine safiha with pomegranate molasses",
@@ -305,7 +231,8 @@
         "description": "",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة مع دبس الرمان على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
-        "calories": "368"
+        "calories": "368",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Meat with Aleppo dough",
@@ -314,7 +241,8 @@
         "description": "Minced meat marinated in our special way on round dough sheets and baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصة على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
-        "calories": "256"
+        "calories": "256",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Meat bajin with pomegranate molasses",
@@ -323,7 +251,8 @@
         "description": "Minced meat marinated in our special way with pomegranate molasses on round dough sheets baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصةمع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
-        "calories": "296"
+        "calories": "296",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Meat kofta with tahini",
@@ -332,7 +261,8 @@
         "description": "A tender piece of kofta topped with special tahini sauce with the notes of green onions and sesame seeds",
         "descriptionAr": "قطعة الكفتة الطرية يعلوها صوص الطحينة الخاص مع نفحة البصل الأخضر وحبات السمسم",
         "price": "32.00",
-        "calories": "260"
+        "calories": "260",
+        "allergies": [{ "en": "milk", "ar": "حليب" }]
       },
       {
         "name": "Chicken Pottery",
@@ -341,7 +271,8 @@
         "description": "Slices of fresh chicken with onions, mushrooms and red bell pepper served on a clay plate",
         "descriptionAr": "شرائح من الدجاج الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "33.00",
-        "calories": "230"
+        "calories": "230",
+        "allergies": [{ "en": "mushroom", "ar": "فطر" }]
       },
       {
         "name": "Meat Pottery",
@@ -350,7 +281,8 @@
         "description": "Slices of fresh meat with onions, mushrooms and red pepper served on a clay plate",
         "descriptionAr": "شرائح من اللحم الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "38.00",
-        "calories": "280"
+        "calories": "280",
+        "allergies": [{ "en": "mushroom", "ar": "فطر" }]
       }
     ]
   },
@@ -438,7 +370,8 @@
         "description": "A special filling of meat between two thin layers of bread topped with drops of pomegranate molasses (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان (8 قطع)",
         "price": "29.00",
-        "calories": "320"
+        "calories": "320",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Toshka with Cheese and Nuts",
@@ -447,7 +380,12 @@
         "description": "A special filling of meat, cheese and nuts between two thin layers of bread, grilled and served to you (8 pieces)",
         "descriptionAr": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك (8 قطع)",
         "price": "36.00",
-        "calories": "370"
+        "calories": "370",
+        "allergies": [
+          { "en": "barley", "ar": "شعير" },
+          { "en": "almonds", "ar": "لوز" },
+          { "en": "milk", "ar": "حليب" }
+        ]
       },
       {
         "name": "Grilled Sheep Liver",
@@ -465,7 +403,8 @@
         "description": "Pieces of fresh meat kebab prepared in Aleppo style (2 skewers)",
         "descriptionAr": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية (2 سيخ)",
         "price": "29.00",
-        "calories": "250"
+        "calories": "250",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       }
     ]
   },
@@ -524,7 +463,8 @@
         "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "54.00",
-        "calories": "280"
+        "calories": "280",
+        "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
         "name": "Chicken Kebab",
@@ -533,7 +473,11 @@
         "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "44.00",
-        "calories": "260"
+        "calories": "260",
+        "allergies": [
+          { "en": "barley", "ar": "شعير" },
+          { "en": "milk", "ar": "حليب" }
+        ]
       },
       {
         "name": "Kebab roll with nuts and meat",
@@ -542,7 +486,11 @@
         "description": "Eight pieces of fresh meat kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب اللحم الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "39.00",
-        "calories": "370"
+        "calories": "370",
+        "allergies": [
+          { "en": "almonds", "ar": "لوز" },
+          { "en": "barley", "ar": "شعير" }
+        ]
       },
       {
         "name": "Kebab roll with nuts chicken",
@@ -551,7 +499,8 @@
         "description": "Eight pieces of fresh chicken kebab with nuts stuffed inside a thin layer of dough and grilled over low heat",
         "descriptionAr": "ثمان قطع من كباب الدجاج الطازج مع المكسرات محشو داخل طبقة رقيقة من العجين يشوى على نار هادئة",
         "price": "34.00",
-        "calories": "350"
+        "calories": "350",
+        "allergies": [{ "en": "almonds", "ar": "لوز" }]
       },
       {
         "name": "Kiwan Meat Kofta",
@@ -560,7 +509,11 @@
         "description": "Kofta of premium meat stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من اللحم الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "39.00",
-        "calories": "260"
+        "calories": "260",
+        "allergies": [
+          { "en": "almonds", "ar": "لوز" },
+          { "en": "milk", "ar": "حليب" }
+        ]
       },
       {
         "name": "Chicken Kiwan Kofta",
@@ -569,7 +522,11 @@
         "description": "Kofta of premium chicken stuffed with delicious cheese and some fresh vegetables",
         "descriptionAr": "كفتة من الدجاج الفاخر المحشو بالجبنة الزاكية وشيء من الخضار الطازج",
         "price": "36.00",
-        "calories": "230"
+        "calories": "230",
+        "allergies": [
+          { "en": "milk", "ar": "حليب" },
+          { "en": "almonds", "ar": "لوز" }
+        ]
       },
       {
         "name": "Kebab with Cherries",
@@ -596,7 +553,11 @@
         "description": "Slices of fresh meat stuffed with cheese and nuts wrapped in a thin layer of lard (5 pieces)",
         "descriptionAr": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم (5 قطع)",
         "price": "64.00",
-        "calories": "510"
+        "calories": "510",
+        "allergies": [
+          { "en": "almonds", "ar": "لوز" },
+          { "en": "milk", "ar": "حليب" }
+        ]
       },
       {
         "name": "ريش لحم",
@@ -614,7 +575,11 @@
         "description": "Pieces of fresh meat with our special toppings, wrapped in dough and roasted in the oven",
         "descriptionAr": "قطع من اللحم الطازج مع إضافتنا الخاصة الملفوفة بالعجين والمقمرة بالفرن",
         "price": "48.00",
-        "calories": "310"
+        "calories": "310",
+        "allergies": [
+          { "en": "barley", "ar": "شعير" },
+          { "en": "milk", "ar": "حليب" }
+        ]
       }
     ]
   },
@@ -630,7 +595,12 @@
         "description": "Enjoy a delicious and hot dish with this luxurious dish served with pistachios and coconut",
         "descriptionAr": "تمتع بطبق رائع ومذاق ساخن مع هذا الطبق الفاخر المقدم مع الفستق وجوز الهند",
         "price": "16.00",
-        "calories": "350"
+        "calories": "350",
+        "allergies": [
+          { "en": "barley", "ar": "شعير" },
+          { "en": "milk", "ar": "حليب" },
+          { "en": "almonds", "ar": "لوز" }
+        ]
       }
     ]
   },
@@ -698,7 +668,8 @@
         "description": "Our special drink with fresh pomegranate seeds, luxurious mango, strawberry topping, ice cream and a special berry drink",
         "descriptionAr": "مشروبنا المميز مع حبيبات الرمان الطازج والمانجو الفاخرة وطبقة فراولة والآيس كريم ومشروب التوت الخاص",
         "price": "16.00",
-        "calories": "470"
+        "calories": "470",
+        "allergies": [{ "en": "milk", "ar": "حليب" }]
       },
       {
         "name": "Light Cocktail",
@@ -707,7 +678,8 @@
         "description": "A mixture of delicious natural fruits",
         "descriptionAr": "خليط من الفواكه الطبيعية اللذيذة",
         "price": "14.00",
-        "calories": "180"
+        "calories": "180",
+        "allergies": [{ "en": "milk", "ar": "حليب" }]
       },
       {
         "name": "Orange",
