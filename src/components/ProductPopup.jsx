@@ -14,7 +14,7 @@ function ProductPopup({}) {
   const [popupOpen, setPopupOpen] = useState(false);
   const [dataForProductPopup, setDataForProductPopup] =
     useAtom(productPopupAtom);
-
+  const [imagePopup, setImagePopup] = useState("");
   const [addedAdditives, setAddedAdditives] = useState([]);
 
   const [addedVariants, setAddedVariants] = useState([]);
@@ -51,7 +51,6 @@ function ProductPopup({}) {
   return (
     popupOpen && (
       <>
-        {" "}
         <div
           className="menu__home__content__popup"
           onClick={() => {
@@ -78,7 +77,10 @@ function ProductPopup({}) {
                 style={{ objectFit: "cover" }}
               />
               <div className="menu__home__content__popup__content__slider__button">
-                <button></button>
+                <button
+                  title="View Full Image"
+                  onClick={() => setImagePopup(dataForProductPopup.image)}
+                ></button>
               </div>
             </div>
             <div
@@ -394,17 +396,19 @@ function ProductPopup({}) {
             </Rounded>
           </div>
         </div>
-        <div className="imagespopup">
-          <div className="imagespopup__img">
-            <button className="imagespopup__img__closebutton">
-              <X />
-            </button>
-            <img
-              src="https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512598/menuwebsite/upload/img2_txrx2j.webp"
-              alt=""
-            />
+        {imagePopup !== "" ? (
+          <div className="imagespopup">
+            <div className="imagespopup__img">
+              <button
+                onClick={() => setImagePopup("")}
+                className="imagespopup__img__closebutton"
+              >
+                <X />
+              </button>
+              <img src={imagePopup} alt="Full Image" />
+            </div>
           </div>
-        </div>
+        ) : null}
       </>
     )
   );
