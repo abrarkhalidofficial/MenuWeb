@@ -659,12 +659,12 @@
   {
     "name": "Fresh Juices",
     "nameAr": "العصائر الطازجة",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F18ece9b6-d388-45a2-81e4-81147998e2ad.jpeg?alt=media&token=652e928c-84f9-49c8-afeb-9c5562e9b775",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523351/part4/part5/part6/img_gp7lqu.webp",
     "products": [
       {
         "name": "Layers of Kiwan",
         "nameAr": "طبقات كيوان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F3d98fa8f-2c31-4fc2-8f24-e44b119d0bc4.jpeg?alt=media&token=51448ec4-0cb4-4387-8e44-c1ed27653909",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523351/part4/part5/part6/img_gp7lqu.webp",
         "description": "Our special drink with fresh pomegranate seeds, luxurious mango, strawberry topping, ice cream and a special berry drink",
         "descriptionAr": "مشروبنا المميز مع حبيبات الرمان الطازج والمانجو الفاخرة وطبقة فراولة والآيس كريم ومشروب التوت الخاص",
         "price": "16.00",
@@ -674,7 +674,7 @@
       {
         "name": "Light Cocktail",
         "nameAr": "كوكتيل لايت",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fdbddb307-6e16-4b4a-9f24-2850f6d6670c.jpeg?alt=media&token=c3bb5b46-4d86-4652-b964-eaf83623b991",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523346/part4/part5/part6/img2_bfjzlq.webp",
         "description": "A mixture of delicious natural fruits",
         "descriptionAr": "خليط من الفواكه الطبيعية اللذيذة",
         "price": "14.00",
@@ -684,7 +684,7 @@
       {
         "name": "Orange",
         "nameAr": "برتقال",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F54e7938c-d0f2-4499-9d1a-a6973def6baf.jpeg?alt=media&token=2ff9db5c-4f96-458a-9a66-50af78a6d4c3",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523292/part4/part5/part6/img3_wpi8cd.webp",
         "description": "Fresh orange juice",
         "descriptionAr": "عصير البرتقال الطازج",
         "price": "16.00",
@@ -693,7 +693,7 @@
       {
         "name": "Apple",
         "nameAr": "تفاح",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fef1c03d0-867d-44ca-8ac5-fd487336aeb1.jpg?alt=media&token=be431fac-4f9c-4535-b47e-de6341651989",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523365/part4/part5/part6/img4_aphsul.webp",
         "description": "Fresh apple juice",
         "descriptionAr": "عصير التفاح الطازج",
         "price": "14.00",
@@ -702,7 +702,7 @@
       {
         "name": "Pomegranate",
         "nameAr": "رمان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fde9cddd0-df58-4759-958b-513b20b449a5.jpeg?alt=media&token=572a154c-4b76-42eb-b34c-f8d9c952a784",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523377/part4/part5/part6/img5_fo2qct.webp",
         "description": "Enjoy the fresh and delicious taste of pomegranate",
         "descriptionAr": "تمتع بمذاق الرمان الطازج والشهي",
         "price": "14.00",
@@ -711,7 +711,7 @@
       {
         "name": "Mango",
         "nameAr": "منجا",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fcad48fad-5e29-448c-92af-34895ba9db57.jpg?alt=media&token=240335e2-fb54-47a5-bc73-ee46aee91a6d",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523398/part4/part5/part6/img6_gm0mhz.webp",
         "description": "Fresh mango juice",
         "descriptionAr": "عصير المنجا الطازج",
         "price": "14.00",
@@ -720,7 +720,7 @@
       {
         "name": "Lemon Mint",
         "nameAr": "ليمون نعناع",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Ff3b20c62-f068-4168-8cf9-71254d2e99d7.jpeg?alt=media&token=e27a815e-bf19-48fa-aa79-52a75ad45c92",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523266/part4/part5/part6/img8_prdef0.webp",
         "description": "Enjoy a refreshing lemon and mint drink",
         "descriptionAr": "استمتع بمشروب الليمون والنعناع المنعش",
         "price": "13.00",
@@ -729,7 +729,7 @@
       {
         "name": "Strawberry",
         "nameAr": "فراولة",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523292/part4/part5/part6/img9_yd0wxt.webp",
         "description": "Fresh strawberry juice",
         "descriptionAr": "عصير الفراولة الطازجة",
         "price": "13.00",
@@ -738,7 +738,7 @@
       {
         "name": "Saudi cocktail",
         "nameAr": "كوكتيل سعودي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe735be6d-f113-481d-8b8c-f722db3df929.jpg?alt=media&token=4823f14f-8ee4-4013-a88e-5b4c878a245f",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523264/part4/part5/part6/img10_ehjywo.webp",
         "description": "Fresh fruit pieces dipped in special drink",
         "descriptionAr": "قطع الفواكة الطازجة المغمورة بالمشروب الخاص",
         "price": "16.00",
@@ -756,7 +756,7 @@
       {
         "name": "Blueberry Mojito",
         "nameAr": "موهيتو توت أزرق",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0484cf74-15c3-42ed-b111-23f1ffbbc525.jpeg?alt=media&token=25f38efe-6971-4bf8-a7ea-f2494040eb3d",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523264/part4/part5/part6/img11_q3x7ac.webp",
         "description": "Special Mojito taste with blueberry flavor",
         "descriptionAr": "مذاق الموهيتو الخاص بنكهة التوت الأزرق",
         "price": "16.00",
@@ -765,7 +765,7 @@
       {
         "name": "Pomegranate Mojito",
         "nameAr": "موهيتو رمان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd25640ff-cc81-423e-a0b8-0248e1c7a477.jpeg?alt=media&token=e2ac7531-760e-4c96-b134-5343b41e1251",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523278/part4/part5/part6/img12_iwajmh.webp",
         "description": "Special mojito taste with pomegranate flavor",
         "descriptionAr": "مذاق الموهيتو الخاص بنكهة الرمان",
         "price": "16.00",
@@ -774,7 +774,7 @@
       {
         "name": "Tea",
         "nameAr": "شاي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F62a5156b-fc48-48fe-b5c6-52b56a136d0a.jpeg?alt=media&token=c5407a38-7b5c-4036-b337-d5ac58731932",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523273/part4/part5/part6/img13_qiluvx.webp",
         "description": "Istanbul style",
         "descriptionAr": "على الطريقة الاسطنبولية",
         "price": "3.00",
