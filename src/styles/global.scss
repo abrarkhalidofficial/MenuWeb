@@ -132,7 +132,7 @@ body {
   background-color: transparent;
   cursor: pointer;
   position: relative;
-  z-index: 9999999;
+  z-index: 99;
   width: 200px;
   height: 140px;
   margin-bottom: 1em;
@@ -635,6 +635,76 @@ body {
 .menu__home__content__popup__content__slider {
   width: 100%;
   margin-bottom: 1em;
+  position: relative;
+}
+
+.menu__home__content__popup__content__slider__button {
+  position: absolute;
+  bottom: 15px;
+  left: -15px;
+  z-index: 9;
+}
+.imagespopup {
+  width: 100%;
+
+  // position: relative;
+}
+.imagespopup__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  left: 0;
+  background-color: #000000b0;
+}
+.imagespopup__img img {
+  height: 80%;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 7px solid #fff;
+  border-radius: 20px;
+}
+.imagespopup__img__closebutton {
+  position: absolute;
+  // background-color: #000;
+  height: 30px;
+  width: 30px;
+  // height: 80px;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--buttonborder);
+  align-items: center;
+  border: 1px solid var(--buttonborder);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.imagespopup__img__closebutton svg {
+  height: 30px;
+  width: 30px;
+}
+.imagespopup__img__closebutton svg * {
+  fill: #fff;
+  stroke: #fff;
+}
+.menu__home__content__popup__content__slider__button button {
+  padding: 1em;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--buttonborder);
+  border: 3px solid var(--buttonborder);
+  cursor: pointer;
+}
+.menu__home__content__popup__content__slider__button button:hover {
+  background-color: var(--cardbackgroundcolor);
 }
 .rtl .menu__home__content__popup__content__slider img {
   border-top-left-radius: 0;
