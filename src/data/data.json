@@ -212,12 +212,12 @@
   {
     "name": "Oven Dishes",
     "nameAr": "أطباق الفرن",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2Ff02435b4-6257-4946-b0ed-9081a655c28f.jpeg?alt=media&token=69c615e8-29dd-49c2-8f51-4d4252191c8a",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514285/menuwebsite/upload/imagepart2/part3/img3_x1zrfs.webp",
     "products": [
       {
         "name": "Levantine Plate",
         "nameAr": "صفيحة شامية",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F548998f7-4145-47a5-9992-dd93ac46af13.jpg?alt=media&token=59aa5690-b69f-4275-be9c-4a0a9f3003dc",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514285/menuwebsite/upload/imagepart2/part3/img3_x1zrfs.webp",
         "description": "Minced meat marinated in our special way on oven-baked dough sheets",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
@@ -227,7 +227,7 @@
       {
         "name": "Levantine safiha with pomegranate molasses",
         "nameAr": "صفيحة شامية بدبس الرمان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6a9c5615-7785-4e70-b5c2-25db2003c271.jpg?alt=media&token=2eab7255-ade7-40f6-b384-feda76532ac0",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514285/menuwebsite/upload/imagepart2/part3/img3_x1zrfs.webp",
         "description": "",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة مع دبس الرمان على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
@@ -237,7 +237,7 @@
       {
         "name": "Meat with Aleppo dough",
         "nameAr": "لحم بعجين حلبي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F01decda6-bb88-4829-b842-8f93fbd943ec.jpg?alt=media&token=26d636eb-44c9-4602-b33f-df6ef2a24e63",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514393/menuwebsite/upload/imagepart2/part3/img5_xiyxda.webp",
         "description": "Minced meat marinated in our special way on round dough sheets and baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصة على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
@@ -247,7 +247,7 @@
       {
         "name": "Meat bajin with pomegranate molasses",
         "nameAr": "لحم بعجين بدبس الرمان",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F89bb3905-06f1-4d06-9e50-98543ba03045.jpg?alt=media&token=f76c1e45-f508-4c10-a0d8-67b1c198799e",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514393/menuwebsite/upload/imagepart2/part3/img5_xiyxda.webp",
         "description": "Minced meat marinated in our special way with pomegranate molasses on round dough sheets baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصةمع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
@@ -257,7 +257,7 @@
       {
         "name": "Meat kofta with tahini",
         "nameAr": "كفتة لحم بالطحينة",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F5a17b27f-3776-4faa-9d02-f52c9671f70c.jpeg?alt=media&token=885c46e4-7bfa-48d8-9f83-9225580ffc2d",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514287/menuwebsite/upload/imagepart2/part3/img6_muutzl.webp",
         "description": "A tender piece of kofta topped with special tahini sauce with the notes of green onions and sesame seeds",
         "descriptionAr": "قطعة الكفتة الطرية يعلوها صوص الطحينة الخاص مع نفحة البصل الأخضر وحبات السمسم",
         "price": "32.00",
@@ -267,7 +267,7 @@
       {
         "name": "Chicken Pottery",
         "nameAr": "فخارة دجاج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F73161701-2c98-4388-a3a8-765a6c6de0d7.jpeg?alt=media&token=af6c84db-5a07-4642-8117-a70ddca64252",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514288/menuwebsite/upload/imagepart2/part3/img8_tztb0z.webp",
         "description": "Slices of fresh chicken with onions, mushrooms and red bell pepper served on a clay plate",
         "descriptionAr": "شرائح من الدجاج الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "33.00",
@@ -277,7 +277,7 @@
       {
         "name": "Meat Pottery",
         "nameAr": "فخارة لحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4e468629-010a-4aef-879d-32a19b6ea374.jpeg?alt=media&token=c82f5374-fb3c-4699-a2cd-9f5d7fc4156e",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514286/menuwebsite/upload/imagepart2/part3/img7_htf12n.webp",
         "description": "Slices of fresh meat with onions, mushrooms and red pepper served on a clay plate",
         "descriptionAr": "شرائح من اللحم الطازج مع البصل والمشروم والفلفل الرومي الأحمر تقدم على طبق من الفخار",
         "price": "38.00",
