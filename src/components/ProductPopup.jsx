@@ -1,4 +1,4 @@
-import { Crosshair, Minus, Plus, X } from "react-feather";
+import { Crosshair, Minus, Plus, X, ZoomIn } from "react-feather";
 import { memo, useEffect, useState } from "react";
 
 import Rounded from "./RoundedButton";
@@ -79,8 +79,11 @@ function ProductPopup({}) {
               <div className="menu__home__content__popup__content__slider__button">
                 <button
                   title="View Full Image"
+                  className="menu__home__content__popup__content__slider__button__button"
                   onClick={() => setImagePopup(dataForProductPopup.image)}
-                ></button>
+                >
+                  <ZoomIn />
+                </button>
               </div>
             </div>
             <div
@@ -405,7 +408,11 @@ function ProductPopup({}) {
               >
                 <X />
               </button>
-              <img src={imagePopup} alt="Full Image" />
+              <img
+                className="imagespopup__img__closebutton__img fadeIn"
+                src={imagePopup}
+                alt="Full Image"
+              />
             </div>
           </div>
         ) : null}
