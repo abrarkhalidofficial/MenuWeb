@@ -2,12 +2,12 @@
   {
     "name": "Cold Appetizers",
     "nameAr": "المقبلات الباردة",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F38e5643e-9bd6-49da-a016-12b73f282c64.jpg?alt=media&token=c4340b1c-9396-4c3a-8d4f-a082f1644c68",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512587/menuwebsite/upload/img1_j5ty1y.webp",
     "products": [
       {
         "name": "Green Salad",
         "nameAr": "سلطة خضراء",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F92a51fce-4df2-4278-80db-115f8adabc9d.jpeg?alt=media&token=33fc5e3c-569a-4d2b-9fde-04a1002b9b2e",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512598/menuwebsite/upload/img2_txrx2j.webp",
         "description": "Fresh vegetables prepared in the Levantine style",
         "descriptionAr": "الخضار الطازج المعد على الطريقة الشامية",
         "price": "16.00",
@@ -16,7 +16,7 @@
       {
         "name": "Arugula Salad",
         "nameAr": "سلطة جرجير",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb2ba5146-457f-4c99-b250-b85d5fb3c595.jpeg?alt=media&token=589af20e-ee12-4e28-a075-e1c9520cff4d",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512600/menuwebsite/upload/img3_zihz16.webp",
         "description": "Fresh arugula with white onion pieces and walnuts",
         "descriptionAr": "الجرجير الطازج مع قطع البصل الأبيض ومكسرات عين الجمل",
         "price": "16.00",
@@ -26,7 +26,7 @@
       {
         "name": "Tabbouleh",
         "nameAr": "تبولة",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fc117bba6-b1d3-494a-af82-07e25523029d.jpeg?alt=media&token=f2f10238-a213-451e-a7ad-447fdc672b9b",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512600/menuwebsite/upload/img4_st4xsd.webp",
         "description": "Chopped parsley with bulgur, tomato granules, and a sprinkle of lemon and lime",
         "descriptionAr": "البقدونس المفروم مع البرغل وحبيبات الطماطم ورشة الحامض والليمون",
         "price": "16.00",
@@ -35,7 +35,7 @@
       {
         "name": "Fattoush",
         "nameAr": "فتوش",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8184b19f-7e2a-4972-8b3b-53bef6ec1b9a.jpeg?alt=media&token=babddfc2-9156-42c4-a037-ba1d9cc498b5",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512599/menuwebsite/upload/img5_shsbc5.webp",
         "description": "Fresh vegetables with crispy bread pieces and drops of pomegranate molasses",
         "descriptionAr": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
         "price": "17.00",
@@ -44,7 +44,7 @@
       {
         "name": "Hummus",
         "nameAr": "حمص",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F8ab34e79-ec5b-4d06-a212-908f321ac64d.jpeg?alt=media&token=8d2f2e73-da90-412f-b924-9d5a2244666f",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512601/menuwebsite/upload/img6_urhov6.webp",
         "description": "Hummus, tahini and premium olive oil",
         "descriptionAr": "الحمص والطحينة وزيت الزيتون الفاخر",
         "price": "16.00",
@@ -53,7 +53,7 @@
       {
         "name": "Beirut Hummus",
         "nameAr": "حمص بيروتي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F49968994-41cf-4c65-8b97-12a6ab886177.jpeg?alt=media&token=0ddc6f05-0825-4497-8c95-54c9146845ac",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512587/menuwebsite/upload/img1_j5ty1y.webp",
         "description": "Hummus prepared in the authentic Lebanese style",
         "descriptionAr": "الحمص المعد على الطريقة اللبنانية الأصيلة",
         "price": "16.00",
@@ -62,7 +62,7 @@
       {
         "name": "Spicy Hummus",
         "nameAr": "حمص سبايسي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd08f7e81-c259-4b70-b52e-a71a43b42b01.jpeg?alt=media&token=543e76f4-cb4f-4b80-86e1-4fb024071e68",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512600/menuwebsite/upload/img8_z9mun0.webp",
         "description": "Hummus and tahini with chili pepper and premium olive oil",
         "descriptionAr": "الحمص والطحينة مع الفلفل الحار وزيت الزيتون الفاخر",
         "price": "16.00",
@@ -71,7 +71,7 @@
       {
         "name": "Spiced",
         "nameAr": "متبل",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Face4cb97-8f40-4743-a977-633e436fff60.jpeg?alt=media&token=af07b833-6d70-4272-8791-05a6f36562e9",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512601/menuwebsite/upload/img9_rkthti.webp",
         "description": "Grilled eggplant prepared in our special way with pomegranate seeds",
         "descriptionAr": "الباذنجان المشوي المعد على طريقتنا الخاصة مع حبيبات الرمان",
         "price": "14.00",
@@ -80,7 +80,7 @@
       {
         "name": "Seasoned with Beetroot",
         "nameAr": "متبل بالشمندر",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F0a954fcf-ea8b-460c-b13b-ac270f5bf6db.jpeg?alt=media&token=8b9e9926-876f-4af1-be44-b01c9470d1fa",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512596/menuwebsite/upload/img10_kpo9ia.webp",
         "description": "Grilled eggplant with beetroot in our special way",
         "descriptionAr": "الباذنجان المشوي بالشمندر على طريقتنا الخاصة",
         "price": "16.00",
@@ -89,7 +89,7 @@
       {
         "name": "Baba Ghanoush",
         "nameAr": "بابا غنوج",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F4115e2cf-f877-4535-aab7-5eb95f827a51.jpeg?alt=media&token=6c198334-6f09-4f77-afe9-cad8fefe422a",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512586/menuwebsite/upload/img11_sjokum.webp",
         "description": "Fresh vegetables mashed in our special way",
         "descriptionAr": "الخضار الطازج المهروس على طريقتنا الخاصة",
         "price": "14.00",
@@ -98,7 +98,7 @@
       {
         "name": "Garlic Cream",
         "nameAr": "كريم ثوم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fa9716389-757b-4a2c-974e-d63c088df359.jpg?alt=media&token=08f57e65-5d26-4015-9b1d-428a7153758b",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512586/menuwebsite/upload/img12_yziie3.webp",
         "description": "Traditional garlic cream",
         "descriptionAr": "كريم الثوم التقليدي",
         "price": "11.00",
@@ -107,7 +107,7 @@
       {
         "name": "Grape Leaves",
         "nameAr": "ورق عنب",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F6b2253e4-a179-4c7e-83e7-070385605a46.jpeg?alt=media&token=d7ccefd3-6815-43fb-a387-33a5916181ff",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512597/menuwebsite/upload/img13_rytpmg.webp",
         "description": "Six pieces of grape leaves prepared in our special way",
         "descriptionAr": "ست حبات من أصابع ورق العنب المعد على طريقتنا الخاصة",
         "price": "16.00",
@@ -116,7 +116,7 @@
       {
         "name": "Mixed Appetizers",
         "nameAr": "مشكل مقبلات",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fbca234eb-cb59-41ac-9da8-57a58a2695d0.jpg?alt=media&token=965cb161-bef9-4a0a-992b-5502efc4c748",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512597/menuwebsite/upload/img14_sfmwyi.webp",
         "description": "A selection of hummus, mutabal, tabbouleh and green salad",
         "descriptionAr": "تشكيلة من الحمص والمتبل والتبولة والسلطة الخضراء",
         "price": "26.00",
@@ -127,12 +127,12 @@
   {
     "name": "Hot Appetizers",
     "nameAr": "المقبلات الساخنة",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fcategories%2F48d468ae-fca2-413e-aad2-a066d4fa9a33.jpeg?alt=media&token=ad181384-49c0-4564-8237-4bc33fc0bb0b",
+    "imageUrl": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512585/menuwebsite/upload/imagepart2/img_evcpdp.webp",
     "products": [
       {
         "name": "Wild Mushroom Soup",
         "nameAr": "شوربة الفطر البري",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F90f73b4d-ef44-47f3-a6c6-c190dc65fa99.jpeg?alt=media&token=380bcea8-2446-4fd5-9e6e-5b0feffce1b2",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512606/menuwebsite/upload/imagepart2/img1_pen79e.webp",
         "description": "Hearty and delicious wild mushroom soup",
         "descriptionAr": "حساء الفطر البري الشهي واللذيذ",
         "price": "16.00",
@@ -142,7 +142,7 @@
       {
         "name": "Lentil Soup",
         "nameAr": "شوربة عدس",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fad1c8d12-5fb8-447e-bfce-3f6550f53830.jpeg?alt=media&token=816c656d-33b1-4a49-8872-31e071eae365",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512612/menuwebsite/upload/imagepart2/img2_evyje1.webp",
         "description": "Delicious and warm lentil soup",
         "descriptionAr": "حساء العدس الشهي والدافئ",
         "price": "14.00",
@@ -151,7 +151,7 @@
       {
         "name": "Fried Potatoes",
         "nameAr": "بطاطس مقلي",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fd53d815d-7c04-4cc9-a407-ab61d2c0f92a.jpg?alt=media&token=e5d9d83e-3d44-4e30-a987-513f332274bc",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512585/menuwebsite/upload/imagepart2/img3_tv7k7x.webp",
         "description": "Golden potato fingers with a sprinkle of pepper and salt",
         "descriptionAr": "أصابع البطاطا الذهبية مع رشة من الفليفلة و الملح",
         "price": "14.00",
@@ -160,7 +160,7 @@
       {
         "name": "Fries",
         "nameAr": "بطاطا حرة",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe8bcd248-bad8-458e-afa2-10e04927e1d9.jpeg?alt=media&token=6dc54c9d-f65d-453a-bd9b-d66ba2c7299a",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512586/menuwebsite/upload/imagepart2/img4_cjrqo0.webp",
         "description": "Fresh potato pieces smeared with our delicious seasoning with a little garlic and parsley",
         "descriptionAr": "قطع البطاطا الطازجة المدهونة بتتبيلتنا الزاكية مع القليل من الثوم والبقدونس",
         "price": "19.00",
@@ -169,7 +169,7 @@
       {
         "name": "Grilled Kibbeh",
         "nameAr": "كبة مشوية",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fca853bc7-034c-442a-b24a-becd2ac402e1.jpeg?alt=media&token=d7ffb5f6-3fe2-47a7-aebb-7bb569438c31",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512585/menuwebsite/upload/imagepart2/img5_dvtu17.webp",
         "description": "Stuffed with meat with pomegranate seeds",
         "descriptionAr": "محشوة باللحم مع حبيبات الرمان",
         "price": "8.00",
@@ -178,7 +178,7 @@
       {
         "name": "Fried Kibbeh",
         "nameAr": "كبة مقلية",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F291bced7-ec6d-44c1-bc6f-d078c7c81633.jpeg?alt=media&token=f2f3c9a8-4fac-4799-9a2b-dbb41c4071d6",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512586/menuwebsite/upload/imagepart2/img6_fbgxok.webp",
         "description": "Prepared in our special way (4 pieces)",
         "descriptionAr": "معدة على طريقتنا الخاصة (٤ حبات)",
         "price": "22.00",
@@ -201,7 +201,7 @@
       {
         "name": "Marinated with Meat",
         "nameAr": "متبل باللحم",
-        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F69b5d664-5e5a-49a1-9fa4-e858e686f155.jpeg?alt=media&token=a5b4c6e6-5222-4d5b-b3b7-893e35bbcf2e",
+        "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512589/menuwebsite/upload/imagepart2/img8_w8pbnc.webp",
         "description": "Our special marinade with hot pieces of meat in the middle",
         "descriptionAr": "متبلنا الخاص تتوسطه قطع اللحم الساخنة",
         "price": "26.00",
