@@ -641,7 +641,7 @@ body {
 .menu__home__content__popup__content__slider__button {
   position: absolute;
   bottom: 15px;
-  left: -15px;
+  left: -10px;
   z-index: 9;
 }
 .imagespopup {
@@ -694,7 +694,7 @@ body {
   stroke: #fff;
 }
 .menu__home__content__popup__content__slider__button button {
-  padding: 1em;
+  // padding: 1em;
   background: transparent;
   height: 40px;
   width: 40px;
@@ -702,6 +702,17 @@ body {
   background-color: var(--buttonborder);
   border: 3px solid var(--buttonborder);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__home__content__popup__content__slider__button__button svg {
+  height: 20px;
+  width: 20px;
+}
+.menu__home__content__popup__content__slider__button__button svg * {
+  // fill: #fff;
+  stroke: var(--backgroundcolor);
 }
 .menu__home__content__popup__content__slider__button button:hover {
   background-color: var(--cardbackgroundcolor);
@@ -978,6 +989,10 @@ body {
     padding: 1em 1em;
   }
   .menu__home__content__popup__content {
+    width: 100%;
+  }
+  .imagespopup__img img {
+    height: 300px;
     width: 100%;
   }
 }
