@@ -298,7 +298,24 @@
         "description": "Fresh, tender meat kebab marinated in our way",
         "descriptionAr": "كباب اللحم الطازج الطري المتبل بطريقتنا",
         "price": "34.00",
-        "calories": "310"
+        "calories": "310",
+        "variants": [
+          {
+            "name": "Beef kebab (310 cal) ",
+            "nameAr": "  كباب لحم نفر(310 كال)",
+            "price": "34.00"
+          },
+          {
+            "name": "Half a kilo of meat kebab",
+            "nameAr": "   كباب لحم نصف كيلو",
+            "price": "64.00"
+          },
+          {
+            "name": "One kilo of meat kebab ",
+            "nameAr": "  كباب لحم كيلو",
+            "price": "128.00"
+          }
+        ]
       },
       {
         "name": "Meat awsal",
@@ -307,7 +324,19 @@
         "description": "Pieces of tender and fresh meat marinated in our way",
         "descriptionAr": "قطع من اللحم الطري والطازج المتبلة على طريقتنا",
         "price": "61.00",
-        "calories": "390"
+        "calories": "390",
+        "variants": [
+          {
+            "name": "Beef meat awsal (390 cal) ",
+            "nameAr": "  أوصال لحم نفر(390 كال)",
+            "price": "61.00"
+          },
+          {
+            "name": "Awsal meat, half a kilo",
+            "nameAr": "   أوصال لحم نصف كيلو",
+            "price": "114.00"
+          }
+        ]
       },
       {
         "name": "Meat Problem",
@@ -325,7 +354,24 @@
         "description": "A selection of meat awwal, chicken awwal, meat kebab, and chicken kebab, grilled and served with eggplant, tomato, and fresh bell pepper.",
         "descriptionAr": "تشكيلة من أوصال اللحموأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
         "price": "37.00",
-        "calories": "260"
+        "calories": "260",
+        "variants": [
+          {
+            "name": "Mixed grilled meat (260 cal) ",
+            "nameAr": "  مشوي مشكل نفر(260 كال)",
+            "price": "37.00"
+          },
+          {
+            "name": "Mixed grill, half a kilo",
+            "nameAr": "   مشوي مشكل نصف كيلو",
+            "price": "69.00"
+          },
+          {
+            "name": "Mixed grilled kilo ",
+            "nameAr": "  مشوي مشكل كيلو",
+            "price": "132.00"
+          }
+        ]
       },
       {
         "name": "Istanbul Kebab",
@@ -420,7 +466,24 @@
         "description": "Tender and fresh chicken kebab marinated in our special way",
         "descriptionAr": "كباب الدجاج الطري والطازج المتبل على طريقتنا الخاصة",
         "price": "29.00",
-        "calories": "170"
+        "calories": "170",
+        "variants": [
+          {
+            "name": "Chicken kebab for people(170 cal)",
+            "nameAr": "(170 كال) كباب دجاج نفر",
+            "price": "29.00"
+          },
+          {
+            "name": "Chicken kebab half a kilo",
+            "nameAr": "كباب دجاج نصف كيلو",
+            "price": "53.00"
+          },
+          {
+            "name": "One kilo chicken kebab",
+            "nameAr": "كباب دجاج كيلو",
+            "price": "99.00"
+          }
+        ]
       },
       {
         "name": "Chicken Grill",
@@ -429,7 +492,24 @@
         "description": "Pieces of premium chicken breast marinated with our special spices",
         "descriptionAr": "قطع من صدر الدجاج الفاخر المتبلة بتوابلنا الخاصة",
         "price": "33.00",
-        "calories": "280"
+        "calories": "280",
+        "variants": [
+          {
+            "name": "Shish Tawook for a person (280 cal)",
+            "nameAr": "(280 كال)كباب دجاج نفر",
+            "price": "33.00"
+          },
+          {
+            "name": "Shish tawook half a kilo",
+            "nameAr": "   شيش طاووق نصف كيلو",
+            "price": "59.00"
+          },
+          {
+            "name": "Shish tawook 1 kilo",
+            "nameAr": "  شيش طاووق كيلو",
+            "price": "109.00"
+          }
+        ]
       },
       {
         "name": "Chicken Problem",
@@ -438,7 +518,24 @@
         "description": "A selection of tender chicken tenders and chicken kebab",
         "descriptionAr": "تشكيلة من أوصال الدجاج الطري وكباب الدجاج",
         "price": "34.00",
-        "calories": "240"
+        "calories": "240",
+        "variants": [
+          {
+            "name": "Chicken problem for one person 240 cal",
+            "nameAr": "مشكل دجاج نفر(240 كال)  ",
+            "price": "34.00"
+          },
+          {
+            "name": "Mixed chicken half a kilo",
+            "nameAr": "مشكل دجاج نصف كيلو ",
+            "price": "66.00"
+          },
+          {
+            "name": "One kilo chicken mix",
+            "nameAr": "  مشكل دجاج كيلو",
+            "price": "108.00"
+          }
+        ]
       },
       {
         "name": "Chicken Wings",
