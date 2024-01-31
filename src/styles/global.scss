@@ -353,6 +353,10 @@ body {
   margin: 0 0.5em;
   box-shadow: 12px 8px 25.7px -15px rgba(0, 0, 0, 0.15);
 }
+.rtl .menu__home__content__right__content__top__cart__share {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
 .menu__home__content__right__content__top__cart__share {
   display: flex;
   justify-content: space-between;
@@ -364,6 +368,7 @@ body {
   box-shadow: -4px 1px 25.7px 13px rgba(0, 0, 0, 0.06);
   cursor: pointer;
   margin-right: 0.5em;
+  margin-left: 0;
 }
 .menu__home__content__right__content__top__cart__share svg {
   height: 20px;
@@ -888,6 +893,11 @@ body {
 }
 .menu__home__content__popup__content__qauntity__and__price__price__name {
   font-size: 16px;
+  color: var(--textcolor);
+}
+
+.menu__home__content__popup__content__qauntity__and__price__qauntity__nameprice__price {
+  font-size: 14px;
   color: var(--textcolor);
 }
 .menu__home__content__popup__content__qauntity__and__price__price__number {
