@@ -235,10 +235,16 @@ function ProductPopup({}) {
                   {dataForProductPopup?.variants?.map((variant, index) => (
                     <div className="menu__home__content__popup__content__qauntity__and__price menu__home__content__popup__content__qauntity__and__price__new fadeIn">
                       <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
-                        <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
-                          {selectedLanguage === "ar"
-                            ? variant.nameAr
-                            : variant.name}
+                        <div className="menu__home__content__popup__content__qauntity__and__price__qauntity__nameprice">
+                          <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
+                            {selectedLanguage === "ar"
+                              ? variant.nameAr
+                              : variant.name}
+                          </div>
+                          <div className="menu__home__content__popup__content__qauntity__and__price__qauntity__nameprice__price">
+                            {variant.price}{" "}
+                            {selectedLanguage === "ar" ? "السعر" : "SAR"}
+                          </div>
                         </div>
                         <div className="menu__home__content__popup__content__qauntity">
                           <button
@@ -345,6 +351,7 @@ function ProductPopup({}) {
                   <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
                     {selectedLanguage === "ar" ? "الكمية" : "Quantity"}
                   </div>
+
                   <div className="menu__home__content__popup__content__qauntity">
                     <button
                       className="menu__home__content__popup__content__qauntity__button"
@@ -371,6 +378,7 @@ function ProductPopup({}) {
                 <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
                   {selectedLanguage === "ar" ? "السعر" : "Price"}
                 </div>
+
                 <div
                   className="menu__home__content__popup__content__qauntity__and__price__price__number"
                   style={{ animationDelay: `0.5s` }}
