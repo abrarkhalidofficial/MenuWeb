@@ -966,6 +966,37 @@ body {
   position: fixed;
   z-index: 99;
 }
+
+.socialmedia__popup {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.socialmedia__popup__all {
+  position: absolute;
+  top: 100px;
+  z-index: 999;
+}
+.socialmedia__popup__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  background-color: var(--backgroundcolor);
+  border: 2px solid var(--buttonborder);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.socialmedia__popup__content__Svg {
+  // padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+.socialmedia__popup__content__Svg svg {
+  width: 40px;
+  height: 40px;
+}
 @media (max-width: 1300px) {
   .menu__home__content__right__content__bottom__content__items__card {
     width: calc(33% - 1.5em);
