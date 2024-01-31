@@ -1,4 +1,4 @@
-import Menulogo from "../assets/Menulogo.png";
+import Menulogo from "../assets/logoicon.png";
 import { useLanguage } from "../context/LanguageContext";
 import { Share } from "react-feather";
 import Socialmedia from "./Socialmedia";
