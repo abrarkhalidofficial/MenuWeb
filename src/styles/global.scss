@@ -351,6 +351,26 @@ body {
   margin: 0 0.5em;
   box-shadow: 12px 8px 25.7px -15px rgba(0, 0, 0, 0.15);
 }
+.menu__home__content__right__content__top__cart__share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--backgroundcolor);
+  padding: 0.5em;
+  border-radius: 50px;
+  border: none;
+  box-shadow: -4px 1px 25.7px 13px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+.menu__home__content__right__content__top__cart__share svg {
+  height: 20px;
+  width: 20px;
+}
+.menu__home__content__right__content__top__cart__share:hover {
+  background: var(--backgroundcolor);
+  cursor: pointer;
+}
 .menu__home__content__right__content__top__cart:hover {
   background: var(--backgroundcolor);
   cursor: pointer;
