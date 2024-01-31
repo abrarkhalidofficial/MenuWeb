@@ -7,6 +7,7 @@ import MobileCategories from './MobileCategories.jsx'
 import ProductPopup from './ProductPopup.jsx'
 import RoundedButton from './RoundedButton.jsx'
 import Sidebar from './Sidebar.jsx'
+import Socialmedia from './Socialmedia.jsx'
 
 export {
   Category,
@@ -17,5 +18,6 @@ export {
   MobileCategories,
   ProductPopup,
   RoundedButton,
-  Sidebar
+  Sidebar,
+  Socialmedia
 }
