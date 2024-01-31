@@ -15,6 +15,7 @@ html {
   --cardbackgroundcolor: #09101f;
   --newbackground: #fff3ed;
   --bothwhite: #fff;
+  --iconcolor: #000;
 }
 html[data-theme="dark"] {
   --background: radial-gradient(
@@ -33,6 +34,7 @@ html[data-theme="dark"] {
   --cardbackgroundcolor: #ffff;
   --newbackground: #1b212d;
   --bothwhite: #fff;
+  --iconcolor: #fff;
 }
 *,
 *::after,
@@ -982,7 +984,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding: 2em;
   background-color: var(--backgroundcolor);
   border: 2px solid var(--buttonborder);
   border-radius: 10px;
