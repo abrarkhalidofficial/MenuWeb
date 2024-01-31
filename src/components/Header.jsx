@@ -2,9 +2,11 @@ import Menulogo from "../assets/Menulogo.png";
 import { useLanguage } from "../context/LanguageContext";
 import { Share } from "react-feather";
 import Socialmedia from "./Socialmedia";
+import { useState } from "react";
 
 export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
   const [language] = useLanguage();
+  const [Socialpopup, SetSocialpopup] = useState(false);
 
   return (
     <>
@@ -102,7 +104,10 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                 {language === "en" && " items"}
               </div>
             </div>
-            <div className="menu__home__content__right__content__top__cart__share">
+            <button
+              onClick={() => SetSocialpopup(!Socialpopup)}
+              className="menu__home__content__right__content__top__cart__share"
+            >
               {theme === "light" ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +147,7 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
                 </svg>
               )}
-            </div>
+            </button>
             <button
               className="menu__home__content__right__content__top__darklightmood fadeIn"
               onClick={toggleTheme}
@@ -178,7 +183,9 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
           </div>
         </div>
       </div>
-      <Socialmedia />
+      {Socialpopup ? (
+        <Socialmedia onClose={() => SetSocialpopup(!Socialpopup)} />
+      ) : null}
     </>
   );
 }
