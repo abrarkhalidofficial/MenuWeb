@@ -114,7 +114,7 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-share-2"
+                  className="lucide lucide-share-2"
                 >
                   <circle cx="18" cy="5" r="3" />
                   <circle cx="6" cy="12" r="3" />
@@ -133,7 +133,7 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-share-2"
+                  className="lucide lucide-share-2"
                 >
                   <circle cx="18" cy="5" r="3" />
                   <circle cx="6" cy="12" r="3" />
