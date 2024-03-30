@@ -32,7 +32,7 @@ function Index() {
 
   const toggleTheme = useCallback(
     () => setTheme(theme === "light" ? "dark" : "light"),
-    [theme],
+    [theme]
   );
 
   const onPress = useCallback((e) => {
@@ -79,7 +79,7 @@ function Index() {
           {
             root: parentScrollContainer,
             threshold: 0.5,
-          },
+          }
         );
       });
 
@@ -94,7 +94,7 @@ function Index() {
 
   useLayoutEffect(
     () => document?.documentElement?.setAttribute("data-theme", theme),
-    [theme],
+    [theme]
   );
 
   return (
@@ -132,7 +132,7 @@ function Index() {
                   products={category.products?.filter((product) =>
                     (language === "ar" ? product.nameAr : product.name)
                       .toLowerCase()
-                      .includes(query.toLowerCase()),
+                      .includes(query.toLowerCase())
                   )}
                 />
               ))}
