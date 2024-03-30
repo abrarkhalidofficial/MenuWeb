@@ -88,7 +88,6 @@ function ProductPopup({}) {
             </div>
             <div
               style={{
-                overflowY: "auto",
                 maxHeight: "calc(100% - 350px - 4em)",
                 width: "calc(100% + 4em)",
                 padding: "0em 2em",
