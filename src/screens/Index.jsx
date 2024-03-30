@@ -26,6 +26,7 @@ function Index() {
   const [query, setQuery] = useState("");
   const [theme, setTheme] = useAtom(themeAtom);
   const parentScrollContainerRef = useRef(null);
+  const scrollParentRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(0);
 
   const deferredActiveCategory = useDeferredValue(activeCategory);
@@ -39,11 +40,12 @@ function Index() {
     e.preventDefault();
     const id = e.target.getAttribute("data-to-scrollSpy-id");
     const element = document.getElementById(id);
-    const parentScrollContainer = parentScrollContainerRef.current;
+    console.log(element);
+    const scrollParentRefCurrent = scrollParentRef.current;
 
-    if (element && parentScrollContainer) {
+    if (element && scrollParentRefCurrent) {
       const offsetTop = element.offsetTop;
-      parentScrollContainer.scrollTo({
+      scrollParentRefCurrent.scrollTo({
         top: offsetTop,
         behavior: "smooth",
       });
@@ -52,6 +54,7 @@ function Index() {
 
   useEffect(() => {
     const parentScrollContainer = parentScrollContainerRef.current;
+    const scrollParentRefCurrent = scrollParentRef.current;
 
     const handleScroll = () => {
       const children = Array.from(parentScrollContainer.children);
@@ -77,7 +80,7 @@ function Index() {
             }
           },
           {
-            root: parentScrollContainer,
+            root: scrollParentRefCurrent,
             threshold: 0.5,
           }
         );
@@ -86,10 +89,10 @@ function Index() {
       children.forEach((child) => observer.observe(child));
     };
 
-    parentScrollContainer.addEventListener("scroll", handleScroll);
+    scrollParentRefCurrent.addEventListener("scroll", handleScroll);
 
     return () =>
-      parentScrollContainer.removeEventListener("scroll", handleScroll);
+      scrollParentRefCurrent.removeEventListener("scroll", handleScroll);
   }, []);
 
   useLayoutEffect(
@@ -106,7 +109,7 @@ function Index() {
           onPress={onPress}
           deferredActiveCategory={deferredActiveCategory}
         />
-        <div className="menu__home__content__right">
+        <div className="menu__home__content__right" ref={scrollParentRef}>
           <Header
             query={query}
             setQuery={setQuery}
