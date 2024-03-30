@@ -278,6 +278,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+  overflow-y: auto;
 }
 .menu__home__content__right__content {
   display: flex;
@@ -407,7 +408,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0 2em;
-  overflow-y: auto;
+  // overflow-y: auto;
   gap: 1em;
 }
 .menu__home__content__right__content__bottom::-webkit-scrollbar {
