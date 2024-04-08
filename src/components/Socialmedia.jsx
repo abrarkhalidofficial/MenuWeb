@@ -1,8 +1,8 @@
-import React from "react";
-import { X } from "react-feather";
-import { NavLink } from "react-router-dom";
+import React, { memo } from "react";
 
-export default function Socialmedia({ onClose }) {
+import { X } from "react-feather";
+
+function SocialMedia({ onClose }) {
   return (
     <div className="socialmedia__popup">
       <div className="socialmedia__popup__all">
@@ -12,7 +12,6 @@ export default function Socialmedia({ onClose }) {
           </button>
           <div className="socialmedia__popup__content__Svg">
             <a href="https://iwtsp.com/966920000738">
-              {" "}
               <svg
                 width="47"
                 height="48"
@@ -169,3 +168,5 @@ export default function Socialmedia({ onClose }) {
     </div>
   );
 }
+
+export default memo(SocialMedia);
