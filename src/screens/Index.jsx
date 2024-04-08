@@ -36,63 +36,85 @@ function Index() {
     [theme]
   );
 
-  const onPress = useCallback((e) => {
-    e.preventDefault();
-    const id = e.target.getAttribute("data-to-scrollSpy-id");
-    const element = document.getElementById(id);
-    console.log(element);
-    const scrollParentRefCurrent = scrollParentRef.current;
+  const onPress = useCallback(
+    (e) => {
+      e.preventDefault();
+      const id = e.target.getAttribute("datatoscrollspyid");
+      const element = document.getElementById(id);
 
-    if (element && scrollParentRefCurrent) {
-      const offsetTop = element.offsetTop;
-      scrollParentRefCurrent.scrollTo({
-        top: offsetTop,
-        behavior: "smooth",
-      });
-    }
-  }, []);
-
-  useEffect(() => {
-    const parentScrollContainer = parentScrollContainerRef.current;
-    const scrollParentRefCurrent = scrollParentRef.current;
-
-    const handleScroll = () => {
-      const children = Array.from(parentScrollContainer.children);
-
-      const itemsInView = [];
-
-      for (const child of children) {
-        const { top, bottom } = child.getBoundingClientRect();
-        if (top <= 140 && bottom >= 140) {
-          itemsInView.push(child.id);
-        }
+      if (element && scrollParentRef.current) {
+        const offsetTop = element.offsetTop;
+        scrollParentRef.current.scrollTo({
+          top: offsetTop,
+          behavior: "smooth",
+        });
       }
+    },
+    [scrollParentRef]
+  );
 
-      if (itemsInView.length > 0) {
-        setActiveCategory(itemsInView[0]);
-      }
+  const handleScroll = useCallback(
+    (parentScrollContainer, scrollParentRef, setActiveCategory) => {
+      let timeout;
 
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(
-          (entry) => {
+      const handleScrollLogic = () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const children = Array.from(parentScrollContainer.children);
+          const itemsInView = [];
+
+          for (const child of children) {
+            const { top, bottom } = child.getBoundingClientRect();
+            if (top <= 140 && bottom >= 140) {
+              itemsInView.push(child.id);
+            }
+          }
+
+          if (itemsInView.length > 0) {
+            setActiveCategory(itemsInView[0]);
+          }
+        }, 100);
+      };
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
             if (entry.isIntersecting) {
               setActiveCategory(entry.target.id);
             }
-          },
-          {
-            root: scrollParentRefCurrent,
-            threshold: 0.5,
-          }
-        );
-      });
+          });
+        },
+        {
+          root: scrollParentRef.current,
+          threshold: 0.5,
+        }
+      );
 
+      const children = Array.from(parentScrollContainer.children);
       children.forEach((child) => observer.observe(child));
-    };
 
-    scrollParentRefCurrent.addEventListener("scroll", handleScroll);
+      scrollParentRef.current.addEventListener("scroll", handleScrollLogic);
 
-    return () =>
-      scrollParentRefCurrent.removeEventListener("scroll", handleScroll);
+      return () => {
+        clearTimeout(timeout);
+        scrollParentRef.current.removeEventListener(
+          "scroll",
+          handleScrollLogic
+        );
+        observer.disconnect();
+      };
+    },
+    []
+  );
+
+  useEffect(() => {
+    const parentScrollContainer = parentScrollContainerRef.current;
+
+    return handleScroll(
+      parentScrollContainer,
+      scrollParentRef,
+      setActiveCategory
+    );
   }, []);
 
   useLayoutEffect(
