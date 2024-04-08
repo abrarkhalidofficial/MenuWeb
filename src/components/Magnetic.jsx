@@ -33,11 +33,6 @@ function MagneticEffect({ children }) {
     element.addEventListener("mouseleave", () => {
       tl.play();
     });
-
-    return () => {
-      element.removeEventListener("mousemove", () => {});
-      element.removeEventListener("mouseleave", () => {});
-    };
   }, []);
 
   return cloneElement(children, { ref: magnetic });
