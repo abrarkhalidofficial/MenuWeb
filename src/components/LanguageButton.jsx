@@ -1,4 +1,4 @@
-import { Head } from "@router";
+import Head from "@router/Head";
 import { memo } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
