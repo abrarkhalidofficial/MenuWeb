@@ -12,10 +12,8 @@ function Sidebar({ onPress, deferredActiveCategory }) {
           <button
             key={index}
             onClick={onPress}
-            data-to-scrollSpy-id={index}
-            style={{
-              animationDelay: `${index * 0.1}s`,
-            }}
+            datatoscrollspyid={index}
+            style={{ animationDelay: `${index * 0.1}s` }}
             className={
               "menu__home__content__left__link fadeIn " +
               (parseInt(deferredActiveCategory) === index ? "active" : "")
@@ -30,7 +28,7 @@ function Sidebar({ onPress, deferredActiveCategory }) {
               className="menu__home__content__left__link__overlay"
               key={index}
               onClick={onPress}
-              data-to-scrollSpy-id={index}
+              datatoscrollspyid={index}
             >
               {language === "ar" ? category.nameAr : category.name}
             </div>
