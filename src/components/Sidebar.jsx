@@ -10,7 +10,7 @@ function Sidebar({ onPress, deferredActiveCategory }) {
       <div className="menu__home__content__left__links">
         {data.map((category, index) => (
           <button
-            key={index}
+            key={category.name}
             onClick={onPress}
             datatoscrollspyid={index}
             style={{ animationDelay: `${index * 0.1}s` }}
@@ -22,6 +22,7 @@ function Sidebar({ onPress, deferredActiveCategory }) {
             <img
               className="menu__home__content__left__link__img"
               src={category.imageUrl}
+              loading="lazy"
               alt={language === "ar" ? category.nameAr : category.name}
             />
             <div
