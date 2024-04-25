@@ -1,7 +1,7 @@
 import Menulogo from "../assets/logoicon.png";
-import { useLanguage } from "../context/LanguageContext";
 import { Share } from "react-feather";
 import Socialmedia from "./Socialmedia";
+import { useLanguage } from "../context/LanguageContext";
 import { useState } from "react";
 
 export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
@@ -116,9 +116,9 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#002350"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="lucide lucide-share-2"
                 >
                   <circle cx="18" cy="5" r="3" />
@@ -135,9 +135,9 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#fb7d37"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="lucide lucide-share-2"
                 >
                   <circle cx="18" cy="5" r="3" />

@@ -408,7 +408,6 @@ body {
   width: 100%;
   height: 100%;
   padding: 0 2em;
-  // overflow-y: auto;
   gap: 1em;
 }
 .menu__home__content__right__content__bottom::-webkit-scrollbar {
@@ -673,7 +672,6 @@ body {
   margin-bottom: 1em;
   position: relative;
 }
-
 .menu__home__content__popup__content__slider__button {
   position: absolute;
   bottom: 15px;
@@ -682,8 +680,6 @@ body {
 }
 .imagespopup {
   width: 100%;
-
-  // position: relative;
 }
 .imagespopup__img {
   display: flex;
@@ -707,10 +703,8 @@ body {
 }
 .imagespopup__img__closebutton {
   position: absolute;
-  // background-color: #000;
   height: 30px;
   width: 30px;
-  // height: 80px;
   top: 20px;
   right: 20px;
   display: flex;
@@ -730,7 +724,6 @@ body {
   stroke: #fff;
 }
 .menu__home__content__popup__content__slider__button button {
-  // padding: 1em;
   background: transparent;
   height: 40px;
   width: 40px;
@@ -747,7 +740,6 @@ body {
   width: 20px;
 }
 .menu__home__content__popup__content__slider__button__button svg * {
-  // fill: #fff;
   stroke: var(--backgroundcolor);
 }
 .menu__home__content__popup__content__slider__button button:hover {
@@ -896,7 +888,6 @@ body {
   font-size: 16px;
   color: var(--textcolor);
 }
-
 .menu__home__content__popup__content__qauntity__and__price__qauntity__nameprice__price {
   font-size: 14px;
   color: var(--textcolor);
@@ -979,7 +970,6 @@ body {
   position: fixed;
   z-index: 99;
 }
-
 .socialmedia__popup {
   position: relative;
   width: 100%;
@@ -1002,7 +992,6 @@ body {
   flex-wrap: wrap;
 }
 .socialmedia__popup__content__Svg {
-  // padding: 1em;
   margin: 1em;
   border-radius: 10px;
 }

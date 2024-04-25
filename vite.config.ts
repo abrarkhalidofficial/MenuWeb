@@ -11,9 +11,9 @@ import viteImagemin from "vite-plugin-imagemin";
 export default defineConfig({
   resolve: {
     alias: {
+      "@router": "/router",
       "@components": "/src/components",
       "@assets": "/src/assets",
-      "@router": "/router",
       "@layouts": "/src/layouts",
       ...config.alias,
     },

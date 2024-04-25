@@ -6,11 +6,11 @@ import { useLanguage } from "../context/LanguageContext";
 function Category({ category, products, index }) {
   const [selectedLanguage] = useLanguage();
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 500);
+    setTimeout(() => setLoading(false), 500);
   }, []);
+
   return (
     <section
       key={index}

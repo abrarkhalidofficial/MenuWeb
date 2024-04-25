@@ -301,18 +301,18 @@
         "calories": "310",
         "variants": [
           {
-            "name": "Beef kebab (310 cal) ",
-            "nameAr": "  كباب لحم نفر(310 كال)",
+            "name": "Beef kebab (310 cal)",
+            "nameAr": "كباب لحم نفر(310 كال)",
             "price": "34.00"
           },
           {
             "name": "Half a kilo of meat kebab",
-            "nameAr": "   كباب لحم نصف كيلو",
+            "nameAr": "كباب لحم نصف كيلو",
             "price": "64.00"
           },
           {
-            "name": "One kilo of meat kebab ",
-            "nameAr": "  كباب لحم كيلو",
+            "name": "One kilo of meat kebab",
+            "nameAr": "كباب لحم كيلو",
             "price": "128.00"
           }
         ]
@@ -327,13 +327,13 @@
         "calories": "390",
         "variants": [
           {
-            "name": "Beef meat awsal (390 cal) ",
-            "nameAr": "  أوصال لحم نفر(390 كال)",
+            "name": "Beef meat awsal (390 cal)",
+            "nameAr": "أوصال لحم نفر(390 كال)",
             "price": "61.00"
           },
           {
             "name": "Awsal meat, half a kilo",
-            "nameAr": "   أوصال لحم نصف كيلو",
+            "nameAr": "أوصال لحم نصف كيلو",
             "price": "114.00"
           }
         ]
@@ -348,8 +348,8 @@
         "calories": "350"
       },
       {
-        "name": " Mixed grill",
-        "nameAr": "مشوي مشكل ",
+        "name": "Mixed grill",
+        "nameAr": "مشوي مشكل",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520382/part4/img3_o51z8p.webp",
         "description": "A selection of meat awwal, chicken awwal, meat kebab, and chicken kebab, grilled and served with eggplant, tomato, and fresh bell pepper.",
         "descriptionAr": "تشكيلة من أوصال اللحموأوصال الدجاج وكباب اللحم وكباب الدجاج يشوى ويقدم مع الباذنجان والطماطم والفلفل الرومي الطازج",
@@ -357,18 +357,18 @@
         "calories": "260",
         "variants": [
           {
-            "name": "Mixed grilled meat (260 cal) ",
-            "nameAr": "  مشوي مشكل نفر(260 كال)",
+            "name": "Mixed grilled meat (260 cal)",
+            "nameAr": "مشوي مشكل نفر(260 كال)",
             "price": "37.00"
           },
           {
             "name": "Mixed grill, half a kilo",
-            "nameAr": "   مشوي مشكل نصف كيلو",
+            "nameAr": "مشوي مشكل نصف كيلو",
             "price": "69.00"
           },
           {
-            "name": "Mixed grilled kilo ",
-            "nameAr": "  مشوي مشكل كيلو",
+            "name": "Mixed grilled kilo",
+            "nameAr": "مشوي مشكل كيلو",
             "price": "132.00"
           }
         ]
@@ -501,12 +501,12 @@
           },
           {
             "name": "Shish tawook half a kilo",
-            "nameAr": "   شيش طاووق نصف كيلو",
+            "nameAr": "شيش طاووق نصف كيلو",
             "price": "59.00"
           },
           {
             "name": "Shish tawook 1 kilo",
-            "nameAr": "  شيش طاووق كيلو",
+            "nameAr": "شيش طاووق كيلو",
             "price": "109.00"
           }
         ]
@@ -522,17 +522,17 @@
         "variants": [
           {
             "name": "Chicken problem for one person( 240 cal)",
-            "nameAr": "مشكل دجاج نفر(240 كال)  ",
+            "nameAr": "مشكل دجاج نفر(240 كال)",
             "price": "34.00"
           },
           {
             "name": "Mixed chicken half a kilo",
-            "nameAr": "مشكل دجاج نصف كيلو ",
+            "nameAr": "مشكل دجاج نصف كيلو",
             "price": "66.00"
           },
           {
             "name": "One kilo chicken mix",
-            "nameAr": "  مشكل دجاج كيلو",
+            "nameAr": "مشكل دجاج كيلو",
             "price": "108.00"
           }
         ]

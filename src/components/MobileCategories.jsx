@@ -15,7 +15,7 @@ function MobileCategories({ activeCategory, onPress, data }) {
             style={{
               animationDelay: `${index * 0.1}s`,
             }}
-            data-to-scrollSpy-id={index}
+            datatoscrollspyid={index}
             className={
               "menu__home__content__right__mobilebar__link__mobile " +
               (activeCategory === index ? "active" : "")
@@ -30,7 +30,7 @@ function MobileCategories({ activeCategory, onPress, data }) {
               className="menu__home__content__left__link__overlay__mobile"
               key={index}
               onClick={onPress}
-              data-to-scrollSpy-id={index}
+              datatoscrollspyid={index}
             >
               {language === "ar" ? category.nameAr : category.name}
             </div>
