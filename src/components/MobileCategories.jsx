@@ -23,6 +23,7 @@ function MobileCategories({ activeCategory, onPress, data }) {
           >
             <img
               className="menu__home__content__left__link__img__mobile"
+              loading="lazy"
               src={category.imageUrl}
               alt={language === "ar" ? category.nameAr : category.name}
             />
