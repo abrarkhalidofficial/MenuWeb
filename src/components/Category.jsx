@@ -1,15 +1,25 @@
-import { memo, useEffect, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 
 import MenuCard from "./MenuCard";
 import { useLanguage } from "../context/LanguageContext";
+
+const Loader = memo(() => {
+  const arr = useMemo(() => new Array(6).fill(0), []);
+
+  return (
+    <>
+      {arr?.map((_, index) => (
+        <MenuCard key={index} delay={`${index * 0.1}s`} />
+      ))}
+    </>
+  );
+});
 
 function Category({ category, products, index }) {
   const [selectedLanguage] = useLanguage();
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 500);
-  }, []);
+  useEffect(() => setTimeout(() => setLoading(false), 500), []);
 
   return (
     <section
@@ -22,13 +32,7 @@ function Category({ category, products, index }) {
       </div>
       <div className="menu__home__content__right__content__bottom__content__items">
         {loading ? (
-          <>
-            {Array(10)
-              ?.fill(0)
-              ?.map((_, index) => (
-                <MenuCard key={index} delay={`${index * 0.1}s`} />
-              ))}
-          </>
+          <Loader />
         ) : products?.length === 0 ? (
           <div className="menu__home__content__right__content__bottom__content__items__empty">
             {selectedLanguage === "ar" ? "لا يوجد منتجات" : "No Products"}
