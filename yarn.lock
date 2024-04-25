@@ -1162,10 +1162,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@remix-run/router@1.15.3":
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.15.3.tgz#d2509048d69dbb72d5389a14945339f1430b2d3c"
-  integrity sha512-Oy8rmScVrVxWZVOpEF57ovlnhpZ8CCPlnIIumVcV9nFdiSIrus99+Lw78ekXyGvVDlIsFJbSfmSovJUhCWYV3w==
+"@remix-run/router@1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.16.0.tgz#0e10181e5fec1434eb071a9bc4bdaac843f16dcc"
+  integrity sha512-Quz1KOffeEf/zwkCBM3kBtH4ZoZ+pT3xIXBG4PPW/XFtDP7EGhtTiC2+gpL9GnR7+Qdet5Oa6cYSvwKYg6kN9Q==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -4311,20 +4311,20 @@ react-refresh@^0.14.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
 
-react-router-dom@6.22.3:
-  version "6.22.3"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.22.3.tgz#9781415667fd1361a475146c5826d9f16752a691"
-  integrity sha512-7ZILI7HjcE+p31oQvwbokjk6OA/bnFxrhJ19n82Ex9Ph8fNAq+Hm/7KchpMGlTgWhUxRHMMCut+vEtNpWpowKw==
+react-router-dom@6.23.0:
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.23.0.tgz#8b80ad92ad28f4dc38972e92d84b4c208150545a"
+  integrity sha512-Q9YaSYvubwgbal2c9DJKfx6hTNoBp3iJDsl+Duva/DwxoJH+OTXkxGpql4iUK2sla/8z4RpjAm6EWx1qUDuopQ==
   dependencies:
-    "@remix-run/router" "1.15.3"
-    react-router "6.22.3"
+    "@remix-run/router" "1.16.0"
+    react-router "6.23.0"
 
-react-router@6.22.3:
-  version "6.22.3"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.22.3.tgz#9d9142f35e08be08c736a2082db5f0c9540a885e"
-  integrity sha512-dr2eb3Mj5zK2YISHK++foM9w4eBnO23eKnZEDs7c880P6oKbrjz/Svg9+nxqtHQK+oMW4OtjZca0RqPglXxguQ==
+react-router@6.23.0:
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.23.0.tgz#2f2d7492c66a6bdf760be4c6bdf9e1d672fa154b"
+  integrity sha512-wPMZ8S2TuPadH0sF5irFGjkNLIcRvOSaEe7v+JER8508dyJumm6XZB1u5kztlX0RVq6AzRVndzqcUh6sFIauzA==
   dependencies:
-    "@remix-run/router" "1.15.3"
+    "@remix-run/router" "1.16.0"
 
 react-side-effect@^2.1.0:
   version "2.1.2"
@@ -4564,10 +4564,10 @@ safe-regex-test@^1.0.0:
     get-intrinsic "^1.2.2"
     is-regex "^1.1.4"
 
-sass@^1.74.1:
-  version "1.74.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.74.1.tgz#686fc227d3707dd25cb2925e1db8e4562be29319"
-  integrity sha512-w0Z9p/rWZWelb88ISOLyvqTWGmtmu2QJICqDBGyNnfG4OUnPX9BBjjYIXUpXCMOOg5MQWNpqzt876la1fsTvUA==
+sass@^1.75.0:
+  version "1.75.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.75.0.tgz#91bbe87fb02dfcc34e052ddd6ab80f60d392be6c"
+  integrity sha512-ShMYi3WkrDWxExyxSZPst4/okE9ts46xZmJDSawJQrnte7M1V9fScVB+uNXOVKRBt0PggHOwoZcn8mYX4trnBw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -5293,20 +5293,20 @@ vite-plugin-pwa@^0.19.8:
     workbox-build "^7.0.0"
     workbox-window "^7.0.0"
 
-vite-plugin-webfont-dl@^3.9.2:
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-3.9.2.tgz#990ecdf164757ed9699cb94f43cefa0f95e8ad89"
-  integrity sha512-kAjWbYdWz/fgvSIo5xjzca1F7EkM9ZMEQikFCoJr4u58srYtYAqyDTGQOxU1tCCCLLfktDnKFZKIFlXPay8j/Q==
+vite-plugin-webfont-dl@^3.9.3:
+  version "3.9.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-3.9.3.tgz#22c01438e469a55dc7a3539ca20c364f136f850e"
+  integrity sha512-6qOGANGBTg/sO3lBVdCmvjBrPV/G/Aus+UAfgW6cwXNYmaqHcbitEMeUrLLXhTkWXB7H2pzolwq0RzGKMTExMg==
   dependencies:
     axios "^1"
     clean-css "^5"
     flat-cache "^3"
     picocolors "^1"
 
-vite@^5.2.8:
-  version "5.2.8"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-5.2.8.tgz#a99e09939f1a502992381395ce93efa40a2844aa"
-  integrity sha512-OyZR+c1CE8yeHw5V5t59aXsUPPVTHMDjEZz8MgguLL/Q7NblxhZUlTu9xSPqlsUO/y+X7dlU05jdhvyycD55DA==
+vite@^5.2.10:
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.2.10.tgz#2ac927c91e99d51b376a5c73c0e4b059705f5bd7"
+  integrity sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==
   dependencies:
     esbuild "^0.20.1"
     postcss "^8.4.38"
