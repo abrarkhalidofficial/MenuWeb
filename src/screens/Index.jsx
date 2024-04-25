@@ -151,7 +151,7 @@ function Index() {
             >
               {data.map((category, index) => (
                 <Category
-                  key={index}
+                  key={category.name}
                   index={index}
                   category={category}
                   products={category.products?.filter((product) =>
