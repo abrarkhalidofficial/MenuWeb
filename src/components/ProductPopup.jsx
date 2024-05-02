@@ -66,6 +66,32 @@ function ProductPopup() {
                 : "is__closed")
             }
           >
+            <button
+              onClick={() => {
+                setDataForProductPopup({});
+                setAddedAdditives([]);
+                setAddedVariants([]);
+              }}
+              class="imagespopup__img__closebutton"
+              style={{
+                zIndex: 1000,
+              }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
             <div className="menu__home__content__popup__content__slider">
               <img
                 loading="lazy"
@@ -155,24 +181,31 @@ function ProductPopup() {
                       textAlign: selectedLanguage === "ar" ? "right" : "left",
                     }}
                   >
-                    <div
-                      className="menu__home__content__popup__content__slider__info__allergy__heading"
-                      style={{
-                        marginBottom: 5,
-                        marginTop: 5,
-                        fontWeight: 600,
-                        fontSize: 16,
-                      }}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      class="feather feather-zap-off"
                     >
-                      {selectedLanguage === "ar" ? "الحساسية" : "Allergies"}
-                    </div>
+                      <polyline points="12.41 6.75 13 2 10.57 4.92"></polyline>
+                      <polyline points="18.57 12.91 21 10 15.66 10"></polyline>
+                      <polyline points="8 8 3 14 12 14 11 22 16 16"></polyline>
+                      <line x1="1" y1="1" x2="23" y2="23"></line>
+                    </svg>
+
                     {dataForProductPopup?.allergies?.map((allergy, index) =>
                       index === dataForProductPopup?.allergies?.length - 1 ? (
-                        <span key={index}>
+                        <span key={allergy}>
                           {allergy[selectedLanguage === "ar" ? "ar" : "en"]}
                         </span>
                       ) : (
-                        <span key={index}>
+                        <span key={allergy}>
                           {allergy[selectedLanguage === "ar" ? "ar" : "en"]}،{" "}
                         </span>
                       )
@@ -210,7 +243,7 @@ function ProductPopup() {
                                 ]);
                               }
                             }}
-                            key={index}
+                            key={additive.name}
                             className={
                               addedAdditives.includes(additive)
                                 ? `menu__home__content__popup__content__buttons__buttons__button menu__home__content__popup__content__buttons__buttons__button__active fadeIn`
@@ -231,7 +264,10 @@ function ProductPopup() {
               {dataForProductPopup?.variants && (
                 <>
                   {dataForProductPopup?.variants?.map((variant, index) => (
-                    <div className="menu__home__content__popup__content__qauntity__and__price menu__home__content__popup__content__qauntity__and__price__new fadeIn">
+                    <div
+                      key={variant.name}
+                      className="menu__home__content__popup__content__qauntity__and__price menu__home__content__popup__content__qauntity__and__price__new fadeIn"
+                    >
                       <div className="menu__home__content__popup__content__qauntity__and__price__qauntity">
                         <div className="menu__home__content__popup__content__qauntity__and__price__qauntity__nameprice">
                           <div className="menu__home__content__popup__content__qauntity__and__price__price__name">
@@ -429,6 +465,7 @@ function ProductPopup() {
                 <X />
               </button>
               <img
+                loading="lazy"
                 className="imagespopup__img__closebutton__img fadeIn"
                 src={imagePopup}
                 alt="Full Image"

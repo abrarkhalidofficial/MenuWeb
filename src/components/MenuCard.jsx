@@ -35,7 +35,6 @@ export default function MenuCard({ product, delay }) {
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
         <img loading="lazy" src={product?.image} alt="item" />
       </div>
-
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
       </div>

@@ -39,7 +39,7 @@
         "description": "Fresh vegetables with crispy bread pieces and drops of pomegranate molasses",
         "descriptionAr": "الخضار الطازج مع قطع الخبز المقرمشة وقطرات دبس الرمان",
         "price": "17.00",
-        "calories": "70"
+        "calories": "120"
       },
       {
         "name": "Hummus",
@@ -93,7 +93,7 @@
         "description": "Fresh vegetables mashed in our special way",
         "descriptionAr": "الخضار الطازج المهروس على طريقتنا الخاصة",
         "price": "14.00",
-        "calories": "100"
+        "calories": "90"
       },
       {
         "name": "Garlic Cream",
@@ -149,13 +149,13 @@
         "calories": "90"
       },
       {
-        "name": "Fried Potatoes",
-        "nameAr": "بطاطس مقلي",
+        "name": "French fries",
+        "nameAr": "بطاطا مقلية",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512585/menuwebsite/upload/imagepart2/img3_tv7k7x.webp",
         "description": "Golden potato fingers with a sprinkle of pepper and salt",
         "descriptionAr": "أصابع البطاطا الذهبية مع رشة من الفليفلة و الملح",
         "price": "14.00",
-        "calories": "312"
+        "calories": "420"
       },
       {
         "name": "Fries",
@@ -173,16 +173,16 @@
         "description": "Stuffed with meat with pomegranate seeds",
         "descriptionAr": "محشوة باللحم مع حبيبات الرمان",
         "price": "8.00",
-        "calories": "152"
+        "calories": "240"
       },
       {
-        "name": "Fried Kibbeh",
-        "nameAr": "كبة مقلية",
+        "name": "Fried Meat Kibbeh",
+        "nameAr": "كبة لحم مقلية",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706512586/menuwebsite/upload/imagepart2/img6_fbgxok.webp",
         "description": "Prepared in our special way (4 pieces)",
         "descriptionAr": "معدة على طريقتنا الخاصة (٤ حبات)",
         "price": "22.00",
-        "calories": "170",
+        "calories": "310",
         "allergies": [
           { "en": "barley", "ar": "شعير" },
           { "en": "almonds", "ar": "لوز" }
@@ -221,7 +221,7 @@
         "description": "Minced meat marinated in our special way on oven-baked dough sheets",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
-        "calories": "368",
+        "calories": "460",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
@@ -231,7 +231,7 @@
         "description": "",
         "descriptionAr": "اللحم المفروم المتبل بطريقتنا الخاصة مع دبس الرمان على رقائق العجين المقمرة بالفرن",
         "price": "27.00",
-        "calories": "368",
+        "calories": "480",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
@@ -241,7 +241,7 @@
         "description": "Minced meat marinated in our special way on round dough sheets and baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصة على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
-        "calories": "256",
+        "calories": "340",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
@@ -251,12 +251,12 @@
         "description": "Minced meat marinated in our special way with pomegranate molasses on round dough sheets baked in the oven",
         "descriptionAr": "لحم مفروم متبل بطريقتنا الخاصةمع دبس الرمان على رقائق العجين المدورة والمقمرة بالفرن",
         "price": "27.00",
-        "calories": "296",
+        "calories": "370",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
       },
       {
-        "name": "Meat kofta with tahini",
-        "nameAr": "كفتة لحم بالطحينة",
+        "name": "Meatballs with yogurt",
+        "nameAr": "كفتة باللبن",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706514287/menuwebsite/upload/imagepart2/part3/img6_muutzl.webp",
         "description": "A tender piece of kofta topped with special tahini sauce with the notes of green onions and sesame seeds",
         "descriptionAr": "قطعة الكفتة الطرية يعلوها صوص الطحينة الخاص مع نفحة البصل الأخضر وحبات السمسم",
@@ -342,8 +342,8 @@
         "name": "Meat Problem",
         "nameAr": "مشكل لحم",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520449/part4/img_hz2fy9.webp",
-        "description": "A selection of tender meat awwal and fresh meat kebab (4 skewers)",
-        "descriptionAr": "تشكيلة من أوصال اللحم الطري وكباب اللحم الطازج (4 أسياخ)",
+        "description": "A selection of tender meat awwal and fresh meat kebab",
+        "descriptionAr": "تشكيلة من أوصال اللحم الطري وكباب اللحم الطازج",
         "price": "57.00",
         "calories": "350"
       },
@@ -374,11 +374,11 @@
         ]
       },
       {
-        "name": "Istanbul Kebab",
-        "nameAr": "كباب اسطنبولي",
+        "name": "Istanbul tomato sauce",
+        "nameAr": "صوص الطماطم اسطنبولي",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520408/part4/img4_vepw4f.webp",
-        "description": "Tender and fresh meat kebab with our special seasoning with a hint of garlic and cold pepper (2 skewers)",
-        "descriptionAr": "كباب اللحم الطري والطازج بتتبيلتنا الخاصة مع نفحة من الثوم والفلفل البارد (2 سيخ)",
+        "description": "Tender and fresh meat kebab with our special seasoning with a hint of garlic and cold pepper",
+        "descriptionAr": "كباب اللحم الطري والطازج بتتبيلتنا الخاصة مع نفحة من الثوم والفلفل البارد",
         "price": "36.00",
         "calories": "310"
       },
@@ -395,8 +395,8 @@
         "name": "Kebab with Sauce",
         "nameAr": "كباب مع الصوص",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520387/part4/img6_wilutt.webp",
-        "description": "Tender meat kebab served with mashed tomatoes prepared on charcoal (4 skewers)",
-        "descriptionAr": "كباب اللحم الطري يقدم مع الطماطم المهروسة المعدة على الفحم (4 أسياخ)",
+        "description": "Tender meat kebab served with mashed tomatoes prepared on charcoal",
+        "descriptionAr": "كباب اللحم الطري يقدم مع الطماطم المهروسة المعدة على الفحم",
         "price": "36.00",
         "calories": "280"
       },
@@ -404,8 +404,8 @@
         "name": "Khashkhash Kebab",
         "nameAr": "كباب خشخاش",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520888/part4/DSC02402_g582gx.webp",
-        "description": "Fresh meat kebab marinated in our special way, served with special sauce prepared on charcoal (4 skewers)",
-        "descriptionAr": "كباب اللحم الطازج المتبل على طريقتنا الخاصة يقدم مع الصوص الخاص المعد على الفحم (4 أسياخ)",
+        "description": "Fresh meat kebab marinated in our special way, served with special sauce prepared on charcoal",
+        "descriptionAr": "كباب اللحم الطازج المتبل على طريقتنا الخاصة يقدم مع الصوص الخاص المعد على الفحم",
         "price": "36.00",
         "calories": "210"
       },
@@ -413,8 +413,8 @@
         "name": "Arayes Meat",
         "nameAr": "عرايس لحم",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520446/part4/img8_mwkeyv.webp",
-        "description": "A special filling of meat between two thin layers of bread topped with drops of pomegranate molasses (8 pieces)",
-        "descriptionAr": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان (8 قطع)",
+        "description": "A special filling of meat between two thin layers of bread topped with drops of pomegranate molasses",
+        "descriptionAr": "حشوة مميزة من اللحم بين طبقتين رقيقتين من الخبز عليها قطرات من دبس الرمان",
         "price": "29.00",
         "calories": "320",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
@@ -423,8 +423,8 @@
         "name": "Toshka with Cheese and Nuts",
         "nameAr": "طوشكا مع الجبن والمكسرات",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520450/part4/img9_zyd9ym.webp",
-        "description": "A special filling of meat, cheese and nuts between two thin layers of bread, grilled and served to you (8 pieces)",
-        "descriptionAr": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك (8 قطع)",
+        "description": "A special filling of meat, cheese and nuts between two thin layers of bread, grilled and served to you",
+        "descriptionAr": "حشوة مميزة من اللحم والجبن والمكسرات بين طبقتين رقيقتين من الخبز تقمر على المشوى وتقدم لك",
         "price": "36.00",
         "calories": "370",
         "allergies": [
@@ -437,8 +437,8 @@
         "name": "Grilled Sheep Liver",
         "nameAr": "كبدة غنم مشوية",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520451/part4/img10_uvoioh.webp",
-        "description": "Grilled lamb liver with a pinch of salt and black pepper (2 skewers)",
-        "descriptionAr": "كبدة غنم مشوية مع رشة من الملح والفلفل الأسود (2 سيخ)",
+        "description": "Grilled lamb liver with a pinch of salt and black pepper",
+        "descriptionAr": "كبدة غنم مشوية مع رشة من الملح والفلفل الأسود",
         "price": "29.00",
         "calories": "160"
       },
@@ -446,8 +446,8 @@
         "name": "Kasabiya Meat Kibbeh",
         "nameAr": "كبة لحم قصابية",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706520446/part4/img11_bpw7ss.webp",
-        "description": "Pieces of fresh meat kebab prepared in Aleppo style (2 skewers)",
-        "descriptionAr": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية (2 سيخ)",
+        "description": "Pieces of fresh meat kebab prepared in Aleppo style",
+        "descriptionAr": "قطع من كباب اللحم الطازج المعد على الطريقة الحلبية",
         "price": "29.00",
         "calories": "250",
         "allergies": [{ "en": "barley", "ar": "شعير" }]
@@ -466,7 +466,7 @@
         "description": "Tender and fresh chicken kebab marinated in our special way",
         "descriptionAr": "كباب الدجاج الطري والطازج المتبل على طريقتنا الخاصة",
         "price": "29.00",
-        "calories": "170",
+        "calories": "280",
         "variants": [
           {
             "name": "Chicken kebab for people(170 cal)",
@@ -492,12 +492,12 @@
         "description": "Pieces of premium chicken breast marinated with our special spices",
         "descriptionAr": "قطع من صدر الدجاج الفاخر المتبلة بتوابلنا الخاصة",
         "price": "33.00",
-        "calories": "280",
+        "calories": "260",
         "variants": [
           {
-            "name": "Shish Tawook for a person (280 cal)",
-            "nameAr": "(280 كال)كباب دجاج نفر",
-            "price": "33.00"
+            "name": "Shish Tawook for a person (230 cal)",
+            "nameAr": "(230 كال)كباب دجاج نفر",
+            "price": "34.00"
           },
           {
             "name": "Shish tawook half a kilo",
@@ -570,7 +570,7 @@
         "description": "A special kebab that we prepare in two stages. It is grilled, then mozzarella cheese is added to it, wrapped in dough and baked in the oven.",
         "descriptionAr": "كباب خاص نحضره على مرحلتين يشوى ثم تضاف إليه جبنة الموزريلا ليلف بالعجين ويقمر بالفرن",
         "price": "44.00",
-        "calories": "260",
+        "calories": "280",
         "allergies": [
           { "en": "barley", "ar": "شعير" },
           { "en": "milk", "ar": "حليب" }
@@ -638,8 +638,8 @@
         "name": "Mozzarella Kebab with Nuts",
         "nameAr": "كباب موزريلا مع المكسرات",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522056/part4/part5/img11_w9o66j.webp",
-        "description": "Tender meat kebab marinated in our special way with mozzarella cheese and nuts (4 skewers)",
-        "descriptionAr": "كباب اللحم الطري المتبل بطريقتنا الخاصة مع جبنة الموزريلا والمكسرات (4 أسياخ)",
+        "description": "Tender meat kebab marinated in our special way with mozzarella cheese and nuts",
+        "descriptionAr": "كباب اللحم الطري المتبل بطريقتنا الخاصة مع جبنة الموزريلا والمكسرات",
         "price": "43.00",
         "calories": "240"
       },
@@ -647,8 +647,8 @@
         "name": "Rital Roll",
         "nameAr": "رول ريتال",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706522119/part4/part5/img12_rrglar.webp",
-        "description": "Slices of fresh meat stuffed with cheese and nuts wrapped in a thin layer of lard (5 pieces)",
-        "descriptionAr": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم (5 قطع)",
+        "description": "Slices of fresh meat stuffed with cheese and nuts wrapped in a thin layer of lard",
+        "descriptionAr": "شرائح من اللحم الطازج المحشو بالجبن والمكسرات الملفوفة بطبقة رقيقة من الشحم",
         "price": "64.00",
         "calories": "510",
         "allergies": [
@@ -716,13 +716,31 @@
         "calories": "150"
       },
       {
-        "name": "Seven Up",
+        "name": "Family Pepsi",
+        "nameAr": "ببسي",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2F229a974b-3d6f-490f-8ced-f706f9d6425c.jpg?alt=media&token=cf2bbb52-d95d-4b9c-a0bf-98cd0cdb2d36",
+        "description": "",
+        "descriptionAr": "",
+        "price": "9.00",
+        "calories": "450"
+      },
+      {
+        "name": "7 Up",
         "nameAr": "سيفين أب",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb1eeb4d3-bc52-4041-85ea-4dbb79280806.jpg?alt=media&token=eb2bba69-d410-430e-b5cb-72a488312d00",
         "description": "",
         "descriptionAr": "",
         "price": "3.00",
         "calories": "150"
+      },
+      {
+        "name": "Family 7 Up",
+        "nameAr": "سيفين أب",
+        "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fb1eeb4d3-bc52-4041-85ea-4dbb79280806.jpg?alt=media&token=eb2bba69-d410-430e-b5cb-72a488312d00",
+        "description": "",
+        "descriptionAr": "",
+        "price": "9.00",
+        "calories": "450"
       },
       {
         "name": "Dew",
@@ -734,7 +752,7 @@
         "calories": "150"
       },
       {
-        "name": "Mirinda (Citrus)",
+        "name": "Citrus",
         "nameAr": "ميرندا (الحمضيات)",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Fproducts%2Fe165c59e-0931-4862-9259-99a42d98d70f.jpg?alt=media&token=eeaeb772-a044-45a0-9bba-5cf855f745a7",
         "description": "",
@@ -749,7 +767,7 @@
         "description": "",
         "descriptionAr": "",
         "price": "1.00",
-        "calories": "150"
+        "calories": ""
       }
     ]
   },
@@ -769,8 +787,8 @@
         "allergies": [{ "en": "milk", "ar": "حليب" }]
       },
       {
-        "name": "Light Cocktail",
-        "nameAr": "كوكتيل لايت",
+        "name": "Cocktail",
+        "nameAr": "كوكتيل",
         "image": "https://res.cloudinary.com/dhg7c7ypc/image/upload/v1706523346/part4/part5/part6/img2_bfjzlq.webp",
         "description": "A mixture of delicious natural fruits",
         "descriptionAr": "خليط من الفواكه الطبيعية اللذيذة",
@@ -794,7 +812,7 @@
         "description": "Fresh apple juice",
         "descriptionAr": "عصير التفاح الطازج",
         "price": "14.00",
-        "calories": "52"
+        "calories": "110"
       },
       {
         "name": "Pomegranate",
@@ -812,7 +830,7 @@
         "description": "Fresh mango juice",
         "descriptionAr": "عصير المنجا الطازج",
         "price": "14.00",
-        "calories": "60"
+        "calories": "140"
       },
       {
         "name": "Lemon Mint",
@@ -830,7 +848,7 @@
         "description": "Fresh strawberry juice",
         "descriptionAr": "عصير الفراولة الطازجة",
         "price": "13.00",
-        "calories": "90"
+        "calories": "110"
       },
       {
         "name": "Saudi cocktail",
@@ -839,16 +857,16 @@
         "description": "Fresh fruit pieces dipped in special drink",
         "descriptionAr": "قطع الفواكة الطازجة المغمورة بالمشروب الخاص",
         "price": "16.00",
-        "calories": "51"
+        "calories": "150"
       },
       {
-        "name": "Passion fruit Mojito",
-        "nameAr": "موهيتو باشن فروت",
+        "name": "Kiwan Mojito",
+        "nameAr": "موهيتو كيوان",
         "image": "https://firebasestorage.googleapis.com/v0/b/kawkab.appspot.com/o/e2gnO9KldTadEBNemYeW%2Flogo.png?alt=media&token=fbeb3ab0-bf9f-468d-b633-3a9eec6d4452",
         "description": "Refreshing passion fruit flavored mojito",
         "descriptionAr": "موهيتو بنكهة الباشن فروت المنعش",
         "price": "16.00",
-        "calories": "140"
+        "calories": "320"
       },
       {
         "name": "Blueberry Mojito",
@@ -875,7 +893,7 @@
         "description": "Istanbul style",
         "descriptionAr": "على الطريقة الاسطنبولية",
         "price": "3.00",
-        "calories": ""
+        "calories": "40"
       }
     ]
   }

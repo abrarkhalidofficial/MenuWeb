@@ -1,5 +1,4 @@
 import Menulogo from "../assets/logoicon.png";
-import { Share } from "react-feather";
 import Socialmedia from "./Socialmedia";
 import { useLanguage } from "../context/LanguageContext";
 import { useState } from "react";
@@ -14,7 +13,6 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
         <div className="menu__home__content__right__content__top">
           <div className="menu__home__content__right__content__top__logo fadeIn">
             <img
-              loading="lazy"
               src={
                 language === "en" && theme === "light"
                   ? Menulogo
