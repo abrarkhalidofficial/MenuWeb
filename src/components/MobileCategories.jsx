@@ -1,5 +1,7 @@
+import { Img } from "react-image";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { memo } from "react";
+import { placeholder } from "./placeholder";
 import { useLanguage } from "../context/LanguageContext";
 
 function MobileCategories({ activeCategory, onPress, data }) {
@@ -21,10 +23,22 @@ function MobileCategories({ activeCategory, onPress, data }) {
               (activeCategory === index ? "active" : "")
             }
           >
-            <img
+            <Img
               className="menu__home__content__left__link__img__mobile"
               loading="lazy"
               src={category.imageUrl}
+              loader={
+                <img
+                  src={placeholder}
+                  className="menu__home__content__left__link__img__mobile"
+                />
+              }
+              unloader={
+                <img
+                  src={placeholder}
+                  className="menu__home__content__left__link__img__mobile"
+                />
+              }
               alt={language === "ar" ? category.nameAr : category.name}
             />
             <div
