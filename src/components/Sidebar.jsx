@@ -1,5 +1,7 @@
+import Img from "react-image-fallback";
 import data from "../data/data.json";
 import { memo } from "react";
+import { placeholder } from "./placeholder";
 import { useLanguage } from "../context/LanguageContext";
 
 function Sidebar({ onPress, deferredActiveCategory }) {
@@ -19,9 +21,11 @@ function Sidebar({ onPress, deferredActiveCategory }) {
               (parseInt(deferredActiveCategory) === index ? "active" : "")
             }
           >
-            <img
+            <Img
               alt={language === "ar" ? category.nameAr : category.name}
               className="menu__home__content__left__link__img"
+              fallbackImage={placeholder}
+              initialImage={placeholder}
               src={category.imageUrl}
               loading="lazy"
             />
