@@ -154,11 +154,16 @@ function App() {
                   key={category.name}
                   index={index}
                   category={category}
-                  products={category.products?.filter((product) =>
-                    (language === "ar" ? product.nameAr : product.name)
-                      .toLowerCase()
-                      .includes(query.toLowerCase())
-                  )}
+                  products={category.products?.filter((product) => {
+                    const productName =
+                      language === "ar" ? product.nameAr : product.name;
+
+                    const normalizedProductName = productName.toLowerCase();
+
+                    const normalizedQuery = query.toLowerCase();
+
+                    return normalizedProductName.includes(normalizedQuery);
+                  })}
                 />
               ))}
             </div>
