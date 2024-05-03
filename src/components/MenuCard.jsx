@@ -1,12 +1,10 @@
 import cartAtom from "../data/cartAtom";
 import productPopupAtom from "../data/productAtom";
-import themeAtom from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function MenuCard({ product, delay }) {
   const [selectedLanguage] = useLanguage();
-  const [theme] = useAtom(themeAtom);
   const [cart, setCart] = useAtom(cartAtom);
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
   const isInCart = cart.find((item) => item?.name === product?.name);
