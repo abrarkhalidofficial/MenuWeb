@@ -8,19 +8,19 @@ import {
   useState,
 } from "react";
 
-import Category from "../components/Category";
-import Header from "../components/Header";
-import LanguageButton from "../components/LanguageButton";
-import MobileCategories from "../components/MobileCategories";
-import ProductPopup from "../components/ProductPopup";
-import Sidebar from "../components/Sidebar";
-import cartAtom from "../data/cartAtom";
-import data from "../data/data.json";
-import themeAtom from "../data/themeAtom";
+import Category from "./components/Category";
+import Header from "./components/Header";
+import LanguageButton from "./components/LanguageButton";
+import MobileCategories from "./components/MobileCategories";
+import ProductPopup from "./components/ProductPopup";
+import Sidebar from "./components/Sidebar";
+import cartAtom from "./data/cartAtom";
+import data from "./data/data.json";
+import themeAtom from "./data/themeAtom";
 import { useAtom } from "jotai";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "./context/LanguageContext";
 
-function Index() {
+function App() {
   const [language] = useLanguage();
   const [cart] = useAtom(cartAtom);
   const [query, setQuery] = useState("");
@@ -154,11 +154,16 @@ function Index() {
                   key={category.name}
                   index={index}
                   category={category}
-                  products={category.products?.filter((product) =>
-                    (language === "ar" ? product.nameAr : product.name)
-                      .toLowerCase()
-                      .includes(query.toLowerCase())
-                  )}
+                  products={category.products?.filter((product) => {
+                    const productName =
+                      language === "ar" ? product.nameAr : product.name;
+
+                    const normalizedProductName = productName.toLowerCase();
+
+                    const normalizedQuery = query.toLowerCase();
+
+                    return normalizedProductName.includes(normalizedQuery);
+                  })}
                 />
               ))}
             </div>
@@ -170,4 +175,4 @@ function Index() {
   );
 }
 
-export default memo(Index);
+export default memo(App);

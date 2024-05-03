@@ -4,6 +4,7 @@ import { ViteWebfontDownload } from "vite-plugin-webfont-dl";
 import { chunkSplitPlugin } from "vite-plugin-chunk-split";
 import { config } from "./remix.config";
 import { defineConfig } from "vite";
+import million from "million/compiler";
 import react from "@vitejs/plugin-react";
 import viteCompression from "vite-plugin-compression";
 import viteImagemin from "vite-plugin-imagemin";
@@ -19,6 +20,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    million.vite({ auto: true }),
     HotExport(),
     config.compression && chunkSplitPlugin(),
     config.fontOptimization && ViteWebfontDownload(),

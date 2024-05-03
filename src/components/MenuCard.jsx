@@ -1,15 +1,23 @@
+import { memo, useMemo } from "react";
+
+import Img from "react-image-fallback";
 import cartAtom from "../data/cartAtom";
+import { placeholder } from "./placeholder";
 import productPopupAtom from "../data/productAtom";
-import themeAtom from "../data/themeAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
 
-export default function MenuCard({ product, delay }) {
+function MenuCard({ product, delay }) {
   const [selectedLanguage] = useLanguage();
-  const [theme] = useAtom(themeAtom);
+
   const [cart, setCart] = useAtom(cartAtom);
+
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
-  const isInCart = cart.find((item) => item?.name === product?.name);
+
+  const isInCart = useMemo(
+    () => cart.find((item) => item?.name === product?.name),
+    [cart, product]
+  );
 
   const handleAddToCart = () => {
     if (isInCart) {
@@ -33,7 +41,13 @@ export default function MenuCard({ product, delay }) {
       }
     >
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
-        <img loading="lazy" src={product?.image} alt="item" />
+        <Img
+          loading="lazy"
+          src={product?.image}
+          alt="item"
+          fallbackImage={placeholder}
+          initialImage={placeholder}
+        />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
@@ -52,7 +66,7 @@ export default function MenuCard({ product, delay }) {
           className="lucide lucide-flame"
         >
           <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
-        </svg>{" "}
+        </svg>
         {selectedLanguage === "ar" && "سعرات حرارية "}
         {product?.calories}
         {selectedLanguage === "en" && " CAL"}
@@ -81,3 +95,5 @@ export default function MenuCard({ product, delay }) {
     </div>
   );
 }
+
+export default memo(MenuCard);
