@@ -16,7 +16,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
-    "react-image": "^4.1.0",
     "react-indiana-drag-scroll": "^2.2.0"
   },
   "devDependencies": {
