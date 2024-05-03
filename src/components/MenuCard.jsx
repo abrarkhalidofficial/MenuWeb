@@ -1,6 +1,8 @@
 import { memo, useMemo } from "react";
 
+import Img from "react-image-fallback";
 import cartAtom from "../data/cartAtom";
+import { placeholder } from "./placeholder";
 import productPopupAtom from "../data/productAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
@@ -39,7 +41,13 @@ function MenuCard({ product, delay }) {
       }
     >
       <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
-        <img loading="lazy" src={product?.image} alt="item" />
+        <Img
+          loading="lazy"
+          src={product?.image}
+          alt="item"
+          fallbackImage={placeholder}
+          initialImage={placeholder}
+        />
       </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
