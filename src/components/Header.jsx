@@ -23,6 +23,7 @@ export default function Header({ query, setQuery, toggleTheme, theme, cart }) {
                   : Menulogo
               }
               alt="logo"
+              loading="lazy"
             />
           </div>
           <div className="menu__home__content__right__content__top__content">
