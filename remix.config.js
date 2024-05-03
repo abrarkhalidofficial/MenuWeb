@@ -1,8 +1,8 @@
 export const config = {
   compression: true,
   fontOptimization: true,
-  progressiveWebApp: false,
-  imagesOptimization: false,
+  progressiveWebApp: true,
+  imagesOptimization: true,
   alias: {
     // "@somealias": "/src/somepath",
   },
