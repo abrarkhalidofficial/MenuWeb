@@ -16,9 +16,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
-    "react-helmet": "^6.1.0",
-    "react-indiana-drag-scroll": "^2.2.0",
-    "swr": "^2.2.5"
+    "react-indiana-drag-scroll": "^2.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
