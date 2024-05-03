@@ -1,8 +1,10 @@
 import { Minus, Plus, X, ZoomIn } from "react-feather";
 import { memo, useEffect, useState } from "react";
 
+import { Img } from "react-image";
 import Rounded from "./RoundedButton";
 import cartAtom from "../data/cartAtom";
+import { placeholder } from "./placeholder";
 import productPopupAtom from "../data/productAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
@@ -93,7 +95,9 @@ function ProductPopup() {
               </svg>
             </button>
             <div className="menu__home__content__popup__content__slider">
-              <img
+              <Img
+                loader={<img src={placeholder} />}
+                unloader={<img src={placeholder} />}
                 loading="lazy"
                 src={dataForProductPopup?.image}
                 alt={dataForProductPopup?.name}
