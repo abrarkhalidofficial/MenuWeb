@@ -1,29 +1,21 @@
-import { Img } from "react-image";
+import { memo, useMemo } from "react";
+
 import cartAtom from "../data/cartAtom";
-import { placeholder } from "./placeholder";
 import productPopupAtom from "../data/productAtom";
 import { useAtom } from "jotai";
 import { useLanguage } from "../context/LanguageContext";
 
-function Image({ src: baseSrc }) {
-  return (
-    <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
-      <Img
-        loading="lazy"
-        src={baseSrc}
-        alt="item"
-        loader={<img src={placeholder} alt="item" />}
-        unloader={<img src={placeholder} alt="item" />}
-      />
-    </div>
-  );
-}
-
-export default function MenuCard({ product, delay }) {
+function MenuCard({ product, delay }) {
   const [selectedLanguage] = useLanguage();
+
   const [cart, setCart] = useAtom(cartAtom);
+
   const [, setDataForProductPopup] = useAtom(productPopupAtom);
-  const isInCart = cart.find((item) => item?.name === product?.name);
+
+  const isInCart = useMemo(
+    () => cart.find((item) => item?.name === product?.name),
+    [cart, product]
+  );
 
   const handleAddToCart = () => {
     if (isInCart) {
@@ -46,7 +38,9 @@ export default function MenuCard({ product, delay }) {
           : "menu__home__content__right__content__bottom__content__items__card menu__home__content__right__content__bottom__content__items__card__empty"
       }
     >
-      <Image src={product?.image} />
+      <div className="menu__home__content__right__content__bottom__content__items__card__foodimg">
+        <img loading="lazy" src={product?.image} alt="item" />
+      </div>
       <div className="menu__home__content__right__content__bottom__content__items__card__name">
         {selectedLanguage === "ar" ? product?.nameAr : product?.name}
       </div>
@@ -93,3 +87,5 @@ export default function MenuCard({ product, delay }) {
     </div>
   );
 }
+
+export default memo(MenuCard);
