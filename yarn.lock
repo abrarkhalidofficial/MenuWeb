@@ -4447,6 +4447,11 @@ react-feather@^2.0.10:
   dependencies:
     prop-types "^15.7.2"
 
+react-image@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-4.1.0.tgz#92f2d4a809a178b3bf69acd7bad7da7aa5e7364c"
+  integrity sha512-qwPNlelQe9Zy14K2pGWSwoL+vHsAwmJKS6gkotekDgRpcnRuzXNap00GfibD3eEPYu3WCPlyIUUNzcyHOrLHjw==
+
 react-indiana-drag-scroll@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-indiana-drag-scroll/-/react-indiana-drag-scroll-2.2.0.tgz#657e14bbdf4888cc738e9fa8dc4384d76c348c0b"
