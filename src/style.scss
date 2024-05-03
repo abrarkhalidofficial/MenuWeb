@@ -1040,6 +1040,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
+    height: 50px;
+  }
+  .menu__home__content__right__content__top__logo img {
+    width: fit-content;
+    height: 50px;
   }
   .menu__home__content__right__content__bottom::-webkit-scrollbar {
     width: 0;
