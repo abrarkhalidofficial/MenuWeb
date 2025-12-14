@@ -11,7 +11,7 @@
     "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
-    "gsap": "^3.14.1",
+    "gsap": "^3.14.2",
     "million": "^2.6.4",
     "jotai": "^2.16.0",
     "react": "^18.3.1",
