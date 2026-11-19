@@ -4,16 +4,18 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "format": "npx prettier --write .",
     "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gsap": "^3.14.2",
-    "million": "^2.6.4",
     "jotai": "^2.16.0",
+    "million": "^2.6.4",
+    "node-fetch": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
